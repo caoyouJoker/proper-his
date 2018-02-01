@@ -3088,12 +3088,12 @@ public class INWOrderCheckMainControl extends TControl {
             this.messageBox(resultParm.getErrText());
     }
     
+       
     /**
      * 补充计价
      * 20151028 wangjc add
      */
     public void onPay(Object isDbClick) {
-
         // this.messageBox("come in.");
         boolean dbClickFlg = TypeTool.getBoolean(isDbClick);
         // 得到选中的行数
@@ -3169,7 +3169,7 @@ public class INWOrderCheckMainControl extends TControl {
             ibsParm.setData("IBS", "VS_DR_CODE", vsDrCode_);
             ibsParm.setData("IBS", "TYPE", "INW");
             ibsParm.setData("IBS", "CLNCPATH_CODE", clpCode_);
-
+            
             openDialog("%ROOT%\\config\\ibs\\IBSOrderm.x", ibsParm);
             /*
              * //激发MovePane的双击效果 mp1.onDoubleClicked(isCharge); if (!isCharge) {
@@ -3547,5 +3547,5 @@ public class INWOrderCheckMainControl extends TControl {
     		return true;
     	}
     }
-    
+
 }
