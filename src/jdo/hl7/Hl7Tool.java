@@ -772,4 +772,18 @@ public class Hl7Tool extends TJDODBTool {
 		}
 		return result;
 	}
+	/**
+	 * 根据条码查询门诊医嘱
+	 * 
+	 * @param ApplyNo
+	 * @param Cat1Type
+	 * @return
+	 */
+	public TParm getOpdOrder(String ApplyNo, String Cat1Type) {
+		TParm result = new TParm();
+		String sql = "SELECT * FROM OPD_ORDER A WHERE A.MED_APPLY_NO='"
+				+ ApplyNo + "'";
+		result = new TParm(getDBTool().select(sql));
+		return result;
+	}
 }
