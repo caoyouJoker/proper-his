@@ -1,0 +1,35 @@
+   #
+   # Title:科室费用查询
+   #
+   # Description:科室费用查询
+   #
+   # Copyright: JavaHis (c) 2009
+   #
+   # @author zhangy 2009/04/29
+
+Module.item=query
+
+//查询
+//查询
+query.Type=TSQL
+query.SQL=SELECT E.DEPT_CHN_DESC, F.STATION_DESC, B.IPD_NO, B.MR_NO, G.PAT_NAME, &
+                 C.ORDER_DESC, C.SPECIFICATION, D.UNIT_CHN_DESC, A.OWN_PRICE, &
+                 A.DOSAGE_QTY, C.OWN_PRICE * A.DOSAGE_QTY AS AMT &
+            FROM IBS_ORDD A, IBS_ORDM B, SYS_FEE C, SYS_UNIT D, SYS_DEPT E, SYS_STATION F, SYS_PATINFO G &
+            WHERE A.CASE_NO = B.CASE_NO &
+	      AND A.CASE_NO_SEQ = B.CASE_NO_SEQ &
+	      AND A.ORDER_CODE = C.ORDER_CODE &
+	      AND A.DOSAGE_UNIT = D.UNIT_CODE &
+	      AND A.EXE_DEPT_CODE = E.DEPT_CODE &
+	      AND A.EXE_STATION_CODE = F.STATION_CODE(+) &
+	      AND B.MR_NO = G.MR_NO &
+  	      AND B.DATA_TYPE = '1' &
+  	      AND A.BILL_DATE >= TO_DATE(<START_DATE>,'YYYYMMDDHH24MISS') & 
+  	      AND A.BILL_DATE <=TO_DATE(<END_DATE>,'YYYYMMDDHH24MISS')
+query.ITEM=EXE_DEPT_CODE;EXE_STATION_CODE;MR_NO;IPD_NO;OPT_USER;CASE_NO
+query.EXE_DEPT_CODE=A.EXE_DEPT_CODE=<EXE_DEPT_CODE>
+query.EXE_STATION_CODE=A.EXE_STATION_CODE=<EXE_STATION_CODE>
+query.CASE_NO=A.CASE_NO=<CASE_NO>
+query.IPD_NO=B.IPD_NO=<IPD_NO>
+query.OPT_USER=B.OPT_USER=<OPT_USER>
+query.Debug=N

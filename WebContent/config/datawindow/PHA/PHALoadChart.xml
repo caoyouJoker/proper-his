@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="GBK"?>
+<!-- 
+  DataWindow src
+  东佑项目部
+  Thu Feb 05 09:30:51 CST 2009
+-->
+<datawindow>
+ <Print ImageableX="54.0" Orientation="1" PrintZoom="100.0" ImageableY="54.0" Height="841.8897637795276" Width="595.275590551181" PriviewZoom="100.0" ImageableWidth="487.27559055118104" ImageableHeight="733.8897637795276"/>
+ <Header height="95" color="536870912"/>
+ <Detail height="14" color="536870912"/>
+ <Summary height="0" color="536870912"/>
+ <Footer height="0" color="536870912"/>
+ <tables>
+  <column name="DATE" dbname="DATE"/>
+  <column name="DEPT" dbname="DEPT"/>
+  <column name="PERSON" dbname="PERSON"/>
+  <column name="COUNT" dbname="COUNT"/>
+  <column name="CHARGE" dbname="CHARGE"/>
+  <column name="OPTNAME" dbname="OPTNAME"/>
+  <sql>column:DATE,DEPT,PERSON,COUNT,CHARGE,OPTNAME</sql>
+ </tables>
+ <texts>
+  <text alignment="0" text="日   期" fontstyle="1" height="20" band="Header" width="81" name="DATE_t" border="No border" y="75" fontsize="10" x="2"/>
+  <text alignment="0" text="科   室" fontstyle="1" height="20" band="Header" width="122" name="DEPT_t" border="No border" y="75" fontsize="10" x="83"/>
+  <text alignment="0" text="人   员" fontstyle="1" height="20" band="Header" width="87" name="PERSON_t" border="No border" y="75" fontsize="10" x="205"/>
+  <text alignment="0" text="处  方  数" fontstyle="1" height="20" band="Header" width="65" name="COUNT_t" border="No border" y="75" fontsize="10" x="292"/>
+  <text alignment="0" text="金  额 /元" fontstyle="1" height="20" band="Header" width="104" name="CHARGE_t" border="No border" y="75" fontsize="10" x="357"/>
+  <text alignment="0" text="t_hosName" font="宋体" tag="null" width="336" backcolor="N" fontstyle="1" band="Header" height="14" color="0,0,0" name="null" border="No border" y="0" fontsize="14" x="88"/>
+  <text alignment="4" text="第$page()页/共$pageCount()页" font="宋体" tag="null" width="173" backcolor="N" fontstyle="0" band="Header" height="18" color="0,0,0" name="null" border="No border" y="56" fontsize="10" x="312"/>
+  <text alignment="10" text="t_to_DATE" font="宋体" tag="null" width="120" backcolor="N" fontstyle="0" band="Header" height="18" color="51,51,51" name="null" border="No border" y="38" fontsize="10" x="155"/>
+  <text alignment="10" text="~" font="宋体" tag="null" width="10" backcolor="N" fontstyle="0" band="Header" height="18" color="51,51,51" name="null" border="No border" y="41" fontsize="10" x="147"/>
+  <text alignment="10" text="统计区间:" font="宋体" tag="null" width="50" backcolor="N" fontstyle="0" band="Header" height="18" color="51,51,51" name="null" border="No border" y="38" fontsize="10" x="3"/>
+  <text alignment="10" text="t_from_DATE" font="宋体" tag="null" width="95" backcolor="N" fontstyle="0" band="Header" height="18" color="0,0,0" name="null" border="No border" y="38" fontsize="10" x="52"/>
+  <text alignment="4" text="打印日期:" font="宋体" tag="null" width="60" backcolor="N" fontstyle="0" band="Header" height="18" color="0,0,0" name="null" border="No border" y="38" fontsize="10" x="328"/>
+  <text alignment="10" text="t_PRINT_DATE" font="宋体" tag="null" width="97" backcolor="N" fontstyle="0" band="Header" height="18" color="0,0,0" name="null" border="No border" y="38" fontsize="10" x="388"/>
+  <text alignment="0" text="t_tabName" font="宋体" tag="null" width="290" backcolor="N" fontstyle="1" band="Header" height="15" color="0,0,0" name="null" border="No border" y="18" fontsize="14" x="109"/>
+ </texts>
+ <columns>
+  <column id="1" alignment="2" fontstyle="0" height="13" band="Detail" width="79" name="DATE" border="No border" y="0" fontsize="10" x="4"/>
+  <column id="2" alignment="2" fontstyle="0" height="13" band="Detail" width="119" name="DEPT" border="No border" y="0" fontsize="10" x="86"/>
+  <column id="3" alignment="2" fontstyle="0" height="13" band="Detail" width="85" name="PERSON" border="No border" y="0" fontsize="10" x="207"/>
+  <column id="4" alignment="4" fontstyle="0" height="13" band="Detail" width="64" name="COUNT" border="No border" y="0" fontsize="10" x="292"/>
+  <column id="5" alignment="4" fontstyle="0" height="13" band="Detail" width="103" name="CHARGE" border="No border" y="0" fontsize="10" x="356"/>
+  <column id="6" alignment="4" fontstyle="0" height="13" band="Detail" width="457" name="OPTNAME" border="No border" y="1" fontsize="10" x="3"/>
+ </columns>
+ <lines>
+  <line band="Header" y1="75" y2="75" x2="460" border="0" x1="2"/>
+  <line band="Header" y1="94" y2="94" x2="460" border="0" x1="2"/>
+  <line band="Detail" visible="t_LINE==0" y1="13" y2="13" x2="459" border="0" x1="2"/>
+  <line band="Header" y1="75" y2="94" x2="2" border="0" x1="2"/>
+  <line band="Header" y1="75" y2="94" x2="82" border="0" x1="82"/>
+  <line band="Header" y1="75" y2="94" x2="204" border="0" x1="204"/>
+  <line band="Header" y1="75" y2="95" x2="291" border="0" x1="291"/>
+  <line band="Header" y1="75" y2="95" x2="356" border="0" x1="356"/>
+  <line band="Header" y1="75" y2="94" x2="460" border="0" x1="460"/>
+  <line band="Detail" visible="t_LINE==0" y1="0" y2="13" x2="2" border="0" x1="2"/>
+  <line band="Detail" visible="t_LINE==0" y1="0" y2="14" x2="82" border="0" x1="82"/>
+  <line band="Detail" visible="t_LINE==0" y1="0" y2="14" x2="204" border="0" x1="204"/>
+  <line band="Detail" visible="t_LINE==0" y1="0" y2="14" x2="291" border="0" x1="291"/>
+  <line band="Detail" visible="t_LINE==0" y1="0" y2="14" x2="356" border="0" x1="356"/>
+  <line band="Detail" visible="t_LINE==0" y1="0" y2="14" x2="460" border="0" x1="460"/>
+ </lines>
+</datawindow>

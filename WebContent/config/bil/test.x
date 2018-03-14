@@ -1,0 +1,1 @@
+<Type=TFrame>UI.Title=个人日结UI.MenuConfig=UI.Width=1024UI.Height=748UI.toolbar=YUI.controlclassname=com.javahis.ui.bil.testUI.item=tButton_0UI.layout=nullUI.FocusList=tButton_0.Type=TButtontButton_0.X=264tButton_0.Y=185tButton_0.Width=81tButton_0.Height=23tButton_0.Text=TButtontButton_0.Action=onSSS

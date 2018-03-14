@@ -1,0 +1,13 @@
+[PropertyInfo]
+dataStore,com.dongyang.jdo.TDataStore,false,false, , ,false,<default>
+defaultQty,double,false,false, , ,false,<default>
+dept,String,false,false, , ,false,<default>
+packDDS,com.dongyang.jdo.TDS,false,false, , ,false,<default>
+recordRealyRow,java.util.Map,false,false, , ,false,<default>
+table,com.dongyang.ui.TTable,false,false, , ,false,<default>
+TOT_FEE,com.dongyang.ui.TNumberTextField,false,false, , ,false,<default>
+[IconNames]
+
+
+
+

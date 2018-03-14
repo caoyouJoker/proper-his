@@ -1,0 +1,15 @@
+[PropertyInfo]
+client,com.dongyang.root.client.SocketLink,false,false, , ,false,<default>
+DBTool,com.dongyang.jdo.TJDODBTool,false,false, , ,true,<default>
+inwPopedem,boolean,false,false, , ,false,<default>
+keepWatch,boolean,false,false, , ,true,<default>
+PANEL,String,false,false, , ,false,<default>
+runFlg,String,false,false, , ,false,<default>
+TABLE,String,false,false, , ,false,<default>
+TPanel,com.dongyang.ui.TPanel,false,false, , ,true,<default>
+workPanelTag,String,false,false, , ,false,<default>
+[IconNames]
+
+
+
+

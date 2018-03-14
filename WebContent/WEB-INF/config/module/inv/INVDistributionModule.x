@@ -1,0 +1,42 @@
+   #
+   # Title:物资系统物资分布
+   #
+   # Description:物资系统物资分布
+   #
+   # Copyright: JavaHis (c) 2009
+   #
+   # @author zhangh 2013/05/08
+
+Module.item=queryCabinetIdNotNull;queryCabinetIdIsNull
+
+//查询智能柜ID有值的
+queryCabinetIdNotNull.Type=TSQL
+queryCabinetIdNotNull.SQL=SELECT A.INV_CODE,INV_CHN_DESC,B.DESCRIPTION,D.MAN_CHN_DESC,A.CABINET_ID,CABINET_DESC,SUM(STOCK_QTY) AS QTY &
+			 FROM INV_STOCKDD A,INV_BASE B,IND_CABINET C,SYS_MANUFACTURER D &
+			 WHERE A.INV_CODE = B.INV_CODE  &
+			 AND B.MAN_CODE = D.MAN_CODE &
+			 AND A.INV_CODE LIKE '08%' &
+			 AND A.CABINET_ID = C.CABINET_ID &
+			 AND A.WAST_FLG='N' &
+			 AND A.CABINET_ID IS NOT NULL &
+			 GROUP BY A.INV_CODE,INV_CHN_DESC,B.DESCRIPTION,D.MAN_CHN_DESC,A.CABINET_ID,CABINET_DESC &
+			 ORDER BY A.CABINET_ID
+queryCabinetIdNotNull.ITEM=INV_CODE;CABINET_ID
+queryCabinetIdNotNull.INV_CODE=A.INV_CODE=<INV_CODE>
+queryCabinetIdNotNull.CABINET_ID=A.CABINET_ID=<CABINET_ID>
+queryCabinetIdNotNull.Debug=N
+
+//查询智能柜ID无值的
+queryCabinetIdIsNull.Type=TSQL
+queryCabinetIdIsNull.SQL=SELECT A.INV_CODE,INV_CHN_DESC,B.DESCRIPTION,C.MAN_CHN_DESC,SUM(STOCK_QTY) AS QTY &
+			 FROM INV_STOCKDD A,INV_BASE B,SYS_MANUFACTURER C &
+			 WHERE A.INV_CODE = B.INV_CODE  &
+			 AND B.MAN_CODE = C.MAN_CODE &
+			 AND A.WAST_FLG='N' &
+			 AND A.INV_CODE LIKE '08%' &
+			 AND A.CABINET_ID IS NULL &
+			 GROUP BY A.INV_CODE,INV_CHN_DESC,B.DESCRIPTION,C.MAN_CHN_DESC
+			 ORDER BY A.INV_CODE
+queryCabinetIdIsNull.ITEM=INV_CODE
+queryCabinetIdIsNull.INV_CODE=A.INV_CODE=<INV_CODE>
+queryCabinetIdIsNull.Debug=N

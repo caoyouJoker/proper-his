@@ -1,0 +1,9 @@
+Module.item=initCategoryCode
+
+//π≤”√combo
+initCategoryCode.Type=TSQL
+initCategoryCode.SQL=SELECT CATEGORY_CODE AS ID,CATEGORY_CHN_DESC AS NAME,CATEGORY_ENG_DESC AS ENNAME,PY1,PY2 FROM SYS_CATEGORY  ORDER BY SEQ,CATEGORY_CODE
+initCategoryCode.item=RULE_TYPE;DETAIL_FLG
+initCategoryCode.RULE_TYPE=RULE_TYPE=<RULE_TYPE>
+initCategoryCode.DETAIL_FLG=DETAIL_FLG=<DETAIL_FLG>
+initCategoryCode.Debug=N

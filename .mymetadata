@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="proper-his"
+  id="myeclipse.1476863380736"
+  context-root="/proper-his"
+  j2ee-spec="5.0"
+  archive="web.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebContent" />
+  </attributes>
+</project-module>
+

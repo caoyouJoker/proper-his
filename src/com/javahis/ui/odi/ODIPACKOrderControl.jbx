@@ -1,0 +1,12 @@
+[PropertyInfo]
+deptCode,String,false,false, , ,false,<default>
+deptOrdr,String,false,false, , ,false,<default>
+parmmeter,com.dongyang.data.TParm,false,false, , ,false,<default>
+ruleType,int,false,false, , ,false,<default>
+system,String,false,false, , ,false,<default>
+userId,String,false,false, , ,false,<default>
+[IconNames]
+
+
+
+

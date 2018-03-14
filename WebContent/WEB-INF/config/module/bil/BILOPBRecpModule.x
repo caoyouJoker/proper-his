@@ -1,0 +1,36 @@
+Module.item=selectData;accountQuery;updateData;selPatFeeForREG
+
+//查询已经结账的数据
+selectData.Type=TSQL
+selectData.SQL=SELECT ACCOUNT_TYPE,ACCOUNT_SEQ,ACCOUNT_USER,ACCOUNT_DATE,TOT_AMT,STATUS,ADM_TYPE,REGION,OPT_USER,OPT_DATE,OPT_TERM FROM BIL_ACCOUNT ORDER BY ACCOUNT_SEQ
+selectData.item=STATUS;ADM_TYPE;REGION;OPT_DATE;ACCOUNT_USER;ACCOUNT_SEQ
+selectData.ADM_TYPE=ADM_TYPE=<ADM_TYPE>
+selectData.ADM_TYPE=ADM_TYPE=<ADM_TYPE>
+selectData.REGION=REGION=<REGION>
+selectData.ACCOUNT_USER=ACCOUNT_USER=<ACCOUNT_USER>
+selectData.STATUS=STATUS=<STATUS>
+selectData.Debug=N
+
+//结账查询结账金额
+accountQuery.Type=TSQL
+accountQuery.SQL=SELECT SUM(TOT_AMT) AS SUMAMT &
+                   FROM BIL_OPB_RECP &
+                   WHERE ACCOUNT_FLG IS NULL &
+                         AND REGION=<REGION> &
+                         AND CASHIER_CODE=<CASHIER_CODE>
+accountQuery.Debug=N
+
+//结账插入
+updateData.Type=TSQL
+updateData.SQL=UPDATE BIL_OPB_RECP SET ACCOUNT_FLG=<ACCOUNT_FLG>,ACCOUNT_DATE=<ACCOUNT_DATE>,ACCOUNT_USER=<ACCOUNT_USER> WHERE ACCOUNT_FLG IS NULL AND CASHIER_CODE=<CASHIER_CODE>
+updateData.Debug=N
+
+//查询当前病患费用和(For Reg)
+selPatFeeForREG.Type=TSQL
+selPatFeeForREG.SQL=SELECT SUM(AR_AMT) AS AR_AMT FROM BIL_OPB_RECP &
+		     WHERE CASE_NO = <CASE_NO> &
+		  GROUP BY CASE_NO
+selPatFeeForREG.Debug=N
+
+
+

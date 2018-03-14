@@ -1,0 +1,16 @@
+[PropertyInfo]
+activeFlg,String,false,false, , ,false,<default>
+buyWayCode,String,false,false, , ,false,<default>
+deptCode,String,false,false, , ,false,<default>
+devKindCode,String,false,false, , ,false,<default>
+devProCode,String,false,false, , ,false,<default>
+devTypeCode,String,false,false, , ,false,<default>
+editText,String,false,false, , ,true,<default>
+oldText,String,false,false, , ,false,<default>
+SQL,String,false,false, , ,false,<default>
+table,com.dongyang.ui.TTable,false,false, , ,false,<default>
+[IconNames]
+
+
+
+

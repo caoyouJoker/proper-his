@@ -1,0 +1,25 @@
+[PropertyInfo]
+actionName,String,false,false, , ,false,<default>
+changeItem,boolean,false,false, , ,true,<default>
+DBTool,com.dongyang.jdo.TJDODBTool,false,false, , ,true,<default>
+dctTakeDays,String,false,false, , ,false,<default>
+dctTakeQty,String,false,false, , ,false,<default>
+deptOrCodeString,String,false,false, , ,true,<default>
+GDctagentCode,String,false,false, , ,false,<default>
+GFreqCode,String,false,false, , ,false,<default>
+maxLinkNo,int,false,false, , ,true,<default>
+odiDefaFreg,String,false,false, , ,false,<default>
+odiStatCode,String,false,false, , ,false,<default>
+odiUddStatCode,String,false,false, , ,false,<default>
+orderTableSQL,String[],false,false, , ,true,<default>
+packCodeOnly,String,false,false, , ,false,<default>
+pageIndex,int,false,false, , ,false,<default>
+rxKind,String,false,false, , ,false,<default>
+rxKindString,String,false,false, , ,true,<default>
+rxKindTableSQL,String[][],false,false, , ,true,<default>
+tableTag,String[],false,false, , ,true,<default>
+[IconNames]
+
+
+
+
