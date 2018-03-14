@@ -1,0 +1,1 @@
+## TBuilder Config File ## Title:## Company:JavaHis## Author:—Ó›º›º 2016.06.12## version 1.0#<Type=TFrame>UI.Title=UI.MenuConfig=UI.Width=10UI.Height=10UI.toolbar=YUI.controlclassname=com.javahis.ui.sys.SYSOpenAndCloseDialogControlUI.item=UI.layout=null

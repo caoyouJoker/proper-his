@@ -1,0 +1,26 @@
+[PropertyInfo]
+ACTIVE_FLG,com.dongyang.data.BooleanValue,false,false, , ,false,<default>
+AKA065,com.dongyang.data.StringValue,false,false, , ,false,<default>
+APPROVE_DATE,com.dongyang.data.TimestampValue,false,false, , ,false,<default>
+APPROVE_USER_ID,com.dongyang.data.StringValue,false,false, , ,false,<default>
+CHARGE_CODE,com.dongyang.data.StringValue,false,false, , ,false,<default>
+DATAAREA_NO,com.dongyang.data.StringValue,false,false, , ,false,<default>
+DESCRIPTION,com.dongyang.data.StringValue,false,false, , ,false,<default>
+FEE_TYEP,com.dongyang.data.StringValue,false,false, , ,false,<default>
+HOSP_CLASS,com.dongyang.data.StringValue,false,false, , ,false,<default>
+HOSP_ORDER_CODE,com.dongyang.data.StringValue,false,false, , ,false,<default>
+LIMIT_PRICE,com.dongyang.data.DoubleValue,false,false, , ,false,<default>
+MEMO,com.dongyang.data.StringValue,false,false, , ,false,<default>
+NHI_BASE_PRICE,com.dongyang.data.DoubleValue,false,false, , ,false,<default>
+NHI_ORDER_CODE,String,false,false, , ,false,<default>
+NHI_ORDER_DESC,com.dongyang.data.StringValue,false,false, , ,false,<default>
+ORDER_CAT1,com.dongyang.data.StringValue,false,false, , ,false,<default>
+ORDER_CAT2,com.dongyang.data.StringValue,false,false, , ,false,<default>
+ORDER_CAT3,com.dongyang.data.StringValue,false,false, , ,false,<default>
+OWN_RATE,com.dongyang.data.DoubleValue,false,false, , ,false,<default>
+PRICE,com.dongyang.data.StringValue,false,false, , ,false,<default>
+[IconNames]
+
+
+
+

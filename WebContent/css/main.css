@@ -1,0 +1,816 @@
+/*login 样式*/
+.login {
+	background: url(../images/login/index.jpg) no-repeat ;
+	background-position: center;
+}
+.login #middle{
+	 position:relative;
+	 width: 656px;
+	 height: 341px;
+	 background-repeat: no-repeat;
+	 background-image: url(../images/login/logindiv.gif);
+}
+.login input {
+	background:none;
+	border: none;
+	position: absolute;
+	color:white;
+	font-size:18px;
+}
+.login .msgdiv {
+	background:none;
+	border: none;
+	position: absolute;
+	color:white;
+	font-size:10pt;
+	color:#ffffff;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	line-height: 24px;
+	color: #336699;
+	margin: 0px;
+}
+td, th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	line-height: 24px;
+	color: #333333;
+}
+/*加入begin*/
+	/*border-color: #BBD3FF;*/
+/*学员考试样式*/
+#examFormCss table{
+	border-collapse: collapse;
+	padding:0;
+	margin-top:5px;
+	border:solid;
+	border-width:1px;
+	background-color:#BBD3FF;
+	float:inherit;
+	width:98%;
+	position:relative;
+	left:1%;
+}
+#examFormCss TD.input_label{
+	background: rgb(234,234,234);
+	text-align:right;
+	height:22px;
+	width:22%;
+}
+#examFormCss TD.input_labelLeft{
+	background: rgb(234,234,234);
+	text-align:left;
+	height:22px;
+	width:22%;
+}
+#examFormCss TD.input_labelCenter{
+	background: rgb(234,234,234);
+	text-align:center;
+	height:22px;
+	width:22%;
+}
+#examFormCss TD.content {
+	BACKGROUND-COLOR: #ffffff;
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 9pt;
+	text-decoration: none;
+	width:28%;
+} 
+#examFormCss TD INPUT{
+	width:70%;
+	position:relative;
+	left:10px;
+}
+#examFormCss TD SELECT{
+	width:70%;
+	position:relative;
+	left:10px;
+}
+#examFormCss TD TEXTAREA{
+	width:70%;
+	position:relative;
+	left:10px;
+}
+#examFormCss TD .INPUT_checkbox{
+	width:15px;
+}
+#examFormCss DIV.buttonCss{
+	position:relative;
+	padding-top:10px;
+	float:right;
+	right:1%;
+}
+#examFormCss DIV.buttonCssCenter{
+	position:absolute;
+	padding-top:3px;
+	padding-left:48%;
+	width:70%;
+	float:left;
+}
+#examFormCss DIV .formBtn{
+	cursor:hand;
+	width: 72px; 
+	height: 20px; 
+	font-size: 10pt; 
+	color: black; 
+	border: thin;
+	background: url(../images/imgbtn.gif) no-repeat;
+}
+#examFormCss td.titleCss{
+	background: white;
+ 	color: black;
+ 	line-height:24px;
+ 	width:100%;
+ 	height:24px;
+ 	text-align:left;
+ 	margin-top: 5px;
+ 	align:left;
+}
+#examFormCss td.titleCss img{
+	position:relative;
+	top:2px;
+	float:left;
+}
+#examFormCss td.titleCss font{
+	font-size:13px;
+}
+#examFormCss .examTitleCss td{
+	height:45px;
+	text-align: center;
+	font: italic;
+	font-size: 25px;
+	line-height: 35px;
+	font-weight: bold;
+}
+#examFormCss .examQuestionTitle td{
+	height:25px;
+	position:relative;
+	padding-left:20px;
+	text-align: left;
+	font-size: 15px;
+	line-height: 20px;
+	font-weight: bold;
+}
+
+/*paramsetForm 样式*/
+#paramsetForm table{
+	border-collapse: collapse;
+	padding:0;
+	margin-top:5px;
+	border:solid;
+	border-width:1px;
+	background-color:#BBD3FF;
+	float:inherit;
+	width:98%;
+	position:relative;
+	left:1%;
+}
+#paramsetForm TD.input_label{
+	background: rgb(234,234,234);
+	text-align:right;
+	height:22px;
+	width:22%;
+}
+#paramsetForm TD.content {
+	BACKGROUND-COLOR: #ffffff;
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 9pt;
+	text-decoration: none;
+	width:28%;
+} 
+#paramsetForm TD INPUT{
+	width:70%;
+	position:relative;
+	left:10px;
+}
+#paramsetForm TD SELECT{
+	width:70%;
+	position:relative;
+	left:10px;
+}
+#paramsetForm TD TEXTAREA{
+	width:70%;
+	position:relative;
+	left:10px;
+}
+#paramsetForm TD .INPUT_checkbox{
+	width:15px;
+}
+#paramsetForm DIV.buttonCss{
+	position:relative;
+	padding-top:10px;
+	float:right;
+	right:1%;
+}
+#paramsetForm DIV .formBtn{
+	cursor:hand;
+	width: 72px; 
+	height: 20px; 
+	font-size: 10pt; 
+	color: black; 
+	border: thin;
+	background: url(../images/imgbtn.gif) no-repeat;
+}
+#paramsetForm td.titleCss{
+	background: white;
+ 	color: black;
+ 	line-height:24px;
+ 	width:100%;
+ 	height:24px;
+ 	text-align:left;
+ 	margin-top: 5px;
+ 	align:left;
+}
+#paramsetForm td.titleCss img{
+	position:relative;
+	top:2px;
+	float:left;
+}
+#paramsetForm td.titleCss font{
+	font-size:13px;
+}
+/*查询界面的双列样式 begin*/
+#paramsetFormSearch table{
+	border-collapse: collapse;
+	padding:0;
+	margin-top:5px;
+	border:solid;
+	border-width:1px;
+	background-color:#BBD3FF;
+	float:inherit;
+	width:98%;
+	position:relative;
+	left:1%;
+}
+#paramsetFormSearch TD.input_label{
+	background: rgb(234,234,234);
+	text-align:center;
+	height:22px;
+	width:22%;
+}
+#paramsetFormSearch TD.content {
+	BACKGROUND-COLOR: #ffffff;
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 9pt;
+	text-decoration: none;
+	width:28%;
+} 
+#paramsetFormSearch TD INPUT{
+	width:70%;
+	position:relative;
+	left:10px;
+}
+#paramsetFormSearch TD SELECT{
+	width:70%;
+	position:relative;
+	left:10px;
+}
+#paramsetFormSearch TD .INPUT_checkbox{
+	width:15px;
+}
+#paramsetFormSearch DIV.buttonCss{
+	position:relative;
+	padding-top:10px;
+	float:right;
+	right:1%;
+}
+#paramsetFormSearch DIV .formBtn{
+	cursor:hand;
+	width: 72px; 
+	height: 20px; 
+	font-size: 10pt; 
+	color: black; 
+	border: thin;
+	background: url(../images/imgbtn.gif) no-repeat;
+}
+#paramsetFormSearch td.titleCss{
+	background: white;
+ 	color: black;
+ 	line-height:24px;
+ 	width:100%;
+ 	height:24px;
+ 	text-align:left;
+ 	margin-top: 5px;
+ 	align:left;
+}
+#paramsetFormSearch td.titleCss img{
+	position:relative;
+	top:2px;
+	float:left;
+}
+#paramsetFormSearch td.titleCss font{
+	font-size:13px;
+}
+/*查询界面的双列样式 end*/
+/*单列参数设置样式*/
+#paramsetFormWith2ColumnParamset table{
+	border-collapse: collapse;
+	padding:0;
+	margin:5px;
+	border:solid;
+	border-width:1px;
+	background-color:#BBD3FF;
+	float:inherit;
+	width:98%;
+	position:relative;
+	left:0.4%;
+}
+#paramsetFormWith2ColumnParamset TD.input_label{
+	background: rgb(234,234,234);
+	text-align:right;
+	height:22px;
+	width:22%;
+}
+#paramsetFormWith2ColumnParamset TD.content {
+	BACKGROUND-COLOR: #ffffff;
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 9pt;
+	text-decoration: none;
+	width:78%;
+} 
+#paramsetFormWith2ColumnParamset TD INPUT{
+	width:30%;
+	position:relative;
+	left:10px;
+}
+#paramsetFormWith2ColumnParamset TD LABEL{
+	position:relative;
+	left:12px;
+}
+#paramsetFormWith2ColumnParamset TD SELECT{
+	width:30%;
+	position:relative;
+	left:10px;
+}
+#paramsetFormWith2ColumnParamset TD .INPUT_checkbox{
+	width:15px;
+}
+#paramsetFormWith2ColumnParamset DIV.buttonCss{
+	position:relative;
+	padding-top:10px;
+	float:right;
+	right:1%;
+}
+#paramsetFormWith2ColumnParamset DIV .formBtn{
+	cursor:hand;
+	width: 72px; 
+	height: 20px; 
+	font-size: 10pt; 
+	color: black; 
+	border: thin;
+	background: url(../images/imgbtn.gif) no-repeat;
+}
+#paramsetFormWith2ColumnParamset td.titleCss{
+	background: white;
+ 	color: black;
+ 	line-height:24px;
+ 	width:100%;
+ 	height:24px;
+ 	text-align:left;
+ 	margin-top: 5px;
+ 	align:left;
+}
+#paramsetFormWith2ColumnParamset td.titleCss img{
+	position:relative;
+	top:2px;
+	float:left;
+}
+#paramsetFormWith2ColumnParamset td.titleCss font{
+	font-size:13px;
+}
+/*单列样式参数设置样式结束*/
+/*单列查询界面样式*/
+#paramsetFormWith2Column table{
+	border-collapse: collapse;
+	padding:0;
+	margin-top:5px;
+	border:solid;
+	border-width:1px;
+	background-color:#BBD3FF;
+	float:inherit;
+	width:98%;
+	position:relative;
+	left:1%;
+}
+#paramsetFormWith2Column TD.input_label{
+	background: rgb(234,234,234);
+	text-align:center;
+	height:22px;
+	width:22%;
+}
+#paramsetFormWith2Column TD.content {
+	BACKGROUND-COLOR: #ffffff;
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 9pt;
+	text-decoration: none;
+	width:78%;
+} 
+#paramsetFormWith2Column TD INPUT{
+	width:30%;
+	position:relative;
+	left:10px;
+}
+#paramsetFormWith2Column TD LABEL{
+	position:relative;
+	left:12px;
+}
+#paramsetFormWith2Column TD SELECT{
+	width:30%;
+	position:relative;
+	left:10px;
+}
+#paramsetFormWith2Column TD .INPUT_checkbox{
+	width:15px;
+}
+#paramsetFormWith2Column DIV.buttonCss{
+	position:relative;
+	padding-top:10px;
+	float:right;
+	right:1%;
+}
+/*jQuery 上传特殊样式*/
+#paramsetFormWith2Column .divFileuploadButtonWithJquery{
+	display:inline;
+	left:10px;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+#paramsetFormWith2Column DIV .formBtn{
+	cursor:hand;
+	width: 72px; 
+	height: 18px; 
+	font-size: 10pt; 
+	color: black; 
+	line-height:1.5;
+	border: thin;
+	background: url(../images/imgbtn.gif) no-repeat;
+}
+/*大按钮样式*/
+#paramsetFormWith2Column DIV .formBtnBig {
+	cursor:hand;
+	width: 100px; 
+	height: 18px; 
+	font-size: 10pt; 
+	color: black; 
+	line-height:1.5;
+	border: thin;
+	background: url(../images/bigButton.gif) no-repeat;
+}
+/*大按钮样式*/
+#paramsetFormWith2Column DIV .formBtnBig {
+	cursor:hand;
+	width: 100px; 
+	height: 18px; 
+	font-size: 10pt; 
+	color: black; 
+	line-height:1.5;
+	border: thin;
+	background: url(../images/bigButton.gif) no-repeat;
+}
+/*content 下的按钮没有使用div层嵌套，因tr 下的input 已经做了限定样式，故此样式与其优先级，
+ * 系统会取最前面的样式，故加入更加准确的限定条件（ .content 类样式下）
+ * */
+#paramsetFormWith2Column .content .formBtnBig {
+	cursor:hand;
+	width: 100px; 
+	height: 18px; 
+	font-size: 10pt; 
+	color: black; 
+	line-height:1.5;
+	border: thin;
+	background: url(../images/bigButton.gif) no-repeat;
+}
+#paramsetFormWith2Column td.titleCss{
+	background: white;
+ 	color: black;
+ 	line-height:24px;
+ 	width:100%;
+ 	height:24px;
+ 	text-align:left;
+ 	margin-top: 5px;
+ 	align:left;
+}
+#paramsetFormWith2Column td.titleCss img{
+	position:relative;
+	top:2px;
+	float:left;
+}
+#paramsetFormWith2Column td.titleCss font{
+	font-size:13px;
+}
+/*单列样式结束*/
+/*三列参数设置或查询界面样式*/
+#paramsetFormWith3Column table{
+	border-collapse: collapse;
+	padding:0;
+	margin-top:5px;
+	border:solid;
+	border-width:1px;
+	background-color:#BBD3FF;
+	float:inherit;
+	width:98%;
+	position:relative;
+	left:1%;
+}
+#paramsetFormWith3Column TD.input_label{
+	background: rgb(234,234,234);
+	text-align:center;
+	height:22px;
+	width:10%;
+}
+#paramsetFormWith3Column TD.content {
+	BACKGROUND-COLOR: #ffffff;
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 9pt;
+	text-decoration: none;
+	width:23%;
+} 
+#paramsetFormWith3Column TD INPUT{
+	width:90%;
+	position:relative;
+	left:10px;
+}
+#paramsetFormWith3Column TD SELECT{
+	width:90%;
+	position:relative;
+	left:10px;
+}
+#paramsetFormWith3Column TD .INPUT_checkbox{
+	width:15px;
+}
+#paramsetFormWith3Column DIV.buttonCss{
+	position:relative;
+	padding-top:10px;
+	float:right;
+	right:1%;
+	display:inline;
+}
+#paramsetFormWith3Column DIV .formBtn{
+	cursor:hand;
+	width: 72px; 
+	height: 20px; 
+	font-size: 10pt; 
+	color: black; 
+	border: thin;
+	background: url(../images/imgbtn.gif) no-repeat;
+}
+#paramsetFormWith3Column td.titleCss{
+	 background: white;
+ 	color: black;
+ 	line-height:24px;
+ 	width:100%;
+ 	height:24px;
+ 	text-align:left;
+ 	margin-top: 5px;
+ 	align:left;
+}
+#paramsetFormWith3Column td.titleCss img{
+	position:relative;
+	top:2px;
+	float:left;
+}
+#paramsetFormWith3Column td.titleCss font{
+	font-size:13px;
+}
+/*三列样式结束*/
+font{
+	font-size:12px;
+}
+/*
+ *  按钮样式
+ */
+.formBtn{
+	cursor:hand;
+	width: 72px; 
+	height: 20px; 
+	font-size: 10pt;
+	color: black; 
+	border: thin;
+	background: url(../images/imgbtn.gif) no-repeat;
+}
+/*iframe 参数设置界面样式*/
+.iframecss  iframe{
+	width="100%";
+	height="100%";
+	padding: 0px;
+	margin: 0px;
+	border:none;
+	position:relative;
+	float: right;
+}
+/*查询list页面样式*/
+#listCss table{
+	width:"98%" ;
+	position:relative;
+	left:1%;
+	border:solid ;
+	border-width:1px;
+	background-color:"#BBD3FF";
+	border-collapse: collapse;
+	margin-top: 5px;
+}
+
+#listCss td.mainTitleCss{
+ 	color: black;
+	background: rgb(255,255,255);
+	line-height:22px;
+ 	width:100%;
+ 	height:24px;
+ 	text-align:left;
+ 	margin-top: 5px;
+ 	align:left;
+}
+#listCss td.mainTitleCss font{
+	font-size:13px;
+}
+
+#listCss .titleCss{
+	background: rgb(234,234,234);
+	text-align:center;
+	height:22px;
+}
+#listCss .trTitle td{
+	background: rgb(255,255,255);
+	margin-top: 4px;
+	text-align:center;
+}
+#listCss table tbody tr{
+	background: expression((this.sectionRowIndex%2==0)?" rgb(234,234,234)":" rgb(255,255,255)");
+	margin-top: 4px;
+	text-align:center;
+	height:20;
+}
+#listCss .titleleft{
+	float:left;
+}
+#listCss .titleright{
+	float:right;
+}
+#listCss table{
+	font-size:12px;	
+}
+#listCss DIV.buttonCss{
+	position:relative;
+	padding-top:10px;
+	float:right;
+	right:1%;
+}
+#listCss DIV .formBtn{
+	cursor:hand;
+	width: 72px; 
+	height: 20px; 
+	font-size: 10pt; 
+	color: black; 
+	border: thin;
+	background: url(../images/imgbtn.gif) no-repeat;
+}
+/*在列表样式中加入工具条样式，用于在查询页面中显示全选反选等内容*/
+#listCss .ToolsCss{
+	float: left;
+	position: relative;
+	left:20px;
+}
+/*取消滚动样式*/
+body.withoutScroll{
+	overflow:hidden;
+}
+/*加入end*/
+.tabletd {
+	width: 90%;
+}
+.must {
+	font-size:12px;
+	text-align: center;
+	color: red;
+	position:relative;
+	top:12%;
+	width:5px;
+}
+
+HR {
+	COLOR: #0066cc; WIDTH: 80%
+}
+HR.Whole {
+	HEIGHT: 2pt; WIDTH: 100%
+}
+
+.titlebg {
+ background: white;
+ color: black;
+ font-size: 10pt;
+ line-height:22px;
+ width:100%;
+ height:24px;
+ text-align:left;
+ margin-top: 5px;
+ align:left;
+}
+
+.title {
+	font-family: Arial, Helvetica, sans-serif;
+  font-size: 24pt;
+	line-height: 30px;
+  background-color: #006666;
+	color: #DCDCDC;
+}
+
+.rgb255 {
+	background: rgb(255,255,255);
+	margin-top: 4px;
+	
+}
+
+.rgb234 {
+	background: rgb(234,234,234);
+}
+
+input.big {
+	width: 100px;
+}
+
+input.small {
+	width: 50px;
+}
+INPUT.main_button
+       {font-size: 9pt;
+        width:80px; color:blue
+
+       }
+SELECT {
+	FONT-SIZE: 9pt
+}
+TD.content {
+	BACKGROUND-COLOR: #ffffff;
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 9pt;
+	text-decoration: none;
+}
+.Input_text {
+	background-color:expression((this.readOnly&&this.readOnly==true)?"#D9D9D9":"");
+	font-size: 9pt;
+	text-decoration: none;
+	background-position: 1px 1px;
+	padding: 1px;
+	border: 1px solid #666666;}
+
+.FormText
+{
+    BORDER-RIGHT: #0066cc 1px solid;
+    BORDER-TOP: #0066cc 1px solid;
+    font-size: 9pt;
+    BORDER-LEFT: #0066cc 1px solid;
+    CURSOR: hand;
+    LINE-HEIGHT: 100%;
+    BORDER-BOTTOM: #0066cc 1px solid;
+    BACKGROUND-COLOR: #f1f5fa;
+}
+a {
+	/*color: #3366CC;*/
+	cursor: hand; 
+	color: #3366CC;
+	text-decoration: none;
+	font-size: 12px;
+}
+a:hover{
+	font-size: 12px;
+	color:#3366CC;
+	text-decoration: none;
+}
+a:active {
+	font-size: 12px;
+	color:#3366CC;
+	text-decoration: none;
+}
+a:VISITED {
+	font-size: 12px;
+	color:#3366CC;
+	text-decoration: none;
+}
+a:link {
+	font-size: 12px;
+	text-decoration: none;
+}
+
+/*必输项样式*/
+/*必须输入项*/
+.requiredCss {
+	display:inline;
+	font-size:12px;
+	text-align: center;
+	color: red;
+	position:relative;
+	top:12%;
+	width:5px;
+	left:11px;
+    line-height: 22px;
+}
+
+/*只读样式*/
+.readonly{
+	color:#666;
+	background-color:rgb(234,234,234);
+}
+

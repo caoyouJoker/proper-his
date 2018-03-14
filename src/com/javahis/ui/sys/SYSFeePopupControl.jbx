@@ -1,0 +1,11 @@
+[PropertyInfo]
+editText,String,false,false, , ,true,<default>
+oldText,String,false,false, , ,false,<default>
+orTypeOdi,int,false,false, , ,false,<default>
+rxType,int,false,false, , ,false,<default>
+table,com.dongyang.ui.TTable,false,false, , ,false,<default>
+[IconNames]
+
+
+
+

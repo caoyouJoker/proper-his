@@ -1,0 +1,36 @@
+
+.topbg {
+	background-image: url('../images/topbg.gif');
+}
+.toplogo {
+	
+	background-image: url('../images/logo1.gif') ;
+	width:380px;
+}
+.leftlogo {
+	cursor:hand;
+	margin-top: 15px;
+	height: 24px;
+	color: white;
+	font: bolder;
+	background-image: url('../images/leftlogo.gif') ;
+	padding-left: 10px;
+}
+.leftlogo2 {
+	cursor:hand;
+	margin-top: 5px;
+	height: 24px;
+	color: white;
+	font: bolder;
+	background-image: url('../images/leftlogo.gif') ;
+	padding-left: 10px;
+}
+.leftbody {
+	margin: 0px;
+	padding: 0px;
+	font-size: 13px;
+	background: url("../images/leftbackground.gif") no-repeat ;
+}
+.welcome {
+	background: url("../images/welecomenew.jpg") no-repeat center center;
+}

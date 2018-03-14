@@ -1,0 +1,9 @@
+/*Lee dialog 1.0 http://www.xij.cn/blog/?p=68*/
+
+#floatBoxBg{display:none;width:100%;height:100%;background:#fff;position:absolute;top:0;left:0;}
+.floatBox{border:black 2px solid;width:380px;position:absolute;top:50px;left:40%;}
+
+.floatBox .title{height:16px;padding:0;pxfont-size:10pt;;background:rgb(100,100,100);color:#fff;}
+.floatBox .title h4{float:left;padding:0;margin:0;font-size:9pt;line-height:30px;}
+.floatBox .title span{float:right;padding:0;margin:0;font-size:10pt;bline-height:30px;cursor:pointer;font: bolder;color: white;}
+.floatBox .content{background:white;}

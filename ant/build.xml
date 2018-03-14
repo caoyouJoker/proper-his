@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="vcancbs" default="CopyFromExcel">
+	<property file="build.properties" />
+	<property name="Name" value="vcancbs" />
+	<property name="version" value="1.0" />
+	<property name="year" value="2016" />
+	<property name="lib.classpath" value="${SVN_ROOT}/cpslib" />
+	<property name="vcancbs.src" value="${vcancbs.home}/src" />
+	<property name="build.library.dest" value="${build.library}" />
+	<property name="build.dest" value="${vcancbs.home}/build/dest" />
+	<property name="vcancbsclasses.dir" value="${vcancbs.home}/build/classes" />
+
+
+	<!-- 定义各模块使用的classpath -->
+
+	<path id="test.classpath">
+
+		<fileset dir="${build.library.dest}">
+
+			<include name="*.jar" />
+
+		</fileset>
+	</path>
+
+
+	<!--清除所有输出目录-->
+	<target name="init">
+		<echo>正在删除编译程序目录...</echo>
+		<delete dir="${vcancbsclasses.dir}" />
+
+		<echo>正在创建编译程序目录...</echo>
+
+		<mkdir dir="${vcancbsclasses.dir}" />
+
+		<echo>正在删除dest目录...</echo>
+
+		<delete dir="${build.dest}" />
+
+		<echo>正在创建dest目录...</echo>
+
+		<mkdir dir="${build.dest}" />
+
+		<echo>正在删除dest目录下的lib...</echo>
+
+		<!--<delete dir="${WebShop.library.dest}" />
+
+		<echo>正在创建dest目录下的lib...</echo>
+
+		<mkdir dir="${WebShop.library.dest}" />-->
+
+	</target>
+
+
+	<target name="archive" depends="init">
+		<echo>拷贝jar包到dest下的lib包...</echo>
+		<copy todir="${build.library.dest}" overwrite="yes">
+
+			<fileset dir="${PUBLIC_LIB}" includes="*.jar" />
+
+		</copy>
+
+		<echo>编译vcancbs的java类...</echo>
+		<javac classpathref="test.classpath" fork="true" memorymaximumsize="128m" destdir="${vcancbsclasses.dir}" debug="true" deprecation="false" failonerror="true" verbose="false">
+			<src path="${vcancbs.src}" />
+			<include name="**/*.java" />
+		</javac>
+	</target>
+
+	<target name="CopyFromExcel"  >
+	<!-- target name="CopyFromExcel" --> 
+		<echo>正在初始化拷贝数据，请稍后...</echo>
+		<taskdef name="excel" classname="com.bluecore.ant.CopyFromExcel">
+			<classpath>
+				<fileset dir="${PUBLIC_LIB}" includes="*.jar" />
+			</classpath>
+		</taskdef>
+		<excel excelFilePath="${excelFilePath}"  copyType=".class" versionNumber="120000" classPrefixPath="" expandedName=".class" initRowNum="3" basedir="${projectClasses}" todir="${jbossWebinfo}"/>
+		<excel excelFilePath="${excelFilePath}"  copyType=".xml" versionNumber="120000" classPrefixPath="" expandedName=".xml" initRowNum="3" basedir="${projectClasses}" todir="${jbossWebinfo}"/>
+		<excel excelFilePath="${excelFilePath}"  copyType=".properties" versionNumber="120000" classPrefixPath="" expandedName=".properties" initRowNum="3" basedir="${projectClasses}" todir="${jbossWebinfo}"/>
+		<excel excelFilePath="${excelFilePath}"  copyType=".x"   initRowNum="3" basedir="${projectPageSrc}" todir="${jbossPageSrc}"/>
+		<excel excelFilePath="${excelFilePath}"  copyType=".jhw"   initRowNum="3" basedir="${projectPageSrc}" todir="${jbossPageSrc}"/>
+		<excel excelFilePath="${excelFilePath}"  copyType=".jsp"   initRowNum="3" basedir="${projectPageSrc}" todir="${jbossPageSrc}"/>
+		<excel excelFilePath="${excelFilePath}"  copyType=".html"   initRowNum="3" basedir="${projectPageSrc}" todir="${jbossPageSrc}"/>
+		<excel excelFilePath="${excelFilePath}"  copyType=".js"   initRowNum="3" basedir="${projectPageSrc}" todir="${jbossPageSrc}"/>
+		<excel excelFilePath="${excelFilePath}"  copyType=".css"   initRowNum="3" basedir="${projectPageSrc}" todir="${jbossPageSrc}"/>
+		<excel excelFilePath="${excelFilePath}"  copyType=".ico"   initRowNum="3" basedir="${projectPageSrc}" todir="${jbossPageSrc}"/>
+		<excel excelFilePath="${excelFilePath}"  copyType=".png"   initRowNum="3" basedir="${projectPageSrc}" todir="${jbossPageSrc}"/>
+		<excel excelFilePath="${excelFilePath}"  copyType=".jpg"   initRowNum="3" basedir="${projectPageSrc}" todir="${jbossPageSrc}"/>
+		<excel excelFilePath="${excelFilePath}"  copyType=".gif"   initRowNum="3" basedir="${projectPageSrc}" todir="${jbossPageSrc}"/>
+	</target>
+	
+	<target name="toServer"  >
+		<!-- target name="CopyFromExcel" --> 
+			<echo>正在初始化拷贝数据，请稍后...</echo>
+			<taskdef name="excel" classname="com.bluecore.ant.CopyFromExcel">
+				<classpath>
+					<fileset dir="${PUBLIC_LIB}" includes="*.jar" />
+				</classpath>
+			</taskdef>
+			<excel excelFilePath="${excelFilePath}"  copyType=".class" versionNumber="120000" classPrefixPath="" expandedName=".class" initRowNum="3" basedir="${projectClasses}" todir="${serverWebinfo}"/>
+			<excel excelFilePath="${excelFilePath}"  copyType=".x"   initRowNum="3" basedir="${projectPageSrc}" todir="${serverPageSrc}"/>
+			<excel excelFilePath="${excelFilePath}"  copyType=".jhw"   initRowNum="3" basedir="${projectPageSrc}" todir="${serverPageSrc}"/>
+			<excel excelFilePath="${excelFilePath}"  copyType=".jsp"   initRowNum="3" basedir="${projectPageSrc}" todir="${serverPageSrc}"/>
+			<excel excelFilePath="${excelFilePath}"  copyType=".html"   initRowNum="3" basedir="${projectPageSrc}" todir="${serverPageSrc}"/>
+			<excel excelFilePath="${excelFilePath}"  copyType=".js"   initRowNum="3" basedir="${projectPageSrc}" todir="${serverPageSrc}"/>
+			<excel excelFilePath="${excelFilePath}"  copyType=".css"   initRowNum="3" basedir="${projectPageSrc}" todir="${serverPageSrc}"/>
+	
+	</target>
+	
+	<target name="tomcat.start">
+	     <exec dir="E:/Tomcat 5.5/bin/" executable="cmd.exe">
+	      <arg line="/c startup.bat"/>
+	     </exec>
+
+	</target>
+	<target name="tomcat.stop">
+	     <exec dir="E:/Tomcat 5.5/bin/" executable="cmd.exe">
+	      <arg line="/c shutdown.bat"/>
+	     </exec>
+
+	</target>
+	<target name="file.start">
+	     <exec dir="E:/Tomcat 5.5/webapps/javahis/common/lib/" executable="cmd.exe">
+	      <arg line="/c file.bat"/>
+	     </exec>
+
+	</target>
+</project>

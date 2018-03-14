@@ -1,0 +1,49 @@
+[PropertyInfo]
+ACTIVE_FLG,com.dongyang.ui.TCheckBox,false,false, , ,false,<default>
+ACTIVE_N,com.dongyang.ui.TRadioButton,false,false, , ,false,<default>
+ACTIVE_Y,com.dongyang.ui.TRadioButton,false,false, , ,false,<default>
+ALL,com.dongyang.ui.TRadioButton,false,false, , ,false,<default>
+bigObject,com.dongyang.jdo.TDSObject,false,false, , ,false,<default>
+CHARGE_HOSP_CODE,com.dongyang.ui.TComboBox,false,false, , ,false,<default>
+controlName,String,false,false, , ,false,<default>
+dataStore,com.dongyang.jdo.TDataStore,false,false, , ,false,<default>
+DEGREE_CODE,com.dongyang.ui.TComboBox,false,false, , ,false,<default>
+DESCRIPTION,com.dongyang.ui.TTextField,false,false, , ,false,<default>
+DEV_CODE,com.dongyang.ui.TComboBox,false,false, , ,false,<default>
+downTable,com.dongyang.ui.TTable,false,false, , ,false,<default>
+downTableAndTDS,String,false,false, , ,true,<default>
+EMG_FIT_FLG,com.dongyang.ui.TCheckBox,false,false, , ,false,<default>
+enabledForCtl,boolean,false,false, , ,true,<default>
+END_DATE,String,false,false, , ,false,<default>
+HRM_FIT_FLG,com.dongyang.ui.TCheckBox,false,false, , ,false,<default>
+IPD_FIT_FLG,com.dongyang.ui.TCheckBox,false,false, , ,false,<default>
+MR_CODE,com.dongyang.ui.TComboBox,false,false, , ,false,<default>
+OPD_FIT_FLG,com.dongyang.ui.TCheckBox,false,false, , ,false,<default>
+OPTITEM_CODE,com.dongyang.ui.TComboBox,false,false, , ,false,<default>
+ORDER_CAT1_CODE,com.dongyang.ui.TComboBox,false,false, , ,false,<default>
+ORDER_CODE,com.dongyang.ui.TTextField,false,false, , ,false,<default>
+ORDER_DESC,com.dongyang.ui.TTextField,false,false, , ,false,<default>
+orderCode,String,false,false, , ,false,<default>
+ORDERSET_FLG,com.dongyang.ui.TCheckBox,false,false, , ,false,<default>
+PY1,com.dongyang.ui.TTextField,false,false, , ,false,<default>
+RPTTYPE_CODE,com.dongyang.ui.TComboBox,false,false, , ,false,<default>
+ruleTool,jdo.sys.SYSRuleTool,false,false, , ,false,<default>
+selCode,String,false,false, , ,false,<default>
+selRow,int,false,false, , ,false,<default>
+START_DATE,String,false,false, , ,false,<default>
+SUB_SYSTEM_CODE,com.dongyang.ui.TComboBox,false,false, , ,false,<default>
+sysFeeHisDS,com.dongyang.jdo.TDS,false,false, , ,false,<default>
+sysOrdSetDtlDS,com.dongyang.jdo.TDS,false,false, , ,false,<default>
+TOT_FEE,com.dongyang.ui.TNumberTextField,false,false, , ,false,<default>
+TRANS_HOSP_CODE,com.dongyang.ui.TComboBox,false,false, , ,false,<default>
+TRANS_OUT_FLG,com.dongyang.ui.TCheckBox,false,false, , ,false,<default>
+tree,com.dongyang.ui.TTree,false,false, , ,false,<default>
+treeDataStore,com.dongyang.jdo.TDataStore,false,false, , ,false,<default>
+treeRoot,com.dongyang.ui.TTreeNode,false,false, , ,false,<default>
+upTable,com.dongyang.ui.TTable,false,false, , ,false,<default>
+valueForDownCtl,com.dongyang.data.TParm,false,false, , ,true,<default>
+[IconNames]
+
+
+
+

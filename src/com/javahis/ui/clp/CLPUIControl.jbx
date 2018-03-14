@@ -1,0 +1,27 @@
+[PropertyInfo]
+amtPrice,double,false,false, , ,false,<default>
+caseNo,String,false,false, , ,false,<default>
+checkFile,com.dongyang.data.TParm,false,false, , ,true,<default>
+deptCode,String,false,false, , ,false,<default>
+drCode,String,false,false, , ,false,<default>
+hospDesc,String,false,false, , ,false,<default>
+inDate,String,false,false, , ,false,<default>
+ipdNo,String,false,false, , ,false,<default>
+jrPrice,double,false,false, , ,false,<default>
+mrNo,String,false,false, , ,false,<default>
+optDate,String,false,false, , ,false,<default>
+optTerm,String,false,false, , ,false,<default>
+optUser,String,false,false, , ,false,<default>
+outDate,String,false,false, , ,false,<default>
+outzd,String,false,false, , ,false,<default>
+phaPrice,double,false,false, , ,false,<default>
+shzd,String,false,false, , ,false,<default>
+sqzd,String,false,false, , ,false,<default>
+tel,String,false,false, , ,false,<default>
+type,String,false,false, , ,false,<default>
+word,com.dongyang.ui.TWord,false,false, , ,false,<default>
+[IconNames]
+
+
+
+
