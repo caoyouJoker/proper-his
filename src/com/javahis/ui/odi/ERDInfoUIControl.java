@@ -18,7 +18,7 @@ import com.javahis.util.OdoUtil;
  *
  * <p>Copyright: Copyright (c) 2008</p>
  *
- * <p>Company:bluecore </p>
+ * <p>Company: ProperSoft </p>
  *
  * @author huangtt 20151030
  * @version 1.0

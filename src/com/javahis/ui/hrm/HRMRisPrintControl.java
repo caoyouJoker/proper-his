@@ -30,7 +30,7 @@ import com.javahis.util.StringUtil;
  * 
  * <p> Copyright: Copyright (c) 2015 </p>
  * 
- * <p> Company: Bluecore </p>
+ * <p> Company: ProperSoft </p>
  * 
  * @author wanglong 20150227
  * @version 1.0

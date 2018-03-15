@@ -29,11 +29,11 @@ import com.dongyang.jdo.TJDOTool;
 
 /**
  * <p>
- * Title: 辅助类
+ * Title: 杈呭姪绫�
  * </p>
  *
  * <p>
- * Description: 电子标签接口
+ * Description: 鐢靛瓙鏍囩鎺ュ彛
  * </p>
  *
  * <p>
@@ -41,7 +41,7 @@ import com.dongyang.jdo.TJDOTool;
  * </p>
  *
  * <p>
- * Company:BlueCore
+ * Company: ProperSoft
  * </p>
  *
  * @author Yuanxm 2012.08.30
@@ -49,12 +49,12 @@ import com.dongyang.jdo.TJDOTool;
  */
 public class HttpClientUtil  extends TJDOTool {
     /**
-     * 实例
+     * 瀹炰緥
      */
     public static HttpClientUtil instanceObject;
 
     /**
-     * 得到实例
+     * 寰楀埌瀹炰緥
      *
      * @return IndDDStockTool
      */
@@ -69,17 +69,17 @@ public class HttpClientUtil  extends TJDOTool {
 
 
 	/**
-	 * Get请求
+	 * Get璇锋眰
 	 * 
-	 * @param url     请求URL
+	 * @param url     璇锋眰URL
 	 * @return
 	 */
 	public static String get(String url) {
 		String body = null;
 		HttpClient httpClient = new DefaultHttpClient();
-		//return "{\"Status\":\"10000\",\"ReturnObject\":\"\",\"Message\":\"发送成功\"}";
+		//return "{\"Status\":\"10000\",\"ReturnObject\":\"\",\"Message\":\"鍙戦�佹垚鍔焅"}";
 		try {
-			// Get请求
+			// Get璇锋眰
 			HttpGet httpget = new HttpGet(url);
 
 			if(Constant.parameters != null && Constant.parameters.size() >  0 ){
@@ -87,9 +87,9 @@ public class HttpClientUtil  extends TJDOTool {
 				httpget.addHeader(Constant.parameters.get(1).getName(),Constant.parameters.get(1).getValue());
 				httpget.addHeader(Constant.parameters.get(2).getName(),  Constant.parameters.get(2).getValue());
 			}
-			// 发送请求
+			// 鍙戦�佽姹�
 			HttpResponse httpresponse = httpClient.execute(httpget);
-			// 获取返回数据
+			// 鑾峰彇杩斿洖鏁版嵁
 			if (httpresponse.getStatusLine().getStatusCode() == HttpStatus.SC_OK) {
 				HttpEntity entity = httpresponse.getEntity();
 				body = EntityUtils.toString(entity);
@@ -110,14 +110,14 @@ public class HttpClientUtil  extends TJDOTool {
 	}
 
 	/**
-	 * Post请求
+	 * Post璇锋眰
 	 * 
-	 * @param url         请求URL
-	 * @param params      post请求json参数
+	 * @param url         璇锋眰URL
+	 * @param params      post璇锋眰json鍙傛暟
 	 * @return
 	 */
 	public static String post(String url, String params) {
-		System.out.println("电子标签日志接受参数------------------------:"+params);
+		System.out.println("鐢靛瓙鏍囩鏃ュ織鎺ュ彈鍙傛暟------------------------:"+params);
 		String body = null;
 		HttpClient httpClient = new DefaultHttpClient();
 		UUID uuid = UUID.randomUUID();
@@ -129,17 +129,17 @@ public class HttpClientUtil  extends TJDOTool {
 			TParm parm = new TParm(TJDODBTool.getInstance().update(sql));
 		}catch (Exception e) {
 			// TODO: handle exception
-			System.out.println("保存日志数据出错");
+			System.out.println("淇濆瓨鏃ュ織鏁版嵁鍑洪敊");
 			e.printStackTrace() ;
 		}
 		
-		//return "{\"ObjectId\":\"业务ID\",\"LabelNo\":\"标签ID\",\"Label\":0,\"Harbor\":0,\"Station\":-1,\"Power\":100,\"Quantity\":100,\"Data\":\"原始协议数据\",\"Succeed\":true,\"Message\":\"其他信息\",\"ReceiveDate\":\"2012-5-2 12:50:22\",\"IsReceiveData\":true}";
+		//return "{\"ObjectId\":\"涓氬姟ID\",\"LabelNo\":\"鏍囩ID\",\"Label\":0,\"Harbor\":0,\"Station\":-1,\"Power\":100,\"Quantity\":100,\"Data\":\"鍘熷鍗忚鏁版嵁\",\"Succeed\":true,\"Message\":\"鍏朵粬淇℃伅\",\"ReceiveDate\":\"2012-5-2 12:50:22\",\"IsReceiveData\":true}";
 		LogUtil.writerLabelLog("\n\r");
-		LogUtil.writerLabelLog("电子标签进入WEBSERVICE----------------------------------------------------BEGION:"+SystemTool.getInstance().getDate());
+		LogUtil.writerLabelLog("鐢靛瓙鏍囩杩涘叆WEBSERVICE----------------------------------------------------BEGION:"+SystemTool.getInstance().getDate());
 		LogUtil.writerLabelLog(params);
 		
 		try {
-			// Post请求
+			// Post璇锋眰
 			HttpPost httppost = new HttpPost(url);
 			if(Constant.parameters != null && Constant.parameters.size() >  0 ){
 				httppost.addHeader( Constant.parameters.get(0).getName(),  Constant.parameters.get(0).getValue());
@@ -150,13 +150,13 @@ public class HttpClientUtil  extends TJDOTool {
 			StringEntity stringEntity = new StringEntity(params, "utf-8");
 			stringEntity.setContentType("application/json");
 			stringEntity.setContentEncoding("utf-8");
-			// 设置参数
+			// 璁剧疆鍙傛暟
 			httppost.setEntity(stringEntity);
-			// 发送请求
+			// 鍙戦�佽姹�
 			HttpResponse httpresponse = httpClient.execute(httppost);
 
 			if (httpresponse.getStatusLine().getStatusCode() == HttpStatus.SC_OK) {
-				// 获取返回数据
+				// 鑾峰彇杩斿洖鏁版嵁
 				HttpEntity entity = httpresponse.getEntity();
 				InputStream  inputStream = entity.getContent(); 
             	char[] buffer = new char[(int)entity.getContentLength()];
@@ -184,7 +184,7 @@ public class HttpClientUtil  extends TJDOTool {
 				httpClient.getConnectionManager().shutdown();
 			}
 		}
-		LogUtil.writerLabelLog("电子标签进入WEBSERVICE----------------------------------------------------END:"+SystemTool.getInstance().getDate());	
+		LogUtil.writerLabelLog("鐢靛瓙鏍囩杩涘叆WEBSERVICE----------------------------------------------------END:"+SystemTool.getInstance().getDate());	
 		LogUtil.writerLabelLog(" ");
 		return body;
 		

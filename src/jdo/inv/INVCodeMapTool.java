@@ -17,7 +17,7 @@ import com.dongyang.jdo.TJDODBTool;
  * </p>
  *
  * <p> 
- * Company: BLUECORE
+ * Company: ProperSoft
  * </p>
  *
  * @author fux 2013.6.6

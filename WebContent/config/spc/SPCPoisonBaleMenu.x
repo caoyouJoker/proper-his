@@ -3,7 +3,7 @@
   #
   # Description:毒麻药赋码及打包功能
   #
-  # Copyright: bluecore (c) 2008
+  # Copyright: ProperSoft (c) 2008
   #
   # @author liyh
  # @version 1.0

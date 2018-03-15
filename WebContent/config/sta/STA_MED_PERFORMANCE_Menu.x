@@ -3,7 +3,7 @@
   #
   # Description: 
   #
-  # Copyright: bluecore (c) 2012
+  # Copyright: ProperSoft (c) 2012
   #
   # @author shibl
  # @version 1.0

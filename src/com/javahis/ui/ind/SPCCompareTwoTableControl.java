@@ -24,7 +24,7 @@ import com.javahis.util.StringUtil;
  * </p>
  * 
  * <p>
- * Company: bluecore
+ * Company: ProperSoft
  * </p>
  * 
  * @author shendr 2013.06.27

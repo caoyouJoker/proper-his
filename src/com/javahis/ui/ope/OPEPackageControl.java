@@ -24,7 +24,7 @@ import jdo.sys.SystemTool;
  * 
  * <p> Copyright: Copyright (c) 2015</p>
  * 
- * <p> Company:BlueCore</p>
+ * <p> Company: ProperSoft</p>
  * 
  * @author wanglong 20150225
  * @version 1.0

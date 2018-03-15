@@ -16,7 +16,7 @@ import com.dongyang.jdo.TDataStore;
  *
  * <p> Copyright: Copyright (c) 2016 </p>
  *
- * <p> Company:BlueCore </p>
+ * <p> Company: ProperSoft </p>
  *
  * @author guangl 20160614
  * @version 1.0

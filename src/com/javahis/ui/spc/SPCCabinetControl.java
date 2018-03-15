@@ -34,7 +34,7 @@ import com.dongyang.util.StringTool;
  * </p>
  * 
  * <p>
- * Company: bluecore
+ * Company: ProperSoft
  * </p>
  * 
  * @author fuwj 2012.10.23

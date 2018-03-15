@@ -29,7 +29,7 @@ import com.sun.jmx.snmp.Timestamp;
  * </p>
  * 
  * <p>
- * Company: BlueCore
+ * Company: ProperSoft
  * </p>
  * 
  * @author caowl 2013-7-31

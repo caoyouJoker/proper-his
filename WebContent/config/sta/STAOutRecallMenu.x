@@ -3,7 +3,7 @@
   #
   # Description:出院召回查询表
   #
-  # Copyright: Bluecore (c) 2016
+  # Copyright: ProperSoft (c) 2016
   #
   # @author wukai on 20160829
   # @version 1.0

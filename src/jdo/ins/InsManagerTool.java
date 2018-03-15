@@ -26,11 +26,11 @@ import com.dongyang.util.FileTool;
  * </p>
  * 
  * <p>
- * Copyright: Copyright (c) BlueCore 2011
+ * Copyright: Copyright (c) ProperSoft 2011
  * </p>
  * 
  * <p>
- * Company: BlueCore
+ * Company: ProperSoft
  * </p>
  * 
  * @author pangben 2012.01.29

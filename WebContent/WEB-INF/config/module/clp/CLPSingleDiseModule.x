@@ -3,7 +3,7 @@
 # 
 #  Description:
 # 
-#  Copyright: Copyright (c) BlueCore 2012
+#  Copyright: Copyright (c) ProperSoft 2012
 # 
 #  author WangLong 20120926
 #  version 1.0

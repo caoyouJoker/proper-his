@@ -10,9 +10,9 @@ import jdo.ins.INSTool;
  *
  * <p>Description: 医保动作类</p>
  *
- * <p>Copyright: Copyright (c) BlueCore 2011</p>
+ * <p>Copyright: Copyright (c) ProperSoft 2011</p>
  *
- * <p>Company: BlueCore</p>
+ * <p>Company: ProperSoft</p>
  *
  * @author wangl 2011.12.07
  * @version 1.0

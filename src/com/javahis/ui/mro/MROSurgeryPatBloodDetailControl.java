@@ -19,7 +19,7 @@ import com.javahis.util.ExportExcelUtil;
  * 
  * <p> Copyright: Copyright (c) 2011 </p>
  * 
- * <p> Company:bluecore </p>
+ * <p> Company: ProperSoft </p>
  * 
  * @author sunqy 20140815
  * @version 2.0

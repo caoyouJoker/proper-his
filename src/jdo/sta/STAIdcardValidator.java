@@ -21,7 +21,7 @@ import java.util.regex.Pattern;
  * </p>
  * 
  * <p>
- * Company:bluecore
+ * Company: ProperSoft
  * </p>
  * 
  * @author caowl

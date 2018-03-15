@@ -3,7 +3,7 @@
  #
  # Description: 病患历次医保数据
  #
- # Copyright: BlueCore (c) 2012
+ # Copyright: ProperSoft (c) 2012
  #
  # @author WangLong 2012.09.21
  # @version 1.0

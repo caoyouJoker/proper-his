@@ -12,7 +12,7 @@ import com.dongyang.db.TConnection;
  *
  * <p>Copyright: ²¡°¸·â´æ 
  *
- * <p>Company: bluecore</p>
+ * <p>Company: ProperSoft</p>
  *
  * @author  huangtt 20161110 
  * @version 4.0

@@ -13,7 +13,7 @@ import org.xvolks.jnative.pointers.memory.HeapMemoryBlock;
 *
 * <p>Copyright: Copyright (c) 2015</p>
 *
-* <p>Company: bluecore </p>
+* <p>Company: ProperSoft </p>
 *
 * @author wanglong 2015.04.10
 * @version 1.0

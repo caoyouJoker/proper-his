@@ -24,7 +24,7 @@ import com.dongyang.config.TConfig;
  * </p>
  *
  * <p>
- * Company:BlueCore
+ * Company: ProperSoft
  * </p>
  *
  * @author Yuanxm 2012.08.30

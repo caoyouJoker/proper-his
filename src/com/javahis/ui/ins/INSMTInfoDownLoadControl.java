@@ -11,9 +11,9 @@ import com.dongyang.ui.TTable;
  *
  * <p>Description: 门特定点治疗机构信息下载</p>
  *
- * <p>Copyright: Copyright (c) BlueCore 2011</p>
+ * <p>Copyright: Copyright (c) ProperSoft 2011</p>
  *
- * <p>Company: BlueCore</p>
+ * <p>Company: ProperSoft</p>
  *
  * @author pangben  2012.04.21
  * @version 4.0

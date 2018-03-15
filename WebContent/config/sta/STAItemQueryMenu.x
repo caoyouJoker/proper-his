@@ -3,7 +3,7 @@
   #
   # Description:ÓÃÑªÃ÷Ï¸±í
   #
-  # Copyright: Bluecore (c) 2014
+  # Copyright: ProperSoft (c) 2014
   #
   # @author zhangs
   # @version 1.0

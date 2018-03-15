@@ -5,7 +5,7 @@
 #
 # <p>Copyright: Copyright (c) 2014</p>
 #
-# <p>Company:bluecore </p>
+# <p>Company: ProperSoft </p>
 #
 # @author caoyong
 # @version 1.0

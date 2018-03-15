@@ -13,11 +13,11 @@ import com.dongyang.ui.TWord;
  * Description: 设备维护清单查看
  * </p>
  * <p>
- * Copyright: BlueCore 2015
+ * Copyright: ProperSoft 2015
  * </p>
  * 
  * <p>
- * Company:BlueCore
+ * Company: ProperSoft
  * </p>
  * 
  * @author wangjc

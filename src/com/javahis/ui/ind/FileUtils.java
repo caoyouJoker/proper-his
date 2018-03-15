@@ -14,7 +14,7 @@ package com.javahis.ui.ind;
  * </p>
  *
  * <p>
- * Company:BlueCore
+ * Company: ProperSoft
  * </p>
  *
  * @author liyh 2012.08.30

@@ -25,7 +25,7 @@ import java.util.zip.ZipOutputStream;
  * </p>
  * 
  * <p>
- * Company: bluecore
+ * Company: ProperSoft
  * </p>
  * 
  * @author shibl

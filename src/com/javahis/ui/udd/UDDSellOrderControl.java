@@ -34,11 +34,11 @@ import com.javahis.util.StringUtil;
  * </p>
  * 
  * <p>
- * Copyright: Bluecore
+ * Copyright: ProperSoft
  * </p>
  * 
  * <p>
- * Company:Bluecore
+ * Company: ProperSoft
  * </p>
  * 
  * @author yanjing

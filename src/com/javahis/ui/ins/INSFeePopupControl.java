@@ -18,7 +18,7 @@ import com.dongyang.ui.event.TTextFieldEvent;
 *
 * <p>Copyright: Copyright (c) 2011</p>
 *
-* <p>Company: Bluecore</p>
+* <p>Company: ProperSoft</p>
 *
 * @author pangb 2011-12-10
 * @version  2.0

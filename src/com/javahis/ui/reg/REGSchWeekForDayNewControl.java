@@ -16,7 +16,7 @@ import com.dongyang.ui.TTable;
  *
  * <p>Copyright: Copyright (c) 2012</p>
  *
- * <p>Company: BlueCore</p>
+ * <p>Company: ProperSoft</p>
  *
  * @author wangl 2012.03.29
  * @version 1.0

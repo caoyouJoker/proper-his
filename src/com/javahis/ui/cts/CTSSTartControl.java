@@ -55,7 +55,7 @@ import com.javahis.ui.inv.RFIDTag;
  * </p>
  * 
  * <p>
- * Company: Bluecore
+ * Company: ProperSoft
  * </p>
  * 
  * @author zhangp 2012.8.2

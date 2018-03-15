@@ -31,7 +31,7 @@ import com.javahis.util.OdiUtil;
  * </p>
  * 
  * <p>
- * Company: bluecore
+ * Company: ProperSoft
  * </p>
  * 
  * @author wangb

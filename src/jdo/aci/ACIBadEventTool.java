@@ -28,7 +28,7 @@ import jdo.sys.SystemTool;
  *
  * <p>Copyright: Copyright (c) 2012</p>
  *
- * <p>Company: BLueCore</p>
+ * <p>Company: ProperSoft</p>
  *
  * @author wanglong 2012.11.22
  * @version 1.0

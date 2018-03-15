@@ -20,7 +20,7 @@ import com.javahis.system.textFormat.TextFormatBadEventType;
  * 
  * <p> Copyright: Copyright (c) 2012 </p>
  * 
- * <p> Company: BlueCore </p>
+ * <p> Company: ProperSoft </p>
  * 
  * @author WangLong 2012.12.24
  * @version 1.0

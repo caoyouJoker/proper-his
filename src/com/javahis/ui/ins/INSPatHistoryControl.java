@@ -26,7 +26,7 @@ import jdo.sys.SystemTool;
  * </p>
  * 
  * <p>
- * Company:BlueCore
+ * Company: ProperSoft
  * </p>
  * 
  * @author Wanglong 20120921

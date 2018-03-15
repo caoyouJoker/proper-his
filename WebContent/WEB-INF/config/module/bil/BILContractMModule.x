@@ -3,7 +3,7 @@
 # 
 #  Description:合同单位信息维护module
 # 
-#  Copyright: Copyright (c) bluecore
+#  Copyright: Copyright (c) ProperSoft
 # 
 #  author caowl 20130114
 #  version 1.0

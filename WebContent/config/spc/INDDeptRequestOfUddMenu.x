@@ -3,7 +3,7 @@
   #
   # Description:科室备药生成
   #
-  # Copyright: bluecore (c) 2008
+  # Copyright: ProperSoft (c) 2008
   #
   # @author liyh 20130601
  # @version 1.0

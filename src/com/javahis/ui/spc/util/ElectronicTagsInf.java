@@ -5,11 +5,11 @@ import java.util.Map;
 
 /**
  * <p>
- * Title: 电子标签接口
+ * Title: 鐢靛瓙鏍囩鎺ュ彛
  * </p>
  *
  * <p>
- * Description: 电子标签接口
+ * Description: 鐢靛瓙鏍囩鎺ュ彛
  * </p>
  *
  * <p>
@@ -17,7 +17,7 @@ import java.util.Map;
  * </p>
  *
  * <p>
- * Company:BlueCore
+ * Company: ProperSoft
  * </p>
  *
  * @author Yuanxm 2012.08.30
@@ -26,75 +26,75 @@ import java.util.Map;
 public interface ElectronicTagsInf {
 
 	/**
-	 * 服务状态
+	 * 鏈嶅姟鐘舵��
 	 * 
-	 * @return 返回Map 详细键值在国药天津公司电子标签软件设计方案
+	 * @return 杩斿洖Map 璇︾粏閿�煎湪鍥借嵂澶╂触鍏徃鐢靛瓙鏍囩杞欢璁捐鏂规
 	 *       
 	 */
 	public Map<String, Object> findServerStatus();
 
 	/**
-	 * 用户登录
+	 * 鐢ㄦ埛鐧诲綍
 	 * 
 	 * @param userId
-	 *            用户名
+	 *            鐢ㄦ埛鍚�
 	 * @param password
-	 *            密码
-	 * @return 返回MAP
+	 *            瀵嗙爜
+	 * @return 杩斿洖MAP
 	 */
 	public Map<String, Object> login(String userId, String password);
 
 	/**
-	 * 用户查询
+	 * 鐢ㄦ埛鏌ヨ
 	 * 
 	 * @param userId
-	 *            用户名
-	 * @return   返回MAP
+	 *            鐢ㄦ埛鍚�
+	 * @return   杩斿洖MAP
 	 */
 	public Map<String, Object> findUser(String userId);
 
 	/**
-	 * 药房货位更新
+	 * 鑽埧璐т綅鏇存柊
 	 * 
 	 * @param map
 	 * 
-	 * @return   返回MAP
+	 * @return   杩斿洖MAP
 	 */
 	public Map<String, Object> cargoUpdate(Map<String, Object> map);
 
 	/**
-	 * 药筐更新
+	 * 鑽瓙鏇存柊
 	 * 
 	 * @param map
 	 * 
-	 * @return    返回MAP
+	 * @return    杩斿洖MAP
 	 */
 	public Map<String, Object> drugBasketUpdate(Map<String, Object> map);
 
 	/**
-	 * 药箱更新
+	 * 鑽鏇存柊
 	 * 
 	 * @param map
 	 * 
-	 * @return   返回MAP
+	 * @return   杩斿洖MAP
 	 */
 	public Map<String, Object> medicineChestUpdate(Map<String, Object> map);
 
 	/**
-	 * 药盒
+	 * 鑽洅
 	 * 
 	 * @param map
 	 * 
-	 * @return   返回MAP
+	 * @return   杩斿洖MAP
 	 */
 	public Map<String, Object> pcsUpdate(Map<String, Object> map);
 
 	/**
-	 * 获取标签
+	 * 鑾峰彇鏍囩
 	 * 
 	 * @param map
 	 * 
-	 * @return   返回MAP
+	 * @return   杩斿洖MAP
 	 */
 	public Map<String, Object> getLable(Map<String, Object> map);
 

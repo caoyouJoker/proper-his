@@ -44,7 +44,7 @@ import com.javahis.util.StringUtil;
  * </p>
  * 
  * <p>
- * Copyright: Copyright (c) bluecore
+ * Copyright: Copyright (c) ProperSoft
  * </p>
  * 
  * <p>

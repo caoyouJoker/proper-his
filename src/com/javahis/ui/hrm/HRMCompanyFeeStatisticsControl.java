@@ -38,7 +38,7 @@ import com.javahis.util.StringUtil;
  * </p>
  * 
  * <p>
- * Company:BLueCore
+ * Company: ProperSoft
  * </p>
  * 
  * @author wangLong 20120620
@@ -391,7 +391,7 @@ public class HRMCompanyFeeStatisticsControl
      * </p>
      * 
      * <p>
-     * Company:BlueCore
+     * Company: ProperSoft
      * </p>
      * 
      * @author WangLong 20130110

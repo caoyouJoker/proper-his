@@ -8,7 +8,7 @@ import com.dongyang.jdo.TJDOTool;
  * 
  * <p>Description:¡Ÿ¥≤≤°∞∏≤È—ØTool </p>
  * 
- * <p>Company:bluecore Copyright C </p>
+ * <p>Company: ProperSoft Copyright C </p>
  * @author wukai on 20160524
  *
  */

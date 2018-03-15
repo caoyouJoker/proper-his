@@ -20,7 +20,7 @@ import com.javahis.system.textFormat.TextFormatCLPEvlStandm;
  *
  * <p>Copyright: Copyright (c) 2015</p>
  *
- * <p>Company: bluecore </p>
+ * <p>Company: ProperSoft </p>
  *
  * @author pangben 20150810
  * ´ËÀà×÷·Ï£¬pangben 20160922 

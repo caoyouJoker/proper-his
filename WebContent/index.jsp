@@ -20,7 +20,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	-->
   </head>
   
-  <body style="background-image:url(images/bgimg.GIF)">
+  <body style="background-image:url(images/bgimg.jpg)">
     <form name="initForm" action="" method="post">
     </form>
     <script type="text/javascript">

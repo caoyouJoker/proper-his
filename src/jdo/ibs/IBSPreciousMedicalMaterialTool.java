@@ -12,7 +12,7 @@ import com.dongyang.jdo.TJDOTool;
  * 
  * <p> Copyright: Copyright (c) 2009 </p>
  * 
- * <p> Company:bluecore </p>
+ * <p> Company: ProperSoft </p>
  * 
  * @author wufc 2012-8-10ионГ10:24:34
  * @version 1.0

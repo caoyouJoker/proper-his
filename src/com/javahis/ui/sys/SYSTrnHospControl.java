@@ -31,7 +31,7 @@ import com.dongyang.util.TMessage;
  * </p>
  * 
  * <p>
- * Company: bluecore
+ * Company: ProperSoft
  * </p>
  * 
  * @author shibl 20120106

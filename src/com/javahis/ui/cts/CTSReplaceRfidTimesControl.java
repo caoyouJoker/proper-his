@@ -12,7 +12,7 @@ import com.javahis.util.ExportExcelUtil;
  * Description:Ï´ÒÂ¸ü»»±êÇ©²éÑ¯
  * </p>
  * <p>
- * Company:bluecore
+ * Company: ProperSoft
  * </p>
  * 
  * @author huangtt 20141128

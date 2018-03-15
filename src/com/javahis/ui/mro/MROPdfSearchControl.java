@@ -27,9 +27,8 @@ import com.javahis.util.StringUtil;
  *
  * <p>Copyright: Copyright (c) 2013 </p>
  *
- * <p>Company: Bluecore </p>
+ * <p>Company: ProperSoft </p>
  *
- * @author lix@bluecore.com.cn 2013.01.21
  * @version 1.0
  */
 public class MROPdfSearchControl

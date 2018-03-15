@@ -10,9 +10,6 @@ import com.silionmodule.ReaderType.AntTypeE;
 
 /**
  * MT100 USB RFID Çý¶¯
- * 
- * @author lix@bluecore.com.cn
- * 
  */
 public class ModuleDriver {
 

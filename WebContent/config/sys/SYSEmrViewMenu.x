@@ -3,7 +3,7 @@
   #
   # Description:∆¿π¿“ª¿¿
   #
-  # Copyright: Bluecore (c) 2015
+  # Copyright: ProperSoft (c) 2015
   #
   # @author zhangs
   # @version 1.0

@@ -42,7 +42,7 @@ import com.sun.awt.AWTUtilities;
  * </p>
  * 
  * <p>
- * Company: Bluecore
+ * Company: ProperSoft
  * </p>
  * 
  * @author wangb 2015.5.12

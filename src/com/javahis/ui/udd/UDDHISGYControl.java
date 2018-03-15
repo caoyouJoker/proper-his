@@ -39,7 +39,7 @@ import com.dongyang.util.TypeTool;
  * </p>
  * 
  * <p>
- * Company:bluecore
+ * Company: ProperSoft
  * </p>
  * 
  * @author shibl 2013.04.09

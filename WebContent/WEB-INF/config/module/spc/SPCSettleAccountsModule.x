@@ -3,7 +3,7 @@
    #
    # Description:结算功能模块
    #
-   # Copyright: BlueCore (c) 2013
+   # Copyright: ProperSoft (c) 2013
    #
    # @author robo
 Module.item=onSaveIndOdd;onSaveIndAccount;deleteIndOdd;deleteIndAccount

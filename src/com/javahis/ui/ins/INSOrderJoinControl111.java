@@ -30,7 +30,7 @@ import com.dongyang.ui.event.TTreeEvent;
  * </p>
  * 
  * <p>
- * Company: Bluecore
+ * Company: ProperSoft
  * </p>
  * 
  * @author pangb 2011-12-09

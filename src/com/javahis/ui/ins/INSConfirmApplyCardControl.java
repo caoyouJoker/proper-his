@@ -35,7 +35,7 @@ import com.dongyang.util.FileTool;
  * </p>
  * 
  * <p>
- * Company:bluecore
+ * Company: ProperSoft
  * </p>
  * 
  * @author pangb 2011-12-05

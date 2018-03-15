@@ -33,7 +33,7 @@ import com.silionmodule.ReaderType.AntTypeE;
  *  
  * <p>Copyright: Copyright (c) 2013</p>                
  *
- * <p>Company:bluecore </p> 
+ * <p>Company: ProperSoft </p> 
  *  
  * @author  fux 
  * @version 4.0 

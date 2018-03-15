@@ -3,7 +3,7 @@
   #
   # Description: 门诊建行预交金收入表
   #
-  # Copyright: BlueCore (c) 2012
+  # Copyright: ProperSoft (c) 2012
   #
   # @author WangLong 20120920
  # @version 1.0

@@ -3,7 +3,7 @@
 # 
 #  Description:CTSmodule
 # 
-#  Copyright: Copyright (c) Bluecore 2012
+#  Copyright: Copyright (c) ProperSoft 2012
 # 
 #  author zhangp 2012.10.10
 #  version 1.0

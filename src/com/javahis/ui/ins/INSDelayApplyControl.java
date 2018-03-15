@@ -24,7 +24,7 @@ import com.dongyang.ui.TComboBox;
  * </p>
  * 
  * <p>
- * Company: bluecore
+ * Company: ProperSoft
  * </p>
  * 
  * @author pangben 20111214

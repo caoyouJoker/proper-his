@@ -2,7 +2,7 @@
   # Title: 异地联网与部平台对账下载
   #
   # Description:异地联网与部平台对账下载
-  # Copyright: Bluecore(c) 2017
+  # Copyright: ProperSoft(c) 2017
   # @version 2.0
 <Type=TMenuBar>
 UI.Item=File;Window

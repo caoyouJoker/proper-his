@@ -16,7 +16,7 @@ import com.dongyang.ui.edit.TAttributeList;
  * </p>
  * 
  * <p>
- * Copyright (c) BlueCore 2012
+ * Copyright (c) ProperSoft 2012
  * </p>
  * 
  * <p>

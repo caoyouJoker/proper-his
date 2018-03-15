@@ -3,7 +3,7 @@
   #
   # Description: ÆÀ¹À»ù±¾µµ
   #
-  # Copyright: BlueCore (c) 
+  # Copyright: ProperSoft (c) 
   #
   # @author Huzc 2015.10.22
  # @version 1.0

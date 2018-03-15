@@ -3,7 +3,7 @@
 #
 # Description:ÆÕÍ¨Ò©ÏÂ¼Ümenu
 #
-# Copyright: BlueCore (c) 2012
+# Copyright: ProperSoft (c) 2012
 #
 # @author lyh
 # @version 1.0

@@ -20,7 +20,7 @@ import com.google.gson.Gson;
  * </p>
  *
  * <p>
- * Company:BlueCore
+ * Company: ProperSoft
  * </p>
  *
  * @author Yuanxm 2012.08.30

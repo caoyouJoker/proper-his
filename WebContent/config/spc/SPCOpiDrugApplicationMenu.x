@@ -3,7 +3,7 @@
   #
   # Description:手术介入麻精备药申请Menu
   #
-  # Copyright: bluecore (c) 2008
+  # Copyright: ProperSoft (c) 2008
   #
   # @author shendr 2013.07.29
  # @version 1.0

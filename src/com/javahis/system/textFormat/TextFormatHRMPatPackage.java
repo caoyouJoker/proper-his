@@ -13,7 +13,7 @@ import com.dongyang.util.TypeTool;
  * 
  * <p> Copyright: Copyright (c) 2013 </p>
  * 
- * <p> Company: bluecore </p>
+ * <p> Company: ProperSoft </p>
  * 
  * @author wanglong 20130508
  * @version 1.0

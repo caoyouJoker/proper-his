@@ -46,7 +46,7 @@ import com.javahis.device.PullDriver;
  * </p>
  * 
  * <p>
- * Company: BlueCore
+ * Company: ProperSoft
  * </p>
  * 
  * @author Yuanxm

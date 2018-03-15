@@ -31,7 +31,7 @@ import com.tiis.util.TiMath;
  * </p>
  *
  * <p>
- * Company: bluecore
+ * Company: ProperSoft
  * </p>
  *
  * @author fux 2013.09.23

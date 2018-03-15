@@ -26,7 +26,7 @@ import com.dongyang.util.StringTool;
  * </p>
  * 
  * <p>
- * Company: BLUECORE
+ * Company: ProperSoft
  * </p>
  * 
  * @author fux

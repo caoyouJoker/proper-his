@@ -11,7 +11,7 @@ import com.dongyang.ui.TTextFormat;
  *
  * <p>Copyright: Copyright (c) 2009</p>
  *
- * <p>Company: bluecore/p>
+ * <p>Company: ProperSoft/p>
  *
  * @author yanj
  * @version 1.0

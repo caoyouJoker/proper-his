@@ -27,7 +27,7 @@ import com.dongyang.ui.TDialog;
  * </p>
  * 
  * <p>
- * Company:BlueCore
+ * Company: ProperSoft
  * </p>
  * 
  * @author pangb 2013.03.27

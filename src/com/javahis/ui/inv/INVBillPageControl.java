@@ -38,7 +38,7 @@ import com.javahis.util.ExportExcelUtil;
 * <strong>Copyright (C) <br></strong>
 * <p>
 * @author duzhw<br>
-* @version <strong>BlueCore</strong><br>
+* @version <strong>ProperSoft</strong><br>
 * <br>
 * <strong>修改历史:</strong><br>
 * 修改人		修改日期		修改描述<br>

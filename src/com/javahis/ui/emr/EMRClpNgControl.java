@@ -22,7 +22,7 @@ import com.dongyang.ui.event.TTreeEvent;
  * </p>
  * 
  * <p>
- * Company: bluecore
+ * Company: ProperSoft
  * </p>
  * 
  * @author shibl

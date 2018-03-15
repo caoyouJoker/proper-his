@@ -24,9 +24,9 @@ import jdo.ins.INSSingleTransferTool;
  *
  * <p>Description: 单病种转入控制类</p>
  *
- * <p>Copyright: Copyright (c) BlueCore 2011</p>
+ * <p>Copyright: Copyright (c) ProperSoft 2011</p>
  *
- * <p>Company: BlueCore</p>
+ * <p>Company: ProperSoft</p>
  *
  * @author wangl 2012.02.13
  * @version 1.0

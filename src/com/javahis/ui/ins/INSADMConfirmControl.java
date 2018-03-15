@@ -35,7 +35,7 @@ import com.dongyang.util.StringTool;
  * </p>
  * 
  * <p>
- * Copyright: Copyright (c) bluecore
+ * Copyright: Copyright (c) ProperSoft
  * </p>
  * 
  * <p>

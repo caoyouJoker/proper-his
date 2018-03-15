@@ -1,7 +1,7 @@
 #
   # Title: 住院垫付费用明细上传
   # Description:住院垫付费用明细上传
-  # Copyright: Bluecore(c) 2017
+  # Copyright: ProperSoft(c) 2017
   # @version 2.0
 <Type=TMenuBar>
 UI.Item=File;Window

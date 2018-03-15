@@ -33,7 +33,7 @@ import com.javahis.system.textFormat.TextFormatCLPEvlStandm;
  * </p>
  * 
  * <p>
- * Company:bluecore
+ * Company: ProperSoft
  * </p>
  * 
  * @author pangben 2015-8-11

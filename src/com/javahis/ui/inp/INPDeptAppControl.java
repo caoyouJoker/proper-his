@@ -697,7 +697,7 @@ public class INPDeptAppControl extends TControl implements DMessageIO {
 		// System.out.println("asSaveParm::::"+asSaveParm);
 		String dateStr = StringTool.getString(SystemTool.getInstance()
 				.getDate(), "yyyy/MM/dd HH:mm:ss");
-		// this.getWord().setFileCo("BlueCore");
+		// this.getWord().setFileCo("ProperSoft");
 		// // ±êÌâ
 		// this.getWord().setFileTitle(asSaveParm.getValue("DESIGN_NAME"));
 		// // ±¸×¢

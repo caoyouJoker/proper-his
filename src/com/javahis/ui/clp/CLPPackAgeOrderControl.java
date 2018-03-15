@@ -21,7 +21,7 @@ import com.javahis.system.textFormat.TextFormatClpPackAge;
  *
  * <p>Copyright: Copyright (c) 2015</p>
  *
- * <p>Company:bluecore </p>
+ * <p>Company: ProperSoft </p>
  *
  * @author pangben 2015-8-12
  * @version 1.0

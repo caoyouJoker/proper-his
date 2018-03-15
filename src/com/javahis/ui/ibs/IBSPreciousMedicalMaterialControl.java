@@ -37,7 +37,7 @@ import java.util.Vector;
  * </p>
  * 
  * <p>
- * Company: BlueCore
+ * Company: ProperSoft
  * </p>
  * 
  * @author wangzl 2012.08.09

@@ -26,7 +26,7 @@ import com.javahis.util.ExportExcelUtil;
  * 
  * <p>Copyright: Copyright (c) 20140621</p>
  * 
- * <p>Company: BLUECORE </p>
+ * <p>Company: ProperSoft </p>
  *  
  * @author  fux
  * 

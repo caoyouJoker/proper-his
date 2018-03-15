@@ -25,9 +25,9 @@ import jdo.mro.MRORecordTool;
  *
  * <p>Description: 医保申报控制类</p>
  *
- * <p>Copyright: Copyright (c) BlueCore 2011</p>
+ * <p>Copyright: Copyright (c) ProperSoft 2011</p>
  *
- * <p>Company: BlueCore</p>
+ * <p>Company: ProperSoft</p>
  *
  * @author wangl 2012.02.10
  * @version 1.0

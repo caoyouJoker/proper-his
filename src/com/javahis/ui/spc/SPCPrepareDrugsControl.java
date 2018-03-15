@@ -40,7 +40,7 @@ import com.javahis.util.StringUtil;
  * </p>
  * 
  * <p>
- * Company: BLUECORE
+ * Company: ProperSoft
  * </p>
  * 
  * @author

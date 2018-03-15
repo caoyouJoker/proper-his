@@ -22,7 +22,7 @@ import com.dongyang.config.TConfig;
  * </p>
  *
  * <p>
- * Company: BLUECORE
+ * Company: ProperSoft
  * </p>
  *
  * @author fuwj 2013.04.18

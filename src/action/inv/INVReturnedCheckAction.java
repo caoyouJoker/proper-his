@@ -21,7 +21,7 @@ import jdo.inv.INVReturnedCheckTool;
  * </p>
  * 
  * <p>
- * Company:BlueCore
+ * Company:ProperSoft
  * </p>
  * 
  * @author fux 2014.07.19

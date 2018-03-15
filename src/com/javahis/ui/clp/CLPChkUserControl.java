@@ -6,7 +6,7 @@
  *
  * <p>Copyright: Copyright (c) 2012</p>
  *
- * <p>Company: bluecore</p>
+ * <p>Company: ProperSoft</p>
  *
  * @author fux 21020703
  * @version 4.0

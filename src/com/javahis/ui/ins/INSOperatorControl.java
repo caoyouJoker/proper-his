@@ -22,7 +22,7 @@ import com.dongyang.ui.TTable;
  * </p>
  * 
  * <p>
- * Company:bluecore
+ * Company: ProperSoft
  * </p>
  * 
  * @author pangb 2012-02-12

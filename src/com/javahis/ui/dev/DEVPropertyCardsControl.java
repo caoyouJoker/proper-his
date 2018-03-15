@@ -11,7 +11,7 @@ import com.dongyang.data.TParm;
  *   
  * <p>Copyright: Copyright (c) 20131028</p>
  * 
- * <p>Company: BLUECORE </p>  
+ * <p>Company: ProperSoft </p>  
  *      
  * @author  fux  
  *  

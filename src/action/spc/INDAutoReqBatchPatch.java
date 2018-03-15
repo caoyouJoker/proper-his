@@ -25,7 +25,7 @@ import com.dongyang.jdo.TJDODBTool;
  * </p>
  * 
  * <p>
- * Copyright: bluecore (c) 2009
+ * Copyright: ProperSoft (c) 2009
  * </p>
  * 
  * <p>

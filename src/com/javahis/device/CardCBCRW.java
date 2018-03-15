@@ -6,10 +6,6 @@ import com.dongyang.data.TParm;
 
 /**
  * 建 行医疗卡驱动
- * 
- * @author lix@bluecore.com.cn
- * 
- * 
  */
 public class CardCBCRW {
 

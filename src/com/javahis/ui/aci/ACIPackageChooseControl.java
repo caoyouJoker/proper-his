@@ -16,7 +16,7 @@ import com.dongyang.ui.event.TTreeEvent;
  *
  * <p> Copyright: Copyright (c) 2014 </p>
  *
- * <p> Company: BlueCore </p>
+ * <p> Company: ProperSoft </p>
  *
  * @author WangLong 2014.01.07
  * @version 1.0

@@ -33,7 +33,7 @@ import com.javahis.util.OrderUtil;
  * </p>
  * 
  * <p>
- * Company: bluecore
+ * Company: ProperSoft
  * </p>
  * 
  * @author SHIBL

@@ -24,9 +24,9 @@ import jdo.sys.SystemTool;
  * 
  * <p> Description: 外科单病种查询 </p>
  * 
- * <p> Copyright: Bluecore </p>
+ * <p> Copyright: ProperSoft </p>
  * 
- * <p> Company:Bluecore </p>
+ * <p> Company: ProperSoft </p>
  * 
  * @author wanglong 20141223
  * @version 1.0

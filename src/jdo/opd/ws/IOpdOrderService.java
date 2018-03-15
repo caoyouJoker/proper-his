@@ -19,7 +19,7 @@ import javax.jws.WebService;
 * </p>
 *
 * <p>
-* Company:bluecore
+* Company: ProperSoft
 * </p>
 *
 * @author pangben 2013-5-20

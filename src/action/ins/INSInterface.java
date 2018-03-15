@@ -21,9 +21,9 @@ import java.io.FileOutputStream;
  *
  * <p>Description: 天津医保接口类(外部交互)</p>
  *
- * <p>Copyright: Copyright (c) BlueCore 2011</p>
+ * <p>Copyright: Copyright (c) ProperSoft 2011</p>
  *
- * <p>Company: BlueCore</p>
+ * <p>Company: ProperSoft</p>
  *
  * @author wangl 2011.12.07
  * @version 1.0

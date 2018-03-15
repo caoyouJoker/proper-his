@@ -3,7 +3,7 @@
 # 
 #  Description:设备计量字典操作module
 # 
-#  Copyright: BlueCore 2015
+#  Copyright: ProperSoft 2015
 # 
 #  author  wangjc 20150611
 #  version 1.0

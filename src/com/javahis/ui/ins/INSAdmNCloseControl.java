@@ -29,7 +29,7 @@ import com.dongyang.util.TypeTool;
  * </p>
  * 
  * <p>
- * Copyright: Copyright (c) bluecore
+ * Copyright: Copyright (c) ProperSoft
  * </p>
  * 
  * <p>

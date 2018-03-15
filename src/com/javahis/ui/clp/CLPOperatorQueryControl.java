@@ -18,9 +18,9 @@ import com.javahis.util.ExportExcelUtil;
  *
  * <p>Description:手术患者明细查询 </p>
  *
- * <p>Copyright: Copyright (c) blueCore</p>
+ * <p>Copyright: Copyright (c) ProperSoft</p>
  *
- * <p>Company: blueCore</p>
+ * <p>Company: ProperSoft</p>
  *
  * @author caowl 20121224
  * @version 1.0

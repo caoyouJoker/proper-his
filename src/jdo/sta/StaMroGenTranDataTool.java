@@ -28,7 +28,7 @@ import com.dongyang.util.FileTool;
  * </p>
  * 
  * <p>
- * Company: bluecore
+ * Company: ProperSoft
  * </p>
  * 
  * @author shibl

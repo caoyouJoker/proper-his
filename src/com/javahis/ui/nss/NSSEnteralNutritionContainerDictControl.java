@@ -29,7 +29,7 @@ import com.dongyang.ui.TTextField;
  * </p>
  * 
  * <p>
- * Company: Bluecore
+ * Company: ProperSoft
  * </p>
  * 
  * @author wangb 2015.3.13

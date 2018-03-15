@@ -5,8 +5,6 @@ import org.jawin.DispatchPtr;
 import org.jawin.win32.Ole32;
 /**
  * RFID桌面设备接口类
- * @author lix@bluecore.com.cn
- *
  */
 public class RFIDMidUtils {
 	public static DispatchPtr app = null;

@@ -34,7 +34,7 @@ import jdo.sys.Operator;
  * </p>
  *
  * <p>
- * Company:bluecore
+ * Company:ProperSoft
  * </p>
  *
  * @author pangb 2012-2-07

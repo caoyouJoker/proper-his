@@ -16,7 +16,7 @@ import jdo.spc.inf.dto.SpcOpdOrderReturnDto;
  *
  * <p>Copyright: Copyright (c) 2012</p>
  *
- * <p>Company: bluecore</p>
+ * <p>Company: ProperSoft</p>
  *
  *  @author  liyh
  * @version 1.0

@@ -15,9 +15,9 @@ import com.javahis.util.StringUtil;
  * 
  * <p> Description: 导览单报表数据准备类  </p>
  * 
- * <p> Copyright: Bluecore 20130730 </p>
+ * <p> Copyright: ProperSoft 20130730 </p>
  * 
- * <p> Company: Bluecore </p>
+ * <p> Company: ProperSoft </p>
  * 
  * @author wanglong
  * @version 1.0

@@ -49,11 +49,11 @@ import com.javahis.util.StringUtil;
  * Description: 物联网耗用记录
  * </p>
  * 
- * Copyright: Copyright (c) BlueCore 2013
+ * Copyright: Copyright (c) ProperSoft 2013
  * </p>
  * 
  * <p>
- * Company: BlueCore
+ * Company: ProperSoft
  * </p>
  * 
  * @author caowl

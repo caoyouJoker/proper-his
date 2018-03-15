@@ -29,7 +29,7 @@ import jdo.emr.EMRClassTool;
  * </p>
  * 
  * <p>
- * Company: Bluecore
+ * Company: ProperSoft
  * </p>
  * 
  * @author wanglong 2014.8.15

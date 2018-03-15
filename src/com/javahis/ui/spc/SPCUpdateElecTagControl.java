@@ -29,7 +29,7 @@ import com.dongyang.ui.TTextFormat;
  * </p>
  * 
  * <p>                   
- * Company: bluecore
+ * Company: ProperSoft
  * </p>  
  * 
  * @author liuzhen 2013.1.16

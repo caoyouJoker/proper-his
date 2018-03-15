@@ -22,7 +22,7 @@ import com.dongyang.util.StringTool;
  * </p>
  * 
  * <p>
- * Company: bluecore
+ * Company: ProperSoft
  * </p>
  * 
  * @author chenxi  2013.08.08

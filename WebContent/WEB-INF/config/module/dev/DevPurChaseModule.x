@@ -3,7 +3,7 @@
    #
    # Description:Çë¹º×÷Òµ
    #
-   # Copyright: bluecore (c) 2013
+   # Copyright: ProperSoft (c) 2013
    #
    # @author fux 2013/06/25 
 Module.item=insertM;insertD;updateM;updateD;deleteM;deleteD

@@ -21,11 +21,11 @@ import com.google.gson.reflect.TypeToken;
 
 /**
  * <p>
- * Title: 远程访问解析辅助
+ * Title: 杩滅▼璁块棶瑙ｆ瀽杈呭姪
  * </p>
  *
  * <p>
- * Description: 电子标签接口
+ * Description: 鐢靛瓙鏍囩鎺ュ彛
  * </p>
  *
  * <p>
@@ -33,7 +33,7 @@ import com.google.gson.reflect.TypeToken;
  * </p>
  *
  * <p>
- * Company:BlueCore
+ * Company: ProperSoft
  * </p>
  *
  * @author Yuanxm 2012.08.30
@@ -42,7 +42,7 @@ import com.google.gson.reflect.TypeToken;
 public class ParseXml {
 
 	/**
-	 * 解析 XML 为Map
+	 * 瑙ｆ瀽 XML 涓篗ap
 	 * @param xml
 	 * @return
 	 */
@@ -65,7 +65,7 @@ public class ParseXml {
 	}
 
 	/**
-	 * 解析json �?Map
+	 * 瑙ｆ瀽json 锟�?Map
 	 * @param json
 	 * @return
 	 */
@@ -115,7 +115,7 @@ public class ParseXml {
 		System.out.println("json=======:"+json);
 		Type type = new TypeToken<Map<String, Object>>() {
 		}.getType();
-		Map<String, Object> map2 = gson.fromJson("{\"Status\":\"10000\",\"ReturnObject\":\"\",\"Message\":\"发�?成功\"}", type);
+		Map<String, Object> map2 = gson.fromJson("{\"Status\":\"10000\",\"ReturnObject\":\"\",\"Message\":\"鍙戯拷?鎴愬姛\"}", type);
 		return (HashMap<String, Object>) map2;
 	}
 

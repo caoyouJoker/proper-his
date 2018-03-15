@@ -3,7 +3,7 @@
   #
   # Description:医保上传结算
   #
-  # Copyright: Bluecore(c) 2012
+  # Copyright: ProperSoft(c) 2012
   #
   # @author pangben 2012-2-3
   # @version 2.0

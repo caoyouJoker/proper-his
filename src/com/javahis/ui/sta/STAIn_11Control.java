@@ -28,7 +28,7 @@ import jdo.sys.SYSRegionTool;
  * </p>
  * 
  * <p>
- * Company: bluecore
+ * Company: ProperSoft
  * </p>
  * 
  * @author wanglong 2012.06.21

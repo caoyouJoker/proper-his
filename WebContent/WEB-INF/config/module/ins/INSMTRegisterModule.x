@@ -3,7 +3,7 @@
 # 
 #  Description:医保门特登记 审核 INS_MZMT_REGISTER 表module
 # 
-#  Copyright: Copyright (c) BlueCore 2011
+#  Copyright: Copyright (c) ProperSoft 2011
 # 
 #  author pangben 2012-1-13
 #  version 1.0

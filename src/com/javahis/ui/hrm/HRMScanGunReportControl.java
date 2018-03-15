@@ -29,7 +29,7 @@ import com.javahis.util.StringUtil;
  * 
  * <p> Copyright: Copyright (c) 2013 </p>
  * 
- * <p> Company:BlueCore </p>
+ * <p> Company: ProperSoft </p>
  * 
  * @author wanglong
  * @version 1.0

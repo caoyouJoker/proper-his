@@ -3,7 +3,7 @@
   #
   # Description:
   #
-  # Copyright: Bluecore (c) 2015
+  # Copyright: ProperSoft (c) 2015
   #
   # @author wangb 2015.5.17
  # @version 1.0

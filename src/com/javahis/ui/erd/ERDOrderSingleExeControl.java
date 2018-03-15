@@ -51,7 +51,7 @@ import com.tiis.ui.TiPanel;
  * 
  * <p> Copyright: Copyright (c) 2015 </p>
  * 
- * <p> Company: bluecore </p>
+ * <p> Company: ProperSoft </p>
  * 
  * @author wanglong 2015.04.07
  * @version 1.0

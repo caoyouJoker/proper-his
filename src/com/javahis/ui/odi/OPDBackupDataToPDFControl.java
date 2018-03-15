@@ -40,7 +40,7 @@ import com.itextpdf.text.pdf.*;
  * </p>
  *
  * <p>
- * Company: bluecore
+ * Company: ProperSoft
  * </p>
  *
  * @author wangjc

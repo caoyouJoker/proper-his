@@ -3,7 +3,7 @@
   #
   # Description:0点在院病人明细表
   #
-  # Copyright: Bluecore (c) 2016
+  # Copyright: ProperSoft (c) 2016
   #
   # @author wukai on 20160901
   # @version 1.0

@@ -20,11 +20,11 @@ import org.apache.http.util.EntityUtils;
 
 /**
  * <p>
- * Title: 辅助类
+ * Title: 杈呭姪绫�
  * </p>
  *
  * <p>
- * Description: 电子标签接口
+ * Description: 鐢靛瓙鏍囩鎺ュ彛
  * </p>
  *
  * <p>
@@ -32,7 +32,7 @@ import org.apache.http.util.EntityUtils;
  * </p>
  *
  * <p>
- * Company:BlueCore
+ * Company: ProperSoft
  * </p>
  *
  * @author Yuanxm 2012.08.30
@@ -44,18 +44,18 @@ public class HttpClientUtil {
 
 
 	/**
-	 * Get请求
+	 * Get璇锋眰
 	 * 
-	 * @param url     请求URL
+	 * @param url     璇锋眰URL
 	 * @return
 	 */
 	public static String get(String url) {
 		String body = null;
 		HttpClient httpClient = new DefaultHttpClient();
-		//return "{\"Status\":\"10000\",\"ReturnObject\":\"\",\"Message\":\"发送成功\"}";
+		//return "{\"Status\":\"10000\",\"ReturnObject\":\"\",\"Message\":\"鍙戦�佹垚鍔焅"}";
 		
 		try {
-			// Get请求
+			// Get璇锋眰
 			HttpGet httpget = new HttpGet(url);
 
 			if(Constant.parameters != null && Constant.parameters.size() >  0 ){
@@ -63,9 +63,9 @@ public class HttpClientUtil {
 				httpget.addHeader(Constant.parameters.get(1).getName(),Constant.parameters.get(1).getValue());
 				httpget.addHeader(Constant.parameters.get(2).getName(),  Constant.parameters.get(2).getValue());
 			}
-			// 发送请求
+			// 鍙戦�佽姹�
 			HttpResponse httpresponse = httpClient.execute(httpget);
-			// 获取返回数据
+			// 鑾峰彇杩斿洖鏁版嵁
 			if (httpresponse.getStatusLine().getStatusCode() == HttpStatus.SC_OK) {
 				HttpEntity entity = httpresponse.getEntity();
 				body = EntityUtils.toString(entity);
@@ -86,21 +86,21 @@ public class HttpClientUtil {
 	}
 
 	/**
-	 * Post请求
+	 * Post璇锋眰
 	 * 
-	 * @param url         请求URL
-	 * @param params      post请求json参数
+	 * @param url         璇锋眰URL
+	 * @param params      post璇锋眰json鍙傛暟
 	 * @return
 	 */
 	public static String post(String url, String params) {
 		String body = null;
 		HttpClient httpClient = new DefaultHttpClient();
 		
-		//return "{\"ObjectId\":\"业务ID\",\"LabelNo\":\"标签ID\",\"Label\":0,\"Harbor\":0,\"Station\":-1,\"Power\":100,\"Quantity\":100,\"Data\":\"原始协议数据\",\"Succeed\":true,\"Message\":\"其他信息\",\"ReceiveDate\":\"2012-5-2 12:50:22\",\"IsReceiveData\":true}";
+		//return "{\"ObjectId\":\"涓氬姟ID\",\"LabelNo\":\"鏍囩ID\",\"Label\":0,\"Harbor\":0,\"Station\":-1,\"Power\":100,\"Quantity\":100,\"Data\":\"鍘熷鍗忚鏁版嵁\",\"Succeed\":true,\"Message\":\"鍏朵粬淇℃伅\",\"ReceiveDate\":\"2012-5-2 12:50:22\",\"IsReceiveData\":true}";
 
 		
 		try {
-			// Post请求
+			// Post璇锋眰
 			HttpPost httppost = new HttpPost(url);
 			if(Constant.parameters != null && Constant.parameters.size() >  0 ){
 				httppost.addHeader( Constant.parameters.get(0).getName(),  Constant.parameters.get(0).getValue());
@@ -111,13 +111,13 @@ public class HttpClientUtil {
 			StringEntity stringEntity = new StringEntity(params, "utf-8");
 			stringEntity.setContentType("application/json");
 			stringEntity.setContentEncoding("utf-8");
-			// 设置参数
+			// 璁剧疆鍙傛暟
 			httppost.setEntity(stringEntity);
-			// 发送请求
+			// 鍙戦�佽姹�
 			HttpResponse httpresponse = httpClient.execute(httppost);
 
 			if (httpresponse.getStatusLine().getStatusCode() == HttpStatus.SC_OK) {
-				// 获取返回数据
+				// 鑾峰彇杩斿洖鏁版嵁
 				HttpEntity entity = httpresponse.getEntity();
 				InputStream  inputStream = entity.getContent(); 
             	char[] buffer = new char[(int)entity.getContentLength()];

@@ -11,7 +11,7 @@ import com.dongyang.db.TConnection;
  *
  * <p>Copyright: Copyright (c) 2009</p>
  *
- * <p>Company: bluecore</p>
+ * <p>Company: ProperSoft</p>
  *
  * @author pangben 20111107
  * @version 1.0

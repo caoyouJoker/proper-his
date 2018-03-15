@@ -20,7 +20,7 @@ import com.javahis.util.ExportExcelUtil;
  *  
  * <p> Description:¸ßÖµËÝÔ´ </p> 
  *  
- * <p> Copyright: Copyright (c) BLUECORE 2013 </p>
+ * <p> Copyright: Copyright (c) ProperSoft 2013 </p>
  * 
  * <p> Company:JavaHis </p>
  *  

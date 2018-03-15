@@ -10,9 +10,9 @@ import com.dongyang.util.TypeTool;
  *
  * <p>Description: 医保医院下拉区域:HOSP_TYPE:1 一级医院 2.二级医院 3.三级医院 4.三级专科医院 5.定点药店</p>
  *
- * <p>Copyright: Copyright (c) BlueCore 2011</p>
+ * <p>Copyright: Copyright (c) ProperSoft 2011</p>
  *
- * <p>Company: BlueCore</p>
+ * <p>Company: ProperSoft</p>
  *
  * @author pangb 2012.04.10
  * @version 4.0

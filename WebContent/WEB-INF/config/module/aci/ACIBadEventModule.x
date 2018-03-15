@@ -3,7 +3,7 @@
 # 
 #  Description:²»Á¼ÊÂ¼þmodule
 # 
-#  Copyright: Copyright (c) BlueCore 2012
+#  Copyright: Copyright (c) ProperSoft 2012
 # 
 #  author wanglong 2012.11.22
 #  version 1.0

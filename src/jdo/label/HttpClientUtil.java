@@ -28,11 +28,11 @@ import com.dongyang.jdo.TJDOTool;
 
 /**
  * <p>
- * Title: 辅助类
+ * Title: 杈呭姪绫�
  * </p>
  * 
  * <p>
- * Description: 新电子标签接口
+ * Description: 鏂扮數瀛愭爣绛炬帴鍙�
  * </p>
  * 
  * <p>
@@ -40,7 +40,7 @@ import com.dongyang.jdo.TJDOTool;
  * </p>
  * 
  * <p>
- * Company:BlueCore
+ * Company: ProperSoft
  * </p>
  * 
  * @author Yuanxm 2012.08.30
@@ -51,10 +51,10 @@ public class HttpClientUtil  extends TJDOTool  {
 	// private static HttpClient httpClient = new DefaultHttpClient();
 
 	/**
-	 * Get请求
+	 * Get璇锋眰
 	 * 
 	 * @param url
-	 *            请求URL
+	 *            璇锋眰URL
 	 * @return
 	 */
 	public static String get(String url) {
@@ -65,10 +65,10 @@ public class HttpClientUtil  extends TJDOTool  {
 		httpClient.getParams().setParameter(
 				CoreConnectionPNames.CONNECTION_TIMEOUT, 2000);
 		httpClient.getParams().setParameter(CoreConnectionPNames.SO_TIMEOUT,
-				600);// 数据传输时间60s
+				600);// 鏁版嵁浼犺緭鏃堕棿60s
 
 		try {
-			// Get请求
+			// Get璇锋眰
 			HttpGet httpget = new HttpGet(url);
 
 			if (Constant.parameters != null && Constant.parameters.size() > 0) {
@@ -79,9 +79,9 @@ public class HttpClientUtil  extends TJDOTool  {
 				httpget.addHeader(Constant.parameters.get(2).getName(),
 						Constant.parameters.get(2).getValue());
 			}
-			// 发�?请求
+			// 鍙戯拷?璇锋眰
 			HttpResponse httpresponse = httpClient.execute(httpget);
-			// 获取返回数据
+			// 鑾峰彇杩斿洖鏁版嵁
 			if (httpresponse.getStatusLine().getStatusCode() == HttpStatus.SC_OK) {
 				HttpEntity entity = httpresponse.getEntity();
 				body = EntityUtils.toString(entity);
@@ -98,19 +98,19 @@ public class HttpClientUtil  extends TJDOTool  {
 			}
 		}
 		long endTime = System.currentTimeMillis();
-		System.out.println("GET电子标签请求时间------------------"
+		System.out.println("GET鐢靛瓙鏍囩璇锋眰鏃堕棿------------------"
 				+ (endTime - startTime));
 		return body;
 
 	}
 
 	/**
-	 * Post请求
+	 * Post璇锋眰
 	 * 
 	 * @param url
-	 *            请求URL
+	 *            璇锋眰URL
 	 * @param params
-	 *            post请求json参数
+	 *            post璇锋眰json鍙傛暟
 	 * @return
 	 */
 	public static String post(String url, String json) {
@@ -120,7 +120,7 @@ public class HttpClientUtil  extends TJDOTool  {
 		httpClient.getParams().setParameter(
 				CoreConnectionPNames.CONNECTION_TIMEOUT, 2000);
 		httpClient.getParams().setParameter(CoreConnectionPNames.SO_TIMEOUT,
-				600);// 数据传输时间60s
+				600);// 鏁版嵁浼犺緭鏃堕棿60s
 		/**
 		long startTime = System.currentTimeMillis();
 		System.out.println("JSON------:"+json+"   URL---:"+url);
@@ -136,26 +136,26 @@ public class HttpClientUtil  extends TJDOTool  {
 			TParm parm = new TParm(TJDODBTool.getInstance().update(sql));
 		}catch (Exception e) {
 			// TODO: handle exception
-			System.out.println("保存日志数据出错");
+			System.out.println("淇濆瓨鏃ュ織鏁版嵁鍑洪敊");
 			e.printStackTrace() ;
 		}
 		
 		
 		try {
-			// Post请求
+			// Post璇锋眰
 			HttpPost httppost = new HttpPost(url);
 
 			StringEntity stringEntity = new StringEntity(json, "UTF-8");
 			stringEntity.setContentType("application/json");
 			stringEntity.setContentEncoding("utf-8");
 
-			// 设置参数
+			// 璁剧疆鍙傛暟
 			httppost.setEntity(stringEntity);
-			// 发送请求
+			// 鍙戦�佽姹�
 			HttpResponse httpresponse = httpClient.execute(httppost);
 
 			if (httpresponse.getStatusLine().getStatusCode() == HttpStatus.SC_OK) {
-				// 获取返回数据
+				// 鑾峰彇杩斿洖鏁版嵁
 				HttpEntity entity = httpresponse.getEntity();
 				InputStream inputStream = entity.getContent();
 				char[] buffer = new char[(int) entity.getContentLength()];
@@ -182,7 +182,7 @@ public class HttpClientUtil  extends TJDOTool  {
 		
 		/**
 		long endTime = System.currentTimeMillis();
-		System.out.println("POST电子标签请求时间------------------"
+		System.out.println("POST鐢靛瓙鏍囩璇锋眰鏃堕棿------------------"
 				+ (endTime - startTime));
 		 */
 		if (body != null && !body.equals("")) {
@@ -193,12 +193,12 @@ public class HttpClientUtil  extends TJDOTool  {
 	}
 	
 	/**
-	 * Post请求
+	 * Post璇锋眰
 	 * 
 	 * @param url
-	 *            请求URL
+	 *            璇锋眰URL
 	 * @param params
-	 *            post请求json参数
+	 *            post璇锋眰json鍙傛暟
 	 * @return
 	 */
 	public static String post(String url, String json,List<Map<String, Object>> list ) {
@@ -208,27 +208,27 @@ public class HttpClientUtil  extends TJDOTool  {
 		httpClient.getParams().setParameter(
 				CoreConnectionPNames.CONNECTION_TIMEOUT, 2000);
 		httpClient.getParams().setParameter(CoreConnectionPNames.SO_TIMEOUT,
-				600);// 数据传输时间60s
+				600);// 鏁版嵁浼犺緭鏃堕棿60s
 		 
 		
 		 
 
 		String status = "";
 		try {
-			// Post请求
+			// Post璇锋眰
 			HttpPost httppost = new HttpPost(url);
 
 			StringEntity stringEntity = new StringEntity(json, "UTF-8");
 			stringEntity.setContentType("application/json");
 			stringEntity.setContentEncoding("utf-8");
 
-			// 设置参数
+			// 璁剧疆鍙傛暟
 			httppost.setEntity(stringEntity);
-			// 发送请求
+			// 鍙戦�佽姹�
 			HttpResponse httpresponse = httpClient.execute(httppost);
 
 			if (httpresponse.getStatusLine().getStatusCode() == HttpStatus.SC_OK) {
-				// 获取返回数据
+				// 鑾峰彇杩斿洖鏁版嵁
 				HttpEntity entity = httpresponse.getEntity();
 				InputStream inputStream = entity.getContent();
 				char[] buffer = new char[(int) entity.getContentLength()];
@@ -241,11 +241,11 @@ public class HttpClientUtil  extends TJDOTool  {
 			}
 			 
 		} catch (UnsupportedEncodingException e) {
-			//不被支持的编码
+			//涓嶈鏀寔鐨勭紪鐮�
 			status = "unsupportedEncodingException";
 			e.printStackTrace();
 		} catch (ClientProtocolException e) {
-			//客户端提交给服务器的请求,不符合HTTP协议
+			//瀹㈡埛绔彁浜ょ粰鏈嶅姟鍣ㄧ殑璇锋眰,涓嶇鍚圚TTP鍗忚
 			status = "clientProtocolException";
 			e.printStackTrace();
 		} catch (ParseException e) {
@@ -253,7 +253,7 @@ public class HttpClientUtil  extends TJDOTool  {
 			status = "parseException";
 			e.printStackTrace();
 		} catch (IOException e) {
-			//流关闭异常
+			//娴佸叧闂紓甯�
 			status = "IOException";
 			e.printStackTrace();
 		} finally {
@@ -285,7 +285,7 @@ public class HttpClientUtil  extends TJDOTool  {
 				TParm parm = new TParm(TJDODBTool.getInstance().update(sql));
 			}catch (Exception e) {
 				// TODO: handle exception
-				System.out.println("保存日志数据出错");
+				System.out.println("淇濆瓨鏃ュ織鏁版嵁鍑洪敊");
 				e.printStackTrace() ;
 			}
 	 

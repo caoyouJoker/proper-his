@@ -15,11 +15,11 @@ import com.dongyang.ui.edit.TAttributeList.TAttribute;
  * </p>
  * 
  * <p>
- * Copyright: Copyright (c) BlueCore 2011
+ * Copyright: Copyright (c) ProperSoft 2011
  * </p>
  * 
  * <p>
- * Company: BlueCore
+ * Company: ProperSoft
  * </p>
  * 
  * @author pangb 2012.04.10

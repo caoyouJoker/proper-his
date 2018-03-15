@@ -22,7 +22,7 @@ import com.dongyang.util.TypeTool;
  * 
  * <p>Copyright: Copyright (c) 20130808</p>
  * 
- * <p>Company: BLUECORE </p>
+ * <p>Company: ProperSoft </p>
  *      
  * @author  fux 
  * 

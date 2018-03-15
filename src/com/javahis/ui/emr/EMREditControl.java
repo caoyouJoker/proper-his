@@ -35,9 +35,6 @@ import com.sun.awt.AWTUtilities;
 
 /**
  * ²¡³Ì¼ÇÂ¼±à¼­Æ÷
- * 
- * @author lix@bluecore.com.cn
- *
  */
 public class EMREditControl  extends TControl implements DMessageIO{
 	/**

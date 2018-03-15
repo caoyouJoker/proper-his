@@ -31,7 +31,7 @@ import jdo.ins.INSTJTool;
  *
  * <p>Description: 医保申报(医保科)</p>
  *
- * <p>Company: BlueCore</p>
+ * <p>Company: ProperSoft</p>
  */
 public class INSUpLoadYbkControl extends TControl {
     private String case_no; // 就诊号

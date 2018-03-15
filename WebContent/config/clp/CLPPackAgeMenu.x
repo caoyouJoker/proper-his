@@ -3,7 +3,7 @@
   #
   # Description: ÁÙ´²Â·¾¶Ì×²Í×Öµä
   #
-  # Copyright: bluecore (c) 2015
+  # Copyright: ProperSoft (c) 2015
   #
   # @author pangb 20150810
  # @version 1.0

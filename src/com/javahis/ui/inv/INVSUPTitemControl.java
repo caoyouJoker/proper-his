@@ -16,7 +16,7 @@ import jdo.inv.INVSQL;
  *
  * <p>Copyright: Copyright (c) 2008</p>
  *
- * <p>Company: bluecore</p>
+ * <p>Company: ProperSoft</p>
  *
  * @author wangm 2013-07-08
  * @version 1.0

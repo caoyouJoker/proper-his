@@ -30,7 +30,7 @@ import com.dongyang.util.StringTool;
  * </p>
  * 
  * <p>
- * Company: Bluecore
+ * Company: ProperSoft
  * </p>
  * 
  * @author caoyong 201402119

@@ -43,7 +43,7 @@ import com.javahis.system.textFormat.TextFormatSYSOperatorForReg;
  * </p>
  * 
  * <p>
- * Company:BlueCore
+ * Company: ProperSoft
  * </p>
  * 
  * @author pangben
