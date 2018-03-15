@@ -1200,6 +1200,9 @@ TextFormatOPEincision.Name=com.javahis.system.textFormat.TextFormatOPEincision
 TextFormatHRMRecruitContract.Name=com.javahis.system.textFormat.TextFormatHRMRecruitContract
 临床试验下拉菜单.Name=com.javahis.system.textFormat.TextFormatHRMRecruitContract
 
+TextFormatREGSpecialNumber.Name=com.javahis.system.textFormat.TextFormatREGSpecialNumber
+特殊号别下拉区域.Name=com.javahis.system.textFormat.TextFormatREGSpecialNumber
+
 excluded=sun.*;&
 	com.sun.*;&
 	org.omg.*;&
