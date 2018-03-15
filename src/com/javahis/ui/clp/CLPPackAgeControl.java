@@ -17,7 +17,7 @@ import com.dongyang.util.TypeTool;
  *
  * <p>Copyright: Copyright (c) 2015</p>
  *
- * <p>Company: bluecore</p>
+ * <p>Company: ProperSoft</p>
  *
  * @author pangben 2015-8-10
  * @version 1.0

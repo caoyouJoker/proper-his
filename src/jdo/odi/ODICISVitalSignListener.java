@@ -17,7 +17,7 @@ import javax.servlet.ServletContextListener;
  * </p>
  * 
  * <p>
- * Company: Bluecore
+ * Company: ProperSoft
  * </p>
  * 
  * @author wangbin 2015.04.25

@@ -19,11 +19,11 @@ import com.dongyang.jdo.TJDODBTool;
  * </p>
  * 
  * <p>
- * Copyright (c) BlueCore 2012
+ * Copyright (c) ProperSoft 2012
  * </p>
  * 
  * <p>
- * Company: BlueCore
+ * Company: ProperSoft
  * </p>
  * 
  * @author liuzhen 20121101

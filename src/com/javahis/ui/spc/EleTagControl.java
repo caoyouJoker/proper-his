@@ -27,7 +27,7 @@ import com.dongyang.control.TControl;
  *
  * <p>Copyright: Copyright (c) 2012</p>
  *
- * <p>Company: BlueCore</p>
+ * <p>Company: ProperSoft</p>
  *
  * @author Yuanxm
  * @version 1.0

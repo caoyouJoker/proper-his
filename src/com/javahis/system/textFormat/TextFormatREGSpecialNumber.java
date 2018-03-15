@@ -11,7 +11,7 @@ import com.dongyang.ui.edit.TAttributeList;
  *
  * <p>Description: 特殊号别下拉区域</p>
  *
- * <p>Company: bluecore</p>
+ * <p>Company: ProperSoft</p>
  *
  * @author huangtt20170619
  * @version 1.0

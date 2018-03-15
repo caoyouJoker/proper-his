@@ -3,7 +3,7 @@
   #
   # Description:验收入库-引入出货单
   #
-  # Copyright: bluecore (c) 2012
+  # Copyright: ProperSoft (c) 2012
   #
   # @author zhangy 2009-05-06
  # @version 1.0

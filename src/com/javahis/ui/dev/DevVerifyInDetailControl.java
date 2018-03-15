@@ -25,7 +25,7 @@ import com.dongyang.ui.TCheckBox;
  * 
  * <p>Copyright: Copyright (c) 20130412</p>
  * 
- * <p>Company: BLUECORE </p>
+ * <p>Company: ProperSoft </p>
  *  
  * @author  fux
  * 

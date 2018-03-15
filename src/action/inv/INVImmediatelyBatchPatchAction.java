@@ -30,7 +30,7 @@ import com.dongyang.jdo.TJDODBTool;
  * </p>
  * 
  * <p>
- * Copyright: bluecore (c) 2013
+ * Copyright: ProperSoft (c) 2013
  * </p>
  * 
  * <p> 

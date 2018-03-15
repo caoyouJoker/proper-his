@@ -1280,7 +1280,7 @@ public class EMRInformedConsentFormControl extends TControl {
 		sap.setCrypto(key, chain, null, PdfSignatureAppearance.VERISIGN_SIGNED);
 		sap.setReason("this is the reason");
 		sap.setLocation("this is the location");
-		sap.setContact("http://www.bluecore.com/");
+		sap.setContact("http://www.propersoft.cn/");
 		Image image = Image.getInstance(imgFile);
 		sap.setSignatureGraphic(image);		
 		//				sap.setCertificationLevel(PdfSignatureAppearance.NOT_CERTIFIED);

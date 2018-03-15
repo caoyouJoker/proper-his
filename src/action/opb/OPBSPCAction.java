@@ -21,7 +21,7 @@ import com.dongyang.data.TParm;
  * </p>
  * 
  * <p>
- * Company:bluecore
+ * Company:ProperSoft
  * </p>
  * 
  * @author zhangp 2013.5.9

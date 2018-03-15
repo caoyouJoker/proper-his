@@ -22,7 +22,7 @@ import com.dongyang.data.TParm;
  * </p>
  * 
  * <p>
- * Company:BlueCore
+ * Company: ProperSoft
  * </p>
  * 
  * @author pangben 2012.2.23

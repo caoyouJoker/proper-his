@@ -31,7 +31,7 @@ import com.javahis.ui.pha.PhaMainControl;
  * Copyright: Copyright (c) 2013
  * </p>
  * <p>
- * Company: bluecore
+ * Company: ProperSoft
  * </p>
  * 
  * @author not attributable

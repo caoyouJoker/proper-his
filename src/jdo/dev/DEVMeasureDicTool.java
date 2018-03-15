@@ -9,9 +9,9 @@ import com.dongyang.data.TParm;
  *
  * <p>Description: 设备计量字典工具类</p>
  *
- * <p>Copyright: BlueCore 2015</p>
+ * <p>Copyright: ProperSoft 2015</p>
  *
- * <p>Company: BlueCore </p>
+ * <p>Company: ProperSoft </p>
  *
  * @author wangjc
  * @version 1.0

@@ -3,7 +3,7 @@
   #
   # Description:µ„∆¿≤°¿˙—°‘Ò
   #
-  # Copyright: Bluecore (c) 2012
+  # Copyright: ProperSoft (c) 2012
   #
   # @author zhangp
   # @version 1.0

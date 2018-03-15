@@ -16,7 +16,7 @@ import java.io.Serializable;
  * </p>
  * 
  * <p>
- * Company: Bluecore
+ * Company: ProperSoft
  * </p>
  * 
  * @author zhangp

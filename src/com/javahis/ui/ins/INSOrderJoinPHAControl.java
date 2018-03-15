@@ -28,7 +28,7 @@ import com.dongyang.ui.event.TTableEvent;
  * </p>
  * 
  * <p>
- * Company: Bluecore
+ * Company: ProperSoft
  * </p>
  * 
  * @author pangb 2012-1-20

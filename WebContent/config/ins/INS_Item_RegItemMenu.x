@@ -3,7 +3,7 @@
   #
   # Description:诊疗项目备案新增上传管理
   #
-  # Copyright: Bluecore (c) 2014
+  # Copyright: ProperSoft (c) 2014
   #
   # @author zhangs
   # @version 1.0

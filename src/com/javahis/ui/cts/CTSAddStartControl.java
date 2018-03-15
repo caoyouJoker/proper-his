@@ -23,7 +23,7 @@ import com.dongyang.manager.TIOM_AppServer;
  * </p>
  * 
  * <p>
- * Company: Bluecore
+ * Company: ProperSoft
  * </p>
  * implements MessageListener
  * @author huangtt 20140311

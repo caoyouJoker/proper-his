@@ -11,7 +11,7 @@ import com.dongyang.jdo.TJDOTool;
 *
 * <p>Copyright: Copyright (c) 
 *
-* <p>Company: BlueCore</p>
+* <p>Company: ProperSoft</p>
 *
 * @author pangb 2012-2-4
 * @version 4.0

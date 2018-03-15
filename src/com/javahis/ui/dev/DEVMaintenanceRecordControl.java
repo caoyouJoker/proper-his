@@ -26,11 +26,11 @@ import com.dongyang.ui.TWord;
  * Description: 设备保养记录单
  * </p>
  * <p>
- * Copyright: BlueCore 2015
+ * Copyright: ProperSoft 2015
  * </p>
  * 
  * <p>
- * Company:BlueCore
+ * Company: ProperSoft
  * </p>
  * 
  * @author wangjc

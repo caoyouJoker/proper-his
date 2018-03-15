@@ -22,7 +22,7 @@ import com.dongyang.ui.TTreeNode;
  * </p>
  * 
  * <p>
- * Company: BlueCore
+ * Company: ProperSoft
  * </p>
  * 
  * @author pangben 2011-12-09

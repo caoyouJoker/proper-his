@@ -3,7 +3,7 @@
 # 
 #  Description:ºÏ≤È…Í«Îµ•¥Ú”°Menu
 # 
-#  Copyright: Copyright (c) Bluecore 2015
+#  Copyright: Copyright (c) ProperSoft 2015
 # 
 #  author wanglong 2015.02.27
 #  version 1.0

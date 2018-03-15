@@ -3,7 +3,7 @@
 # 
 #  Description:½¡¿µ¼ì²éÒ½Öömodule
 # 
-#  Copyright: Copyright (c) bluecore 2012
+#  Copyright: Copyright (c) ProperSoft 2012
 # 
 #  author pangb 2013.03.10
 #  version 4.0

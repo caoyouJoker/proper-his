@@ -50,7 +50,7 @@ import com.javahis.util.StringUtil;
  * </p>
  *
  * <p>
- * Company: BLUECORE
+ * Company: ProperSoft
  * </p>
  *
  * @author chenx 2013.07.19

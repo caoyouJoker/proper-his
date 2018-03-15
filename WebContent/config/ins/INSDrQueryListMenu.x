@@ -3,7 +3,7 @@
 #
 # Title:门特处方查询
 #
-# Company:BlueCore
+# Company: ProperSoft
 #
 # Author:wangl 2012.02.17
 #

@@ -3,7 +3,7 @@
   #
   # Description:取消入院查询表
   #
-  # Copyright: Bluecore (c) 2016
+  # Copyright: ProperSoft (c) 2016
   #
   # @author wukai on 20160831
   # @version 1.0

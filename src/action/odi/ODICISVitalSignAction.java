@@ -22,7 +22,7 @@ import com.dongyang.db.TConnection;
  * </p>
  * 
  * <p>
- * Company: Bluecore
+ * Company: ProperSoft
  * </p>
  * 
  * @author wangbin 2015.4.27
@@ -58,7 +58,7 @@ public class ODICISVitalSignAction extends TAction {
 		int count = insertParm.getCount("CASE_NO");
 		
 		for (int i = 0; i < count; i++) {
-			insertParm.setData("OPT_USER", i, "BLUECORE");
+			insertParm.setData("OPT_USER", i, "PROPERSOFT");
 			insertParm.setData("OPT_TERM", i, "127.0.0.1");
 			insertParm.setData("MONITOR_TIME", i, insertParm.getValue(
 					"MONITOR_TIME", i).replaceAll("-", "").replaceAll(":", "")
@@ -138,7 +138,7 @@ public class ODICISVitalSignAction extends TAction {
 		int count = insertParm.getCount("MR_NO");
 		
 		for (int i = 0; i < count; i++) {
-			insertParm.setData("OPT_USER", i, "BLUECORE");
+			insertParm.setData("OPT_USER", i, "PROPERSOFT");
 			insertParm.setData("OPT_TERM", i, "127.0.0.1");
 			insertParm.setData("MONITOR_TIME", i, insertParm.getValue(
 					"MONITOR_TIME", i).replaceAll("-", "").replaceAll(":", "")

@@ -52,7 +52,7 @@ import com.javahis.util.JXLReadExcelUtil;
  * </p>
  * 
  * <p>
- * Company:bluecore
+ * Company: ProperSoft
  * </p>
  * 
  * @author pangb 2012-5-6

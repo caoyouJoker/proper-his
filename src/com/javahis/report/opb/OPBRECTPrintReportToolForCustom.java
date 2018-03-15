@@ -8,9 +8,9 @@ import com.javahis.util.IReport;
  * 
  * <p> Description: 门诊收据数据准备类  </p>
  * 
- * <p> Copyright: Bluecore 20130730 </p>
+ * <p> Copyright: ProperSoft 20130730 </p>
  * 
- * <p> Company: Bluecore </p>
+ * <p> Company: ProperSoft </p>
  * 
  * @author wanglong
  * @version 1.0

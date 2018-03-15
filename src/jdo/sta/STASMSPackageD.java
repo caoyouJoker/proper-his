@@ -12,7 +12,7 @@ import com.dongyang.jdo.TJDODBTool;
 *
 * <p>Copyright: Copyright (c) 2014 </p>
 *
-* <p>Company: BlueCore </p>
+* <p>Company: ProperSoft </p>
 *
 * @author wangbin 2014.07.15
 * @version 1.0

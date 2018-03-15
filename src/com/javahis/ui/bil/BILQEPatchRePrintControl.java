@@ -34,7 +34,7 @@ import com.tiis.util.TiMath;
  *
  * <p>Description:  QÒ½ÅúÁ¿²¹Æ±</p>
  *
- * <p>Company: BlueCore</p>
+ * <p>Company: ProperSoft</p>
  *
  * @author huangtt 2016026
  * @version 1.0

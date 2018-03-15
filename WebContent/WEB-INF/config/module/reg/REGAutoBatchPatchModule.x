@@ -2,7 +2,7 @@
 #  Title:# 黑名单夜间批次
 #  Description:黑名单夜间批次
 # 
-#  Copyright: Copyright (c) # bluecore
+#  Copyright: Copyright (c) # ProperSoft
 #  author caowl
 #  version 1.0
 #

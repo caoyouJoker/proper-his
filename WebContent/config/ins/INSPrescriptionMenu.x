@@ -3,7 +3,7 @@
 #
 # Title:Õ‚π∫¥¶∑Ω
 #
-# Company:BlueCore
+# Company: ProperSoft
 #
 # Author:yufh 2014.04.08
 #

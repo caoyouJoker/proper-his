@@ -34,7 +34,7 @@ import com.dongyang.util.TypeTool;
  * </p>
  * 
  * <p>
- * Company:bluecore
+ * Company: ProperSoft
  * </p>
  * 
  * @author yanmm 2017/5/12

@@ -3,7 +3,7 @@
 # 
 #  Description:¡Ÿ¥≤
 # 
-#  Copyright: Copyright (c) bluecore 2015
+#  Copyright: Copyright (c) ProperSoft 2015
 # 
 #  author pangben 2015-8-10
 #  version 1.0

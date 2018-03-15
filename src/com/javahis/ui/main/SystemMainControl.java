@@ -150,7 +150,7 @@ public class SystemMainControl extends TControl{
         treeRoot = (TTreeNode)callMessage("UI|" + TREE + "|getRoot");
         if(treeRoot == null)
             return;
-        treeRoot.setText("BlueCore");
+        treeRoot.setText("∆’»’“Ω¡∆");
         treeRoot.setGroup("ROOT");
         treeRoot.setID("SYS_SUBSYSTEM");
         treeRoot.setType("PATH");

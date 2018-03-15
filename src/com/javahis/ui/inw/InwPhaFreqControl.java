@@ -18,11 +18,11 @@ import com.dongyang.util.StringTool;
  * </p>
  * 
  * <p>
- * Copyright: Copyright (c) 2013 bluecore
+ * Copyright: Copyright (c) 2013 ProperSoft
  * </p>
  * 
  * <p>
- * Company: bluecore
+ * Company: ProperSoft
  * </p>
  * 
  * @author shibl

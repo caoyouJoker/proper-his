@@ -4,8 +4,6 @@ import java.io.ByteArrayOutputStream;
 
 /**
  * 
- * @author lix@bluecore.com.cn
- *
  */
 public class Uitltool {
 	

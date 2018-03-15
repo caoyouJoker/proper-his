@@ -11,7 +11,7 @@ import javax.jws.WebService;
  *
  * <p>Copyright: Copyright (c) 2013</p>
  *
- * <p>Company: BlueCore</p>
+ * <p>Company: ProperSoft</p>
  *
  * @author caowl 2013-7-31
  * @version 4.0

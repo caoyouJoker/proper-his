@@ -3,7 +3,7 @@
 #
 # Title:医保申报
 #
-# Company:BlueCore
+# Company: ProperSoft
 #
 # Author:王亮 2012.02.10
 #

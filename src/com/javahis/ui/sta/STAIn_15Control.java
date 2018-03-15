@@ -28,7 +28,7 @@ import jdo.bil.BILComparator;
  *
  * <p>Copyright: Copyright (c) 2013 </p>
  *
- * <p>Company:BlueCore </p>
+ * <p>Company: ProperSoft </p>
  *
  * @author WangLong 20131008
  * @version 1.0

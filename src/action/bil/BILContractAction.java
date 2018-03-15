@@ -22,9 +22,9 @@ import com.dongyang.util.StringTool;
  *
  * <p>Description:合同单位action </p>
  *
- * <p>Copyright: Copyright (c) bluecore</p>
+ * <p>Copyright: Copyright (c) ProperSoft</p>
  *
- * <p>Company:bluecore </p>
+ * <p>Company:ProperSoft </p>
  *
  * @author caowl 20130114
  * @version 1.0

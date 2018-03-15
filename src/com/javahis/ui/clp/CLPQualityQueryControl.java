@@ -26,9 +26,9 @@ import com.javahis.util.ExportExcelUtil;
  *
  * <p>Description:临床路径患者治疗质量查询 </p>
  *
- * <p>Copyright: Copyright (c) blueCore</p>
+ * <p>Copyright: Copyright (c) ProperSoft</p>
  *
- * <p>Company: blueCore</p>
+ * <p>Company: ProperSoft</p>
  *
  * @author  fux 20121228
  * @version 4.0

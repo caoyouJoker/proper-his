@@ -19,7 +19,7 @@ import com.dongyang.ui.edit.TAttributeList.TAttribute;
  * </p>
  * 
  * <p>
- * Company: bluecore
+ * Company: ProperSoft
  * </p>
  * 
  * @author lij 20170509

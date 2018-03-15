@@ -14,7 +14,7 @@ import com.dongyang.util.TypeTool;
  *
  * <p>Description: 临床试验下拉区域</p>
  *
- * <p>Company: Bluecore</p>
+ * <p>Company: ProperSoft</p>
  *
  * @author guangl 201606012
  * @version 1.0

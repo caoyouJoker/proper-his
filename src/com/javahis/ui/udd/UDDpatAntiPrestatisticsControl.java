@@ -30,7 +30,7 @@ import com.javahis.util.ExportExcelUtil;
  * </p>
  * 
  * <p>
- * Copyright: Bluecore
+ * Copyright: ProperSoft
  * </p>
  * 
  * <p>

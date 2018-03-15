@@ -32,7 +32,7 @@ import com.dongyang.manager.TCM_Transform;
  * </p>
  * 
  * <p>
- * Company: bluecore
+ * Company: ProperSoft
  * </p>
  * 
  * @author shibl

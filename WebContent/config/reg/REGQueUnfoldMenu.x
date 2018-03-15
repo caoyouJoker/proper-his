@@ -3,7 +3,7 @@
   #
   # Description:医师增加诊号
   #
-  # Copyright: Bluecore (c) 2013
+  # Copyright: ProperSoft (c) 2013
   #
   # @author huangtt   
   # @version 1.0

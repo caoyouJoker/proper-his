@@ -34,9 +34,9 @@ import com.javahis.util.OdiUtil;
  *
  * <p>Description: 物联网耗用记录</p>
  *
- * <p>Copyright: Copyright (c) BlueCore 2013</p>
+ * <p>Copyright: Copyright (c) ProperSoft 2013</p>
  *
- * <p>Company: BlueCore</p> 
+ * <p>Company: ProperSoft</p> 
  *
  * @author caowl
  * @version 1.0

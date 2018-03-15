@@ -26,9 +26,9 @@ import com.javahis.util.StringUtil;
  *
  * <p>Description: 物联网物资溯源报表</p>
  *
- * <p>Copyright: Copyright (c) BlueCore 2013</p>
+ * <p>Copyright: Copyright (c) ProperSoft 2013</p>
  *
- * <p>Company: BlueCore</p>
+ * <p>Company: ProperSoft</p>
  *
  * @author duzhw
  * @version 1.0

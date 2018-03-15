@@ -3,7 +3,7 @@
   #
   # Description:手术套餐设定
   #
-  # Copyright: bluecore (c) 2015
+  # Copyright: ProperSoft (c) 2015
   #
   # @author wanglong
  # @version 1.0

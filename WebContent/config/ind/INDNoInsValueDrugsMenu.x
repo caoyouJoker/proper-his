@@ -3,7 +3,7 @@
   #
   # Description: 非医保贵重药品重点监测品种
   #
-  # Copyright: Bluecore (c) 2016
+  # Copyright: ProperSoft (c) 2016
   #
   # @author wukai on 20161026
   # @version 1.0

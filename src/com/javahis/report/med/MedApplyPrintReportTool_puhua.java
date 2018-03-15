@@ -9,7 +9,7 @@ import com.javahis.util.IReport;
  * 
  * <p> Copyright: 2014 </p>
  * 
- * <p> Company: BlueCore </p>
+ * <p> Company: ProperSoft </p>
  * 
  * @author wanglong 20141010
  * @version 1.0

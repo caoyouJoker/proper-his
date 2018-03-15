@@ -3,7 +3,7 @@
 # 
 #  Description:主库部门设定module
 # 
-#  Copyright: Copyright (c) bluecore 2013
+#  Copyright: Copyright (c) ProperSoft 2013
 # 
 #  author fux 20130723 
 #  version 1.0

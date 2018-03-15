@@ -11,9 +11,9 @@ import com.dongyang.jdo.TJDODBTool;
  *
  * <p>Description: 医保门特处方查询控制类</p>
  *
- * <p>Copyright: Copyright (c) BlueCore 2011</p>
+ * <p>Copyright: Copyright (c) ProperSoft 2011</p>
  *
- * <p>Company: BlueCore</p>
+ * <p>Company: ProperSoft</p>
  *
  * @author wangl 2012.02.17
  * @version 1.0

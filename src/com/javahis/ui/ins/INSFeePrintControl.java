@@ -42,7 +42,7 @@ import com.tiis.util.TiMath;
  * </p>
  * 
  * <p>
- * Company:BlueCore
+ * Company: ProperSoft
  * </p>
  * 
  * @author pangb 2012.03.29

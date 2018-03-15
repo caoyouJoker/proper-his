@@ -30,7 +30,7 @@ import com.dongyang.util.StringTool;
  *
  * <p>Copyright: Copyright (c) 2008</p>
  *
- * <p>Company:bluecore </p>
+ * <p>Company: ProperSoft </p>
  *
  * @author duzhw 2013.12.30
  * @version 1.0

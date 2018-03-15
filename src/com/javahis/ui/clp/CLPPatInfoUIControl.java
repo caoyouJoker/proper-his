@@ -13,7 +13,7 @@ import com.dongyang.ui.event.TTableEvent;
  * 
  * <p> Copyright: Copyright (c) 2012 </p>
  * 
- * <p> Company: BlueCore </p>
+ * <p> Company: ProperSoft </p>
  * 
  * @author WangLong 20120926
  * @version 1.0

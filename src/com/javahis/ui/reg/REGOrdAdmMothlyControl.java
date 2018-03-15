@@ -19,7 +19,7 @@ import com.javahis.util.StringUtil;
 *
 * <p>Copyright: Copyright (c) </p>
 *
-* <p>Company:bluecore </p>
+* <p>Company: ProperSoft </p>
 *
 * @author huangtt 20131104
 * @version 1.0

@@ -24,7 +24,7 @@ import com.dongyang.util.StringTool;
  * 
  * Description:门诊对账：查询病患信息
  * 
- * Copyright: BlueCore (c) 2011
+ * Copyright: ProperSoft (c) 2011
  * 
  * @author pangben 2012-1-8
  * @version 2.0

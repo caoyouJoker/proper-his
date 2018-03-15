@@ -13,9 +13,9 @@ import com.dongyang.util.TypeTool;
  *
  * <p>Description: 记账单位下拉区域</p>
  *
- * <p>Copyright: Copyright (c) bluecore</p>
+ * <p>Copyright: Copyright (c) ProperSoft</p>
  *
- * <p>Company: bluecore</p>
+ * <p>Company: ProperSoft</p>
  *
  * @author caowl 20130117
  * @version 1.0

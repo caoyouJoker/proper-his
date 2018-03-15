@@ -26,7 +26,7 @@ import com.javahis.ui.spc.util.StringUtils;
  *
  * <p>Copyright: Copyright (c) 2017</p>
  *
- * <p>Company:bluecore </p>
+ * <p>Company: ProperSoft </p>
  *
  * @author zhanglei 
  * @version 5.0

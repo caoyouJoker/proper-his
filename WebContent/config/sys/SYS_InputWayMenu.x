@@ -3,7 +3,7 @@
   #
   # Description: Â¼ÈëÍ¾¾¶Î¬»¤
   #
-  # Copyright: Bluecore (c) 2017
+  # Copyright: ProperSoft (c) 2017
   #
   # @author liuyalin on 20170406
   # @version 1.0

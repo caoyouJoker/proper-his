@@ -31,4 +31,4 @@ tLabel_0.AutoX=Y
 tLabel_0.AutoY=Y
 tLabel_0.AutoWidth=Y
 tLabel_0.AutoHeight=Y
-tLabel_0.PictureName=bgimg.GIF
+tLabel_0.PictureName=bgimg.jpg

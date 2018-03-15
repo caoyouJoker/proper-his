@@ -17,7 +17,7 @@ import com.dongyang.ui.edit.TAttributeList;
  * </p>
  * 
  * <p>
- * Company: bluecore
+ * Company: ProperSoft
  * </p>
  * 
  * @author lij 201170418

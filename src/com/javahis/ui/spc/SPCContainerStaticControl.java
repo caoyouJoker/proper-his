@@ -54,11 +54,11 @@ import com.dongyang.ui.TTextField;
  * </p>
  * 
  * <p>
- * Copyright (c) BlueCore 2012
+ * Copyright (c) ProperSoft 2012
  * </p>
  * 
  * <p>
- * Company: BlueCore
+ * Company: ProperSoft
  * </p>
  * 
  * @author liyh 20121110

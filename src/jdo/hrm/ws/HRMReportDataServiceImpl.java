@@ -23,7 +23,7 @@ import com.dongyang.jdo.TJDODBTool;
  * </p>
  * 
  * <p>
- * Company: Bluecore
+ * Company: ProperSoft
  * </p>
  * 
  * @author wangb 2017.2.16

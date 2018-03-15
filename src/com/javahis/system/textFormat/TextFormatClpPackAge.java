@@ -12,7 +12,7 @@ import com.dongyang.util.TypeTool;
  *
  * <p>Copyright: Copyright (c) pangben 2015</p>
  *
- * <p>Company: bluecore</p>
+ * <p>Company: ProperSoft</p>
  *
  * @author pangben 20150810
  * @version 1.0

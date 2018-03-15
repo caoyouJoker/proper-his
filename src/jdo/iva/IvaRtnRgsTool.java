@@ -15,11 +15,11 @@ import com.dongyang.jdo.TJDOTool;
  * </p>
  * 
  * <p>
- * Copyright: BlueCore
+ * Copyright: ProperSoft
  * </p>
  * 
  * <p>
- * Company: BlueCore
+ * Company: ProperSoft
  * 
  * @author wangjc 20150509
  * @version 1.0

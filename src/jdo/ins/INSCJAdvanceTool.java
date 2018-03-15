@@ -9,9 +9,9 @@ import com.dongyang.jdo.TJDODBTool;
  *
  * <p>Description: 城居垫付申报工具类</p>
  *
- * <p>Copyright: Copyright (c) BlueCore 2011</p>
+ * <p>Copyright: Copyright (c) ProperSoft 2011</p>
  *
- * <p>Company: BlueCore</p>
+ * <p>Company: ProperSoft</p>
  *
  * @author wangl 2012.02.14
  * @version 1.0

@@ -1,5 +1,5 @@
 FileServer.Main.IP=127.0.0.1
-FileServer.Main.Root=D:\JavaHisFile
+FileServer.Main.Root=C:\JavaHisFile
 
 //         PIC Config
 PatInfPIC.LocalPath=C:\JavaHis\Temp
@@ -21,7 +21,7 @@ EmrLocalTempFileName=Ä£°æÎÄ¼þ
 UDD_DISBATCH_LocalPath=C:\JavaHis\logs
 
 //         JavaCTool Config
-JavaCTool.JavaHome=C:\Program Files (x86)\Java\jdk1.6.0_10
+JavaCTool.JavaHome=C:\Program Files (x86)\Java\jdk1.6.0_45
 JavaCTool.SourcePath=C:\Tomcat 8.0\webapps\web\common\src
 JavaCTool.OutPath=C:\Tomcat 8.0\webapps\web\common\classes
 JavaCTool.ClassPath=C:\Tomcat 8.0\webapps\web\common\lib\T40-api.jar;C:\Tomcat 8.0\webapps\web\common\classes

@@ -8,7 +8,7 @@ import javax.jws.WebService;
  *
  * <p>Copyright: Copyright (c) 2008</p>
  *
- * <p>Company: BlueCore</p>
+ * <p>Company: ProperSoft</p>
  *
  * @author chenxi 20130805
  * @version 4.0

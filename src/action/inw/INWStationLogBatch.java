@@ -18,7 +18,7 @@ import jdo.sta.STAStationDailyTool;
  *
  * <p>Copyright: Copyright (c) 2013</p>
  *
- * <p>Company: BlueCore</p>
+ * <p>Company: ProperSoft</p>
  *
  * @author wanglong 2013.06.06
  * @version 1.0

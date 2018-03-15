@@ -3,7 +3,7 @@
 # 
 #  Description:物联网耗用记录module
 # 
-#  Copyright: Copyright (c) bluecore
+#  Copyright: Copyright (c) ProperSoft
 # 
 #  author caowl 20130521
 #  version 1.0

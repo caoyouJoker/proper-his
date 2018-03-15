@@ -3,7 +3,7 @@
   #
   # Description: º‡≤‚“©∆∑Œ¨ª§
   #
-  # Copyright: Bluecore (c) 2016
+  # Copyright: ProperSoft (c) 2016
   #
   # @author wukai on 20170122
   # @version 1.0

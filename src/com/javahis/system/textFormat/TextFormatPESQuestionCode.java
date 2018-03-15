@@ -11,7 +11,7 @@ import com.dongyang.util.TypeTool;
  *
  * <p>Description: 处方点评问题代码下拉区域</p>
  *
- * <p>Company: Bluecore</p>
+ * <p>Company: ProperSoft</p>
  *
  * @author zhangp 2012.10.20
  * @version 1.0

@@ -20,7 +20,7 @@ import com.dongyang.db.TConnection;
  * </p>
  *
  * <p>
- * Company: BLUECORE
+ * Company: ProperSoft
  * </p>
  *
  * @author fuwj 2012.12.19

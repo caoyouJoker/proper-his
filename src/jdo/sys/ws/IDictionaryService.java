@@ -19,7 +19,7 @@ import com.thoughtworks.xstream.XStream;
  *
  * <p>Copyright: Copyright (c) 2008</p>
  *
- * <p>Company: BlueCore</p>
+ * <p>Company: ProperSoft</p>
  *
  * @author li.xiang 2013-04-29
  * @version 4.0

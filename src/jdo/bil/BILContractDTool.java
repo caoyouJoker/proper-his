@@ -20,7 +20,7 @@ import com.dongyang.jdo.TJDOTool;
  * </p>
  * 
  * <p>
- * Company: bluecore
+ * Company: ProperSoft
  * </p>
  * 
  * @author caowl

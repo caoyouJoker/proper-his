@@ -31,7 +31,7 @@ import com.javahis.util.ExportExcelUtil;
 * </p>
 *
 * <p>
-* Company: BlueCore
+* Company: ProperSoft
 * </p>
 *
 * @author  Huangtt 2013.05.06

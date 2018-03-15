@@ -25,11 +25,11 @@ import com.javahis.util.StringUtil;
  * </p>
  * 
  * <p>
- * Copyright (c) BlueCore 2015
+ * Copyright (c) ProperSoft 2015
  * </p>
  * 
  * <p>
- * Company: BlueCore
+ * Company: ProperSoft
  * </p>
  * 
  * @author wangjc 20150211

@@ -19,9 +19,9 @@ import com.dongyang.util.TypeTool;
 *
 * <p>Description: 合同单位预交金工具</p>
 *
-* <p>Copyright: Copyright (c) bluecore</p>
+* <p>Copyright: Copyright (c) ProperSoft</p>
 *
-* <p>Company: bluecore</p>
+* <p>Company: ProperSoft</p>
 *
 * @author caowl
 * @version 1.0

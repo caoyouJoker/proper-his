@@ -24,7 +24,7 @@ import jdo.sys.Operator;
  *
  * <p>Copyright: Copyright (c) 2008</p>
  *
- * <p>Company: bluecore</p>
+ * <p>Company: ProperSoft</p>
  *
  * @author liyh 20121011
  * @version 1.0

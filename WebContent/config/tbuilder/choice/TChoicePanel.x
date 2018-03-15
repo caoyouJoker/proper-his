@@ -115,7 +115,7 @@ REGION.ParmMap=id:ID;name:NAME
 REGION.Action=
 
 BK.type=TLabel
-BK.IconName=%ROOT%\image\bgimg.gif
+BK.IconName=%ROOT%\image\bgimg.jpg
 BK.x=0
 BK.y=0
 BK.width=655

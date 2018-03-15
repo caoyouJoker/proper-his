@@ -24,11 +24,11 @@ import com.javahis.util.ExportExcelUtil;
  * </p>   
  * 
  * <p>
- * Copyright: Bluecore
+ * Copyright: ProperSoft
  * </p>
  *    
  * <p>
- * Company:Bluecore
+ * Company: ProperSoft
  * </p>
  * 
  * @author yanjing

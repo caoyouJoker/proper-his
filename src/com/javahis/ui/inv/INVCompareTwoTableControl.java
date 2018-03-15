@@ -33,7 +33,7 @@ import com.javahis.util.StringUtil;
  * </p>
  * 
  * <p>
- * Company: bluecore     
+ * Company: ProperSoft     
  * </p>
  * 
  * @author chenxi  2013.08.07

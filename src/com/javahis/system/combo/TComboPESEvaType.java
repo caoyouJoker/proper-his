@@ -11,7 +11,7 @@ import com.dongyang.ui.edit.TAttributeList;
  *
  * <p>Copyright: Copyright (c) Liu dongyang 2012</p>
  *
- * <p>Company: Bluecore</p>
+ * <p>Company: ProperSoft</p>
  *
  * @author zhangp 2012.8.2
  * @version 1.0

@@ -22,7 +22,7 @@ import com.dongyang.util.StringTool;
  *
  * <p>Description:医师增加诊号 </p>
  *
- * <p>Copyright: bluecore </p>
+ * <p>Copyright: ProperSoft </p>
  *
  * <p>Company:javahis </p>
  *

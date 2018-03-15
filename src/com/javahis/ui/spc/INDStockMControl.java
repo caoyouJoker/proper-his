@@ -36,11 +36,11 @@ import com.javahis.util.StringUtil;
  * </p>
  * 
  * <p>
- * Copyright: Copyright (c) bluecore 2011
+ * Copyright: Copyright (c) ProperSoft 2011
  * </p>
  * 
  * <p>
- * Company: bluecore
+ * Company: ProperSoft
  * </p>
  * 
  * @author liyh

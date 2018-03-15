@@ -19,7 +19,7 @@ import com.dongyang.jdo.TJDOTool;
  * </p>
  * 
  * <p>
- * Company: BLUECORE
+ * Company: ProperSoft
  * </p>
  * 
  * @author YUANXM 2013.04.22

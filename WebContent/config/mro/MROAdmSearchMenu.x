@@ -5,7 +5,7 @@
 #
 # <p>Copyright: Copyright (c) 2012</p>
 #
-# <p>Company: bluecore</p>
+# <p>Company: ProperSoft</p>
 #
 # @author pangben 2012.05.06
 # @version 4.0

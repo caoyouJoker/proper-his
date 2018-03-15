@@ -3,7 +3,7 @@
 #
 # Description:∆’Õ®“©…œº‹menu
 #
-# Copyright: BlueCore (c) 2012
+# Copyright: ProperSoft (c) 2012
 #
 # @author wangzl
 # @version 1.0

@@ -10,7 +10,7 @@ import java.util.Date;
 *
 * <p>Copyright: Copyright (c) caoyong 20131227/p>
 *
-* <p>Company: BlueCore</p>
+* <p>Company: ProperSoft</p>
 *
 * @author caoyong
 * @version 1.0

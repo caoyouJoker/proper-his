@@ -26,7 +26,7 @@ import com.dongyang.ui.TWindow;
  *
  * <p>Copyright:Copyright (c) 2014 </p>
  *
- * <p>Company:Bluecore </p>
+ * <p>Company: ProperSoft </p>
  *
  * @author WangQing 20170306
  * @version 1.0

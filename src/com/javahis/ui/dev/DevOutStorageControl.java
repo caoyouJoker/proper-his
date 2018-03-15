@@ -43,7 +43,7 @@ import com.dongyang.util.TypeTool;
  *  
  * <p>Copyright: Copyright (c) 2013</p>
  *   
- * <p>Company: bluecore</p>
+ * <p>Company: ProperSoft</p>
  *    
  * @author fux     
  * @version 1.0   

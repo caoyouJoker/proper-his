@@ -3,7 +3,7 @@
    #
    # Description:病区CIS体征监测数据接口
    #
-   # Copyright: Bluecore (c) 2015
+   # Copyright: ProperSoft (c) 2015
    #
    # @author wangbin 2015.05.04
 

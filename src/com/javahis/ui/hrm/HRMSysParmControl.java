@@ -25,7 +25,7 @@ import com.javahis.util.StringUtil;
  *
  * <p>Copyright: Copyright (c) 2014 </p>
  *
- * <p>Company:BlueCore </p>
+ * <p>Company: ProperSoft </p>
  *
  * @author wanglong 2014.02.14
  * @version 1.0

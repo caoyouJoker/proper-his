@@ -3,7 +3,7 @@
 #
 # Title: �Ǿӵ渶�걨
 #
-# Company:BlueCore
+# Company: ProperSoft
 #
 # Author:wangl 2012.02.14
 #

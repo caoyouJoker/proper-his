@@ -32,7 +32,7 @@ import jdo.sys.SystemTool;
  * </p>
  * 
  * <p>
- * Company: BlueCore
+ * Company: ProperSoft
  * </p>
  * 
  * @author pangben 2011-11-07

@@ -56,7 +56,7 @@ import com.javahis.util.ExportExcelUtil;
  * </p>
  * 
  * <p>
- * Company:bluecore
+ * Company: ProperSoft
  * </p>
  * 
  * @author pangb 2011-12-01

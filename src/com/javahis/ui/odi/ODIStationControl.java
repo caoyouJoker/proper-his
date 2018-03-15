@@ -11379,7 +11379,7 @@ public class ODIStationControl extends TControl {
 					System.out.println("-----------Debug begin---------");
 					ds.showDebug();
 					System.out.println("-----------Debug end-----------");
-					this.messageBox("集合医嘱主细项存在不同的GROUP_NO，属于严重BUG，请联系蓝创");
+					this.messageBox("集合医嘱主细项存在不同的GROUP_NO，属于严重BUG，请联系管理员");
 					return false;
 				}
 			}
@@ -11814,7 +11814,7 @@ public class ODIStationControl extends TControl {
 					System.out.println("-----------Debug1 begin---------");
 					ds1.showDebug();
 					System.out.println("-----------Debug1 end-----------");
-					this.messageBox("+1集合医嘱主细项存在不同的GROUP_NO，属于严重BUG，请联系蓝创");
+					this.messageBox("+1集合医嘱主细项存在不同的GROUP_NO，属于严重BUG，请联系管理员");
 				}
 			}
 		}

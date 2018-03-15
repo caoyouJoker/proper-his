@@ -3,7 +3,7 @@
 # 
 #  Description: RFID设备设定module
 # 
-#  Copyright: Copyright (c) BlueCore 2012
+#  Copyright: Copyright (c) ProperSoft 2012
 # 
 #  author wanglong 2012.12.03
 #  version 1.0

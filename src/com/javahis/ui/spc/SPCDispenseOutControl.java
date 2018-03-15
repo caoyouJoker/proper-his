@@ -49,7 +49,7 @@ import com.javahis.util.StringUtil;
  * </p>
  *
  * <p>
- * Company: BLUECORE
+ * Company: ProperSoft
  * </p>
  *
  * @author Yuanxm 2012.12.4

@@ -37,11 +37,11 @@ import com.sun.org.apache.bcel.internal.generic.NEW;
  * </p>
  * 
  * <p>
- * Copyright: Copyright (c) BlueCore 2013
+ * Copyright: Copyright (c) ProperSoft 2013
  * </p>
  * 
  * <p>
- * Company: BlueCore
+ * Company: ProperSoft
  * </p>
  * 
  * @author zhangh

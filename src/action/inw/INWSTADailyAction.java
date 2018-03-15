@@ -22,7 +22,7 @@ import jdo.sys.Operator;
  *
  * <p>Copyright: Copyright (c) 2013</p>
  *
- * <p>Company: BlueCore</p>
+ * <p>Company: ProperSoft</p>
  *
  * @author yangjj 2015.09.28
  * @version 1.0

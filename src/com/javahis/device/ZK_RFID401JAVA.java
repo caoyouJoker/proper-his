@@ -7,9 +7,6 @@ import java.util.List;
 
 /**
  * 容器RFID驱动类 ZK_RFID401 JAVA 驱动
- * 
- * @author lix@bluecore.com.cn
- * 
  */
 public class ZK_RFID401JAVA {
 	public static boolean loadFlg = true; // 有无Load Dll

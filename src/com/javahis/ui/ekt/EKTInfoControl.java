@@ -17,7 +17,7 @@ import com.dongyang.data.TParm;
  * </p>
  * 
  * <p>
- * Company: bluecore
+ * Company: ProperSoft
  * </p>
  * 
  * @author pangben 2012-1-04

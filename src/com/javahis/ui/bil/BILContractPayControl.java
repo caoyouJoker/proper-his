@@ -36,11 +36,11 @@ import com.dongyang.util.TypeTool;
  * </p>
  * 
  * <p>
- * Copyright: Copyright bluecore
+ * Copyright: Copyright ProperSoft
  * </p>
  * 
  * <p>
- * Company: bluecore
+ * Company: ProperSoft
  * </p>
  * 
  * @author caowl

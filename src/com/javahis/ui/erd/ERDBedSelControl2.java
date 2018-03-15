@@ -12,7 +12,7 @@ import com.dongyang.ui.TTable;
  *
  * <p>Copyright: Copyright (c) 2009</p>
  *
- * <p>Company: bluecore</p>
+ * <p>Company: ProperSoft</p>
  *
  * @author wangqing 20171205
  * @version 1.0

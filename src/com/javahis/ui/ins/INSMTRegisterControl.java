@@ -42,7 +42,7 @@ import com.javahis.util.StringUtil;
  * 
  * Description:门特登记 \审核:门特登记开具或下载 \审核查询
  * 
- * Copyright: BlueCore (c) 2011
+ * Copyright: ProperSoft (c) 2011
  * 
  * @author pangben 2012-1-12
  * @version 2.0

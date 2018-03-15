@@ -10,7 +10,7 @@ import com.dongyang.jdo.TJDOTool;
  *
  * <p>Copyright: Copyright (c)cao yong 2014</p>
  *
- * <p>Company: BlueCore</p>
+ * <p>Company: ProperSoft</p>
  *
  * @author 2014.02.12
  * @version 1.0

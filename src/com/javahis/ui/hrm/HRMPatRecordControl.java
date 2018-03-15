@@ -12,7 +12,7 @@ import com.dongyang.util.StringTool;
  * 
  * <p> Copyright: Copyright (c) 2012 </p>
  * 
- * <p> Company: bluecore </p>
+ * <p> Company: ProperSoft </p>
  * 
  * @author wanglong 2012.12.17
  * @version 1.0

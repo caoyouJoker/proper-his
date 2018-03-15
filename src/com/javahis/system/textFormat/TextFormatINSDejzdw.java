@@ -12,7 +12,7 @@ import com.dongyang.ui.edit.TAttributeList;
  *
  * <p>Copyright: Copyright (c) 2012</p>
  *
- * <p>Company: BlueCore</p>
+ * <p>Company: ProperSoft</p>
  *
  * @author wangl 2012.02.23
  * @version 1.0

@@ -18,7 +18,7 @@ import com.dongyang.util.StringTool;
  *
  * <p>Copyright: Copyright (c) 2011</p>
  *
- * <p>Company:bluecore </p>
+ * <p>Company: ProperSoft </p>
  *
  * @author shibl 2011.11.30
  * @version 1.0

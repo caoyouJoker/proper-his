@@ -30,11 +30,11 @@ import com.javahis.util.StringUtil;
  * Description: 设备保养/质控
  * </p>
  * <p>
- * Copyright: BlueCore 2015
+ * Copyright: ProperSoft 2015
  * </p>
  * 
  * <p>
- * Company:BlueCore
+ * Company: ProperSoft
  * </p>
  * 
  * @author wangjc

@@ -35,7 +35,7 @@ import com.tiis.util.TiMath;
  *
  * <p>Description: 建行批量补票</p>
  *
- * <p>Company: BlueCore</p>
+ * <p>Company: ProperSoft</p>
  *
  * @author zhangp 20120920
  * @version 1.0

@@ -31,9 +31,9 @@ import com.javahis.system.textFormat.TextFormatINVMaterialloc;
  *
  * <p>Description: Îï×ÊÅÌµã</p>
  *
- * <p>Copyright: Copyright (c) BlueCore 2013</p>
+ * <p>Copyright: Copyright (c) ProperSoft 2013</p>
  *
- * <p>Company: BlueCore</p>                          
+ * <p>Company: ProperSoft</p>                          
  *  
  * @author fux
  * @version 1.0

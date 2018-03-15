@@ -10,9 +10,9 @@ import manager.InsManager;
  *
  * <p>Description: </p>
  *
- * <p>Copyright: Copyright (c) BlueCore 2011</p>
+ * <p>Copyright: Copyright (c) ProperSoft 2011</p>
  *
- * <p>Company: BlueCore</p>
+ * <p>Company: ProperSoft</p>
  *
  * @author wangl
  * @version 1.0

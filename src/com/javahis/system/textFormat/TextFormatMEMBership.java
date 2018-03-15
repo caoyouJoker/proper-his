@@ -12,7 +12,7 @@ import com.dongyang.util.TypeTool;
 *
 * <p>Description: 会员卡种类下拉区域</p>
 
-* <p>Company: BlueCore</p>
+* <p>Company: ProperSoft</p>
 *
 * @author huangtt
 * @version 1.0
