@@ -1,3 +1,6 @@
 eclipse.preferences.version=1
 encoding//ant/build.properties=UTF-8
+encoding//src/com/javahis/ui/spc/util/ParseXml.java=UTF-8
+encoding//src/jdo/ind/ParseXml.java=UTF-8
+encoding//src/jdo/spc/ParseXml.java=UTF-8
 encoding//src/jdo/spc/accountinf/XmlUtil.java=UTF-8
