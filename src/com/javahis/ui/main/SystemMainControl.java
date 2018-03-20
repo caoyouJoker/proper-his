@@ -150,7 +150,7 @@ public class SystemMainControl extends TControl{
         treeRoot = (TTreeNode)callMessage("UI|" + TREE + "|getRoot");
         if(treeRoot == null)
             return;
-        treeRoot.setText("普日医疗");
+        treeRoot.setText("普日医院信息平台");
         treeRoot.setGroup("ROOT");
         treeRoot.setID("SYS_SUBSYSTEM");
         treeRoot.setType("PATH");
