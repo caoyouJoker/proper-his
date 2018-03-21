@@ -310,7 +310,7 @@ public class ODICISVitalSignTask extends TimerTask {
 		parm.setData("PATCH_REOMIT_INDEX", "");
 		parm.setData("PATCH_MESSAGE", "");
 		parm.setData("SERVER_IP", "127.0.0.1");
-		parm.setData("OPT_USER", "BLUECORE");
+		parm.setData("OPT_USER", "ProperSoft");
 		parm.setData("OPT_TERM", "127.0.0.1");
 	}
 	
