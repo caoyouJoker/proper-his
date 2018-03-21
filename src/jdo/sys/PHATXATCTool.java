@@ -26,7 +26,7 @@ import com.dongyang.util.TypeTool;
  * </p>
  * 
  * <p>
- * bluecore
+ * ProperSoft
  * </p>
  * 
  * @author shibl

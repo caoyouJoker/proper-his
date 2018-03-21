@@ -37,7 +37,7 @@ public class DictionaryServiceImpl implements IDictionaryService {
 	 * @return String
 	 */
 	public String getVersion() {
-		return "BlueCore DictionaryService version is 1.0.1";
+		return "ProperSoft DictionaryService version is 1.0.1";
 	}
 
 	@Override
