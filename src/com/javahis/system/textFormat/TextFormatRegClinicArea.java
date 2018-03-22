@@ -24,6 +24,7 @@ public class TextFormatRegClinicArea
     extends TTextFormat {
 	private String doctorCode;//
 	private String admType;//
+	private String hasOperator;//
 	
 	public void setDrCode(String doctorCode) {
 		this.doctorCode = doctorCode;
@@ -40,6 +41,14 @@ public class TextFormatRegClinicArea
 		return this.admType;
 	}
 	
+	public void setHasOperator(String hasOperator) {
+		this.hasOperator = hasOperator;
+	}
+
+	private String getHasOperator() {
+		return this.hasOperator;
+	}
+	
     /**
      * Ö´ÐÐModule¶¯×÷
      * @return String
@@ -52,25 +61,31 @@ public class TextFormatRegClinicArea
             regionWhere = " WHERE REGION_CODE = '" + operatorCodeAll + "' ";
         }
         String sql =
-            " SELECT DISTINCT A.CLINICAREA_CODE AS ID,A.CLINIC_DESC AS NAME,A.ENG_DESC AS ENNAME,A.PY1,A.PY2,A.SEQ " +
-            "   FROM REG_CLINICAREA A,SYS_OPERATOR_STATION B " +
-            regionWhere +
-            " AND A.CLINICAREA_CODE = B.STATION_CLINIC_CODE ";
+            " SELECT DISTINCT A.CLINICAREA_CODE AS ID,A.CLINIC_DESC AS NAME,A.ENG_DESC AS ENNAME,A.PY1,A.PY2,A.SEQ ";
             
-    String doctorCode = TypeTool
-	.getString(getTagValue(getDrCode()));
-    if (doctorCode != null && doctorCode.length() > 0) {
-    	sql+="  AND B.USER_ID= '" + doctorCode + "' ";
-	}
-    String admType = TypeTool
-	.getString(getTagValue(this.getAdmtype()));
-    if (admType != null && admType.length() > 0) {
-    	sql+="  AND B.TYPE= '" + admType + "' ";
-	}
-    sql+="  ORDER BY A.CLINICAREA_CODE,A.SEQ ";
-    System.out.println("kk***kksql sql sql is ::"+sql);
-    //=============pangben modify 20110420 stop
-return sql;
+        
+        String hasOperator = TypeTool.getString(getTagValue(getHasOperator()));
+        if ("N".equals(hasOperator)) {
+        	sql += " FROM REG_CLINICAREA A " + regionWhere;
+        } else {
+        	sql += " FROM REG_CLINICAREA A,SYS_OPERATOR_STATION B " + regionWhere +
+        			" AND A.CLINICAREA_CODE = B.STATION_CLINIC_CODE ";
+        }
+        
+	    String doctorCode = TypeTool
+		.getString(getTagValue(getDrCode()));
+	    if (doctorCode != null && doctorCode.length() > 0) {
+	    	sql+="  AND B.USER_ID= '" + doctorCode + "' ";
+		}
+	    String admType = TypeTool
+		.getString(getTagValue(this.getAdmtype()));
+	    if (admType != null && admType.length() > 0) {
+	    	sql+="  AND B.TYPE= '" + admType + "' ";
+		}
+	    sql+="  ORDER BY A.CLINICAREA_CODE,A.SEQ ";
+	    System.out.println("kk***kksql sql sql is ::"+sql);
+	    //=============pangben modify 20110420 stop
+	    return sql;
 }
 
     /**
@@ -121,6 +136,7 @@ return sql;
         data.add(new TAttribute("HisOneNullRow", "boolean", "N", "Center"));
         data.add(new TAttribute("doctorCode", "String", "", "Left"));
         data.add(new TAttribute("admType", "String", "", "Left"));
+        data.add(new TAttribute("hasOperator", "String", "", "Left"));
     }
 
     /**
@@ -137,6 +153,11 @@ return sql;
         if ("admType".equalsIgnoreCase(name)) {
         	setDrCode(value);
 			getTObject().setValue("admType", value);
+			return;
+		}
+        if ("hasOperator".equalsIgnoreCase(name)) {
+        	setHasOperator(value);
+			getTObject().setValue("hasOperator", value);
 			return;
 		}
         super.setAttribute(name, value);
