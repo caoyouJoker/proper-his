@@ -13,6 +13,7 @@ import com.dongyang.ui.TMovePane;
 import java.util.Date;
 import com.dongyang.util.StringTool;
 import com.javahis.system.root.RootClientListener;
+import com.javahis.util.JavaHisDebug;
 import com.dongyang.util.ImageTool;
 import java.awt.Dimension;
 import jdo.sys.SYSLoginStructureTool;
@@ -384,4 +385,8 @@ public class SystemMainControl extends TControl{
         this.openDialog("%ROOT%\\config\\sys\\SYSUpdatePassword.x");
 
     }
+
+    public static void main(String[] args) {
+		JavaHisDebug.runFrame("main\\SystemMain.x");
+	}
 }

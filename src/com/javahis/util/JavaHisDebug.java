@@ -46,6 +46,7 @@ public class JavaHisDebug extends TDebug{
         String region = config.getString("","Opt.Region");
         String dept = config.getString("","Opt.Dept");
         String station = config.getString("","Opt.Station");
+        TSystem.setObject("Language", "zh");
         //创建用户对象
         Operator.setData(userID,region,IP,dept,station);
         TSystem.setObject("MessageObject",new MessageTool());
