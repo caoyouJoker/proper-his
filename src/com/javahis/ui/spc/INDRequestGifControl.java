@@ -507,7 +507,7 @@ public class INDRequestGifControl
                                            "ORDER_CODE", order_code);
         //麻精标示 默认1 非麻精by liyh 20121025
         TParm isDrugParm = new TParm(TJDODBTool.getInstance().select(INDSQL.isDrug(order_code)));
-        if(getRadioButton("GEN_DRUG").isSelected()){//非麻精
+        if(getRadioButton("G_DRUGS").isSelected()){//非麻精
         	if(null != isDrugParm && isDrugParm.getCount() > 0){
         		this.messageBox("该药品与所选择的药品种类(普药)不符,请重新输入");
         		int old_row = table_d.getSelectedRow();
@@ -516,7 +516,7 @@ public class INDRequestGifControl
         		table_d.setSelectedColumn(0);
         		return;
         	}
-        }else if(getRadioButton("TOXIC_DRUG").isSelected()){//麻精
+        }else if(getRadioButton("N_DRUGS").isSelected()){//麻精
         	if(null == isDrugParm || isDrugParm.getCount() < 1){
         		this.messageBox("该药品与所选择的药品种类(麻精)不符,请重新输入");
         		int old_row = table_d.getSelectedRow();
