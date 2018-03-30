@@ -3680,7 +3680,7 @@ public class REGPatAdmControl extends TControl {
 			// modify
 			// 20110808
 			tjINS = true; // 天津医保使用，判断是否执行了医疗卡操作
-			callFunction("UI|PAY_WAY|setEnabled", false); // 支付类别
+			//callFunction("UI|PAY_WAY|setEnabled", false); // 支付类别 20180330 pengtianting 支付方式放开
 		} else {
 			this.messageBox("此医疗卡无效"); // 不存在显示市民卡上的信息：身份证号、名称、医保号
 			switch (typeEKT) {
