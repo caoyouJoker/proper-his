@@ -738,7 +738,7 @@ public class OPBChargesMControl extends TControl {
 		if (this.getPopedem("LEADER") || this.getPopedem("ALL")) {
 			callFunction("UI|BILL_TYPE|setEnabled", true);
 		} else {
-			callFunction("UI|BILL_TYPE|setEnabled", false);
+			callFunction("UI|BILL_TYPE|setEnabled", true);
 			// 初始化票据
 			// BilInvoice bilInvoice = new BilInvoice();
 			if (!systemCode.equals("") && "ONW".equals(systemCode)
@@ -3373,7 +3373,7 @@ public class OPBChargesMControl extends TControl {
 		if (this.getPopedem("LEADER") || this.getPopedem("ALL")) {
 			callFunction("UI|BILL_TYPE|setEnabled", true);
 		} else {
-			callFunction("UI|BILL_TYPE|setEnabled", false);
+			callFunction("UI|BILL_TYPE|setEnabled", true);
 			// ======zhangp 20120227 modify start
 			// 初始化票据
 			BilInvoice bilInvoice = new BilInvoice();
