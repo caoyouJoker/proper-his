@@ -59,7 +59,7 @@ close.Text=ÍË³ö
 close.Tip=ÍË³ö(Alt+F4)
 close.M=X
 close.key=Alt+F4
-close.Action=onCloseCabinet
+close.Action=onClose
 close.pic=close.gif
 
 
