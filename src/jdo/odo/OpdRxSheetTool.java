@@ -1101,7 +1101,9 @@ public class OpdRxSheetTool
             orderType = "儿 ";
         }
         else if ("3".equalsIgnoreCase(rxType)) {
-            orderType = "中医 ";
+        	// lichenxi 20180402 报表文字堆叠，先删掉
+            // orderType = "中医 ";
+        	orderType = "";
         }
 
         inParam.setData("ORDER_TYPE", text, orderType);
@@ -1240,7 +1242,7 @@ public class OpdRxSheetTool
             + "'"
             + "         AND B.GROUP_ID='PHA_DCTAGENT'"
             + "         AND A.DCTAGENT_CODE=B.ID"
-            + "         AND A.DCTEXCEP_CODE IS NULL"
+            + "         AND A.DCTEXCEP_CODE IS NOT NULL"
             + "         AND A.FREQ_CODE=D.FREQ_CODE" +
             "         AND A.ROUTE_CODE=E.ROUTE_CODE";
         TParm parm1 = new TParm(TJDODBTool.getInstance().select(sql));
@@ -1283,7 +1285,7 @@ public class OpdRxSheetTool
         for (int i = 0; i < seqList.length; i++) {
         	seqList[i] = Integer.valueOf(seqVector.get(i)+"");
 		}
-        quick(seqList);
+        // quick(seqList);
         TParm parm = new TParm();
         for (int i = 0; i < seqList.length; i++) {
 			for (int j = 0; j < seqList.length; j++) {

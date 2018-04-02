@@ -2775,8 +2775,8 @@ public class OdoMainControl extends OdoMainBaseControl {
 			fieldName = "FREQ_CODE";
 		}
 		if ("CHN_ROUTE_CODE".equalsIgnoreCase(fieldName)) {
-			TComboBox t = (TComboBox) this.getComponent(fieldName);
-			value = t.getSelectedID();
+			TTextFormat t = (TTextFormat) this.getComponent(fieldName);
+			value = t.getValue().toString();
 			fieldName = "ROUTE_CODE";
 		}
 		if ("DCT_TAKE_DAYS".equalsIgnoreCase(fieldName)) {
