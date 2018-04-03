@@ -57,7 +57,7 @@ public class MedChooseVisitAdmControl
         this.admType = recptype.getValue("ADM_TYPE");
         regionCode = recptype.getValue("REGION_CODE");
         //默认Table上显示当天挂号记录
-//    onQuery();
+        //onQuery();
     }
 
     /**
@@ -91,8 +91,8 @@ public class MedChooseVisitAdmControl
                 "FROM ADM_INP "+
                 "  WHERE MR_NO='"+this.getValueString("MR_NO")+"'"+
                 " AND IN_DATE BETWEEN TO_DATE('"+StringTool.getString((Timestamp) getValue("STARTTIME"),"yyyyMMdd")+"','YYYYMMDD') AND TO_DATE('"+StringTool.getString((Timestamp) getValue("ENDTIME"),"yyyyMMdd")+"','YYYYMMDD')"+
-                " ORDER BY CASE_NO";
-            // System.out.println("SQL==="+sql);
+               " ORDER BY CASE_NO";
+             System.out.println("SQL==="+sql);
             parm = new TParm(getDBTool().select(sql));
         }
         if (parm.getCount() < 0)
@@ -110,7 +110,7 @@ public class MedChooseVisitAdmControl
     }
 
     /**
-     *
+     *传回
      */
     public void onOK() {
         TParm data = (TParm) callFunction("UI|TABLE|getParmValue");

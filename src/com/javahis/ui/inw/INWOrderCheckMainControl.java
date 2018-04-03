@@ -1672,7 +1672,7 @@ public class INWOrderCheckMainControl extends TControl {
 			// modify by wangbin 2015/01/22 内部需求 #778 住院护士站审核相关调整 START
 //			if(Operator.getSpcFlg().equals("Y"))
 			// modify by wangbin 2015/01/22 内部需求 #778 住院护士站审核相关调整 END
-			this.onSendGYPha("A","1");
+			//this.onSendGYPha("A","1");
 		} // 如果审核被选择（说明保存时是--取消审核），需要验证是否有执行的
 		else {
 			if (!onUndoCk()) {
@@ -1683,14 +1683,14 @@ public class INWOrderCheckMainControl extends TControl {
 			// modify by wangbin 2015/01/22 内部需求 #778 住院护士站审核相关调整 START
 //			if(Operator.getSpcFlg().equals("Y"))
 			// modify by wangbin 2015/01/22 内部需求 #778 住院护士站审核相关调整 END
-			this.onSendGYPha("D","1");
+			//this.onSendGYPha("D","1");
 		}
 		// 保存成功之后删除LED的消息
 		TParm caseNoParm = new TParm();
 		caseNoParm.setData("CASE_NO", caseNo);
-		if (this.getLedui() != null) {
-			this.getLedui().removeMessage(caseNoParm);
-		}
+//		if (this.getLedui() != null) {
+//			this.getLedui().removeMessage(caseNoParm);
+//		}
 
 		this.messageBox("P0001");
         // 发送HL7信息

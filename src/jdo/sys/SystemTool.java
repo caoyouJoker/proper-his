@@ -68,6 +68,11 @@ public class SystemTool extends TJDOTool {
         return getResultString(call("getMrNo"), "MR_NO");
     }
 
+	public String getUpdateTime(){
+		TParm parm = new TParm();
+		return getResultString(query("getUpdateTime", parm), "UPDATETIME");
+	}
+	
     /**
      * 得到住院号
      * @return String
