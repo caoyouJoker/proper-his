@@ -277,4 +277,28 @@ public class MROQueueTool
 		}
 		return result;
 	}
+	
+	
+	/**
+	 * 方法描述：针对住院出库数据中已出库后再取消住院的数据进行归还日期设定
+	 * 迁移目的：入出转科管理
+	 * 创建人：zhutong   
+	 * 创建时间：2018年3月30日 下午1:09:07    
+	 */
+	public TParm updateRtnDateByCaseNo(TParm parm) {
+		StringBuilder sbSql = new StringBuilder();
+		sbSql.append("UPDATE MRO_QUEUE SET RTN_DATE = TO_DATE(TO_CHAR(SYSDATE, 'YYYY/MM/DD'), 'YYYY/MM/DD')");
+		sbSql.append(" WHERE ISSUE_CODE = '1' AND CASE_NO = '");
+		sbSql.append(parm.getValue("CASE_NO"));
+		sbSql.append("'");
+		
+		TParm result = new TParm(TJDODBTool.getInstance().update(sbSql.toString()));
+        if (result.getErrCode() < 0) {
+            err("ERR:" + result.getErrCode() + result.getErrText() +
+                result.getErrName());
+            return result;
+        }
+        return result;
+	}
+	
 }

@@ -12,7 +12,7 @@
 #############################################
 <Type=TMenuBar>
 UI.Item=File;Window
-UI.button=outDept;|;inDept;|;bed;|;cancelBed;|;reload;|;cancelTrans;|;cancelInHospital;|;create;|;transfer;|;close
+UI.button=outDept;|;inDept;|;insureInfo;|;bed;|;cancelBed;|;cancelInDP;|;reload;|;cancelTrans;|;nurse;|;selTWD;|;close
 
 
 Window.Type=TMenu
@@ -73,6 +73,14 @@ inDept.key=Ctrl+F
 inDept.Action=onInStation
 inDept.pic=013.gif
 
+insureInfo.Type=TMenuItem
+insureInfo.Text=病患保险信息
+insureInfo.Tip=病患保险信息
+insureInfo.M=
+insureInfo.key=Ctrl+F
+insureInfo.Action=onInsureInfo
+insureInfo.pic=013.gif
+
 Refresh.Type=TMenuItem
 Refresh.Text=刷新
 Refresh.Tip=刷新
@@ -106,25 +114,35 @@ cancelTrans.Action=onCancelTrans
 cancelTrans.pic=002.gif
 
 cancelInHospital.Type=TMenuItem
-cancelInHospital.Text=取消入科
-cancelInHospital.Tip=取消入科
+cancelInHospital.Text=取消住院
+cancelInHospital.Tip=取消住院
 cancelInHospital.M=Q
 cancelInHospital.key=Ctrl+F
-cancelInHospital.Action=onCancleInDP
+cancelInHospital.Action=onCancelInHospital
 cancelInHospital.pic=030.gif
 
-create.Type=TMenuItem
-create.Text=生成交接单
-create.Tip=生成交接单
-create.M=X
-create.key=Alt+F4
-create.Action=onCreate
-create.pic=save.gif
+cancelInDP.Type=TMenuItem
+cancelInDP.Text=取消入科
+cancelInDP.Tip=取消入科
+cancelInDP.M=Q
+cancelInDP.key=Ctrl+F
+cancelInDP.Action=onCancleInDP
+cancelInDP.pic=030.gif
 
-transfer.Type=TMenuItem
-transfer.Text=交接一览表
-transfer.Tip=交接一览表
-transfer.M=X
-transfer.key=Alt+F4
-transfer.Action=onTransfer
-transfer.pic=correct.gif
+nurse.Type=TMenuItem
+nurse.Text=护理记录
+nurse.Tip=护理记录
+nurse.M=
+nurse.key=
+nurse.Action=onNursingRec
+nurse.pic=inwimg.gif
+
+selTWD.Type=TMenuItem
+selTWD.Text=体温表
+selTWD.Tip=体温表
+selTWD.M=
+selTWD.key=
+selTWD.Action=onSelTWD
+selTWD.pic=037.gif
+
+

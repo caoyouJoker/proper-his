@@ -9,7 +9,13 @@ import java.util.Date;
 import java.util.GregorianCalendar;
 
 import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang.time.DurationFormatUtils;
 
+/**   
+ * 类描述：   
+ * 创建人：zhutong   
+ * 创建时间：2018年3月30日 下午1:47:03   
+ */
 public class DateUtil {
 	// 用来全局控制 上一周，本周，下一周的周数变化
 	private int weeks = 0;
@@ -707,5 +713,140 @@ public class DateUtil {
 		}
 
 		return hourTemp + timeTemp;
+	}
+	
+	/**
+	 * 方法描述：根据病患生日和传入的截至日期，计算病人年龄不同的形式显示年龄
+	 * 迁移目的：入出转科管理
+	 * 创建人：zhutong   
+	 * 创建时间：2018年3月30日 下午1:28:17    
+	 * @return String 界面显示的年龄
+	 */
+	public static String showAge(Timestamp birth, Timestamp sysdate) {
+		   //出生时间大于系统时间
+		   if(birth.getTime()>sysdate.getTime()){
+			  return ""; 
+		   }
+		   //
+	       String strAge = "";
+	       String[] res;
+	       //res = CountAgeByTimestamp(birth, sysdate);
+	       //modified by lx  计算精确年龄
+	       String times=DurationFormatUtils.formatPeriod(birth.getTime(), sysdate.getTime(),
+			"y-M-d-H-m-s");
+	       res=times.split("-");	      
+	       //
+	       if(isDebug){
+	    	   System.out.println("-----age:----"+times);
+	           for (String temp : res) {
+		           System.out.println("----temp----\n" + temp);
+		       }     
+	       }
+	      /* if (OPDSysParmTool.getInstance().isChild(birth)) {
+	           age = res[0] + "岁" + res[1] + "月" + res[2] + "日";
+	       }
+	       else {
+	           age = (Integer.parseInt(res[0])==0?1:res[0]) + "岁";
+	       }*/
+	       strAge=showAgeString(res);
+	       
+	       return strAge;
+	   }
+	
+	/**
+	 * 方法描述：爱育华年龄计算处理
+	 * 迁移目的：入出转科管理
+	 * 创建人：zhutong   
+	 * 创建时间：2018年3月30日 下午1:47:05  
+	 * @parameter @param t
+	 * @return String  
+	 */
+	private static String showAgeString(String[] t) {
+		String strAge = "";
+		int nYear = Integer.valueOf(t[0]);
+		int nMonth = Integer.valueOf(t[1]);
+		int nDay = Integer.valueOf(t[2]);  //去掉+1
+		int nHour = Integer.valueOf(t[3]);
+		// int nMinuter=Integer.valueOf(t[4]);
+		int nHour1 = (Integer.valueOf(t[2]) * 24 + nHour);
+		//System.out.println("---nYear--"+nYear);
+		//System.out.println("---nMonth--"+nMonth);
+		//System.out.println("---nHour1--"+nHour1);
+		
+		// 年龄<=72小时
+		if ((nYear == 0 && nMonth == 0) && (nHour1 <= 72)) {
+			if(nHour1==0){
+				if (isDebug) {
+					System.out.println("--strAge1--" + "1小时");
+				}
+				return strAge = "1小时";
+			}
+			strAge = nHour1 + "小时";
+			if (isDebug) {
+				System.out.println("--strAge1--" + strAge);
+			}
+			return strAge;
+		}
+		// 72小时<年龄<=28天
+		if ((nYear == 0 && nMonth == 0) && (nHour1 > 72 && nDay <= 28)) {
+			// 显示0岁0月n天
+			strAge = nYear + "岁" + nMonth + "月" + nDay + "天";
+			;
+			if (isDebug) {
+				System.out.println("--strAge1--" + strAge);
+			}
+			return strAge;
+		}
+
+		// 28天<年龄<=2岁 nMonth月是0的情况如何？？？？？
+		if ((nYear == 0 && nMonth == 0 && nDay > 28)) {
+			// 显示n岁m月s天
+			strAge = nYear + "岁" + nMonth + "月" + nDay + "天";
+			if (isDebug) {
+				System.out.println("--strAge2_1--" + strAge);
+			}
+			return strAge;
+		}
+
+		if (nYear == 0 && nMonth > 0) {
+			strAge = nYear + "岁" + nMonth + "月" + nDay + "天";
+			if (isDebug) {
+				System.out.println("--strAge2_2--" + strAge);
+			}
+			return strAge;
+		}
+		if (nYear == 1 && nMonth > 0) {
+			strAge = nYear + "岁" + nMonth + "月" + nDay + "天";
+			if (isDebug) {
+				System.out.println("--strAge2_2--" + strAge);
+			}
+			return strAge;
+		}
+		 
+		if ((nYear > 0 && nYear <= 2)&&nMonth == 0) {
+			// 显示n岁m月s天
+			strAge = nYear + "岁" + nMonth + "月" + nDay + "天";
+			if (isDebug) {
+				System.out.println("--strAge2_3--" + strAge);
+			}
+			return strAge;
+		}
+
+		// 2岁<年龄<18岁
+		if ((nYear >= 2) && nYear < 18) {
+			// 显示n岁m月s天
+			strAge = nYear + "岁" + nMonth + "月";
+			if (isDebug) {
+				System.out.println("--strAge3--" + strAge);
+			}
+			return strAge;
+		}
+
+		// 年龄>=18岁 显示n岁
+		if (isDebug) {
+			System.out.println("--strAge4--" + nYear + "岁");
+		}
+		return nYear + "岁";
+
 	}
 }
