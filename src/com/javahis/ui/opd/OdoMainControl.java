@@ -2893,8 +2893,8 @@ public class OdoMainControl extends OdoMainBaseControl {
 			}
 			//m用来抓取传回模板的中药处方医嘱上方的其他信息 end --xiongwg20150518 
 
-			this.setValue("DCT_TAKE_DAYS", parm.getDouble("TAKE_DAYS", m));
-			this.setValue("DCT_TAKE_QTY", parm.getDouble("DCT_TAKE_QTY", m));
+			this.setValue("DCT_TAKE_DAYS", parm.getValue("TAKE_DAYS", m));
+			this.setValue("DCT_TAKE_QTY", parm.getValue("DCT_TAKE_QTY", m));
 			this.setValue("CHN_FREQ_CODE", parm.getValue("FREQ_CODE", m));
 			this.setValue("CHN_ROUTE_CODE", parm.getValue("ROUTE_CODE", m));
 			this.setValue("DCTAGENT_CODE", parm.getValue("DCTAGENT_CODE", m));

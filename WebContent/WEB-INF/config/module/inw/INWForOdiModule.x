@@ -260,7 +260,7 @@ selectOdiOrder.ORDER_DATE=A.EFF_DATE BETWEEN <fromOrderDate> AND <toOrderDate>
 selectOdiOrder.OPE_YES=A.OPBOOK_SEQ IS NOT NULL AND (A.ROUTE_CODE IS NULL OR A.ROUTE_CODE <> 'AN')
 selectOdiOrder.OPE_NO=A.OPBOOK_SEQ IS NULL
 // add by wangb 20151028
-selectOdiOrder.INW_CHECK_RX_KIND=A.RX_KIND IN ('ST','UD','DS')
+selectOdiOrder.INW_CHECK_RX_KIND=A.RX_KIND IN ('ST','UD','DS','IG')
 selectOdiOrder.ROUTE_CODE=A.ROUTE_CODE <> <ROUTE_CODE>
 selectOdiOrder.Debug=N
 

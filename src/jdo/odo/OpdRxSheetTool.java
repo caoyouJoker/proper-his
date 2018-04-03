@@ -1242,7 +1242,7 @@ public class OpdRxSheetTool
             + "'"
             + "         AND B.GROUP_ID='PHA_DCTAGENT'"
             + "         AND A.DCTAGENT_CODE=B.ID"
-            + "         AND A.DCTEXCEP_CODE IS NOT NULL"
+            // + "         AND A.DCTEXCEP_CODE IS NULL"
             + "         AND A.FREQ_CODE=D.FREQ_CODE" +
             "         AND A.ROUTE_CODE=E.ROUTE_CODE";
         TParm parm1 = new TParm(TJDODBTool.getInstance().select(sql));

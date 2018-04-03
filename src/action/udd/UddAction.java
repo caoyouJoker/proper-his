@@ -876,10 +876,8 @@ public class UddAction extends TAction {
 						StockList.add(sis);
 					}
 					Dspnms.setSpcIndStocks(StockList);
-//					shm
-//				String resultline = SpcOdiService_SpcOdiServiceImplPort_Client
-//							.onCheckStockQty(Dspnms);
-					String resultline = "success";
+					String resultline = SpcOdiService_SpcOdiServiceImplPort_Client
+							.onCheckStockQty(Dspnms);
 					if (!resultline.toLowerCase().equals("success")) {
 						lackParm.addData("MSG", dosageParm.getValue("PAT_NAME",
 								0)
@@ -1381,10 +1379,8 @@ public class UddAction extends TAction {
 			// System.out.println("主表数据大小=====："+odiDspnms.getSpcOdiDspnms().size());
 			String returnStr = "";
 			try {
-//shm
-//				returnStr = SpcOdiService_SpcOdiServiceImplPort_Client
-//						.examine(odiDspnms);
-				returnStr = "success";
+				returnStr = SpcOdiService_SpcOdiServiceImplPort_Client
+						.examine(odiDspnms);
 				if (("success").equals(returnStr)) {
 					// 不做处理
 				} else {

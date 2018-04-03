@@ -1070,7 +1070,7 @@ public class INWOrderCheckMainControl extends TControl {
 		if (ord1All.isSelected()) {
 			// 所有
 			// add by wangb 2015/10/28 护士审核只能看到临时、长期以及出院带药 START
-			result.setData("INW_CHECK_RX_KIND", "ST,UD,DS");
+			result.setData("INW_CHECK_RX_KIND", "ST,UD,DS,IG");
 			// add by wangb 2015/10/28 护士审核只能看到临时、长期以及出院带药 END
 		} else if (ord1ST.isSelected()) {
 			// 临时
