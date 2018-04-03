@@ -876,8 +876,10 @@ public class UddAction extends TAction {
 						StockList.add(sis);
 					}
 					Dspnms.setSpcIndStocks(StockList);
-					String resultline = SpcOdiService_SpcOdiServiceImplPort_Client
-							.onCheckStockQty(Dspnms);
+//					shm
+//				String resultline = SpcOdiService_SpcOdiServiceImplPort_Client
+//							.onCheckStockQty(Dspnms);
+					String resultline = "success";
 					if (!resultline.toLowerCase().equals("success")) {
 						lackParm.addData("MSG", dosageParm.getValue("PAT_NAME",
 								0)
@@ -955,7 +957,8 @@ public class UddAction extends TAction {
 				parmRow.setData("CASHIER_USER", optUser);
 				// BILL_FLG
 				parmRow.setData("BILL_FLG", resultIbs.getData("BILL_FLG", i));
-
+//				shm
+				parmRow.setData("INTGMED_NO","1323");
 				// m
 				// fux modify 不同表字段名一样但是含义不一样造成的 20170711 +
 				// UddChnMedCheckModule.x
@@ -1378,9 +1381,10 @@ public class UddAction extends TAction {
 			// System.out.println("主表数据大小=====："+odiDspnms.getSpcOdiDspnms().size());
 			String returnStr = "";
 			try {
-
-				returnStr = SpcOdiService_SpcOdiServiceImplPort_Client
-						.examine(odiDspnms);
+//shm
+//				returnStr = SpcOdiService_SpcOdiServiceImplPort_Client
+//						.examine(odiDspnms);
+				returnStr = "success";
 				if (("success").equals(returnStr)) {
 					// 不做处理
 				} else {

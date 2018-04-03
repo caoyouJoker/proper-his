@@ -448,6 +448,7 @@ public class INDRequestGifControl
      * 明细表格(TABLE_D)单击事件
      */
     public void onTableDClicked() {
+//    	shm
         row_d = table_d.getSelectedRow();
         if (row_d != -1) {
             action = "updateD";

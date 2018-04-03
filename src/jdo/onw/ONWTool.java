@@ -42,8 +42,8 @@ public class ONWTool
      * @return TParm
      */
     public TParm updateNS_NOTE(TParm parm,TConnection conn){
-        String sql = "UPDATE OPD_ORDER SET NS_NOTE='"+parm.getValue("NS_NOTE").replaceAll("'","''")+"' "+
-            "WHERE CASE_NO='"+parm.getValue("CASE_NO")+"' AND RX_NO='"+parm.getValue("RX_NO")+"' AND SEQ_NO='"+parm.getValue("SEQ_NO")+"'";
+        String sql = "UPDATE OPD_ORDER SET NS_NOTE='"+parm.getValue("NS_NOTE").replaceAll("'","''")+"' "+",exec_dr_desc='"+parm.getValue("EXEC_DR_DESC")+"'"+",BATCH_NO='"+parm.getValue("BATCH_NO")+"'"+",SKINTEST_FLG='"+parm.getValue("SKINTEST_FLG")+"'"+",EXEC_DATE=to_date('"+parm.getValue("EXEC_DATE").toString().substring(0,19)+"','yyyy/MM/dd HH24:MI:SS')"+",NS_EXEC_DATE='"+parm.getValue("NS_EXEC_DATE")+"' " +
+            "WHERE CASE_NO='"+parm.getValue("CASE_NO")+"' AND RX_NO='"+parm.getValue("RX_NO")+"'";
         TParm result = new TParm();
         result.setData(TJDODBTool.getInstance().update(sql,conn));
         if (result.getErrCode() < 0) {

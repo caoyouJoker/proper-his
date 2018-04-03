@@ -786,6 +786,9 @@ public class INDRegressgoodsControl
         }
         TParm parm = new TParm();
         String orgCode =  getValueString("ORG_CODE") ;
+        
+        this.getComboBox(orgCode);
+        
         parm.setData("ORG_CODE",orgCode);
         parm.setData("SUP_CODE", getValueString("SUP_CODE"));
         Object result = openDialog("%ROOT%\\config\\spc\\INDUnRegressgoods.x",

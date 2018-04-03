@@ -714,7 +714,7 @@ public class DateUtil {
 
 		return hourTemp + timeTemp;
 	}
-	
+
 	/**
 	 * 方法描述：根据病患生日和传入的截至日期，计算病人年龄不同的形式显示年龄
 	 * 迁移目的：入出转科管理
@@ -752,7 +752,7 @@ public class DateUtil {
 	       
 	       return strAge;
 	   }
-	
+
 	/**
 	 * 方法描述：爱育华年龄计算处理
 	 * 迁移目的：入出转科管理
@@ -847,6 +847,5 @@ public class DateUtil {
 			System.out.println("--strAge4--" + nYear + "岁");
 		}
 		return nYear + "岁";
-
 	}
 }

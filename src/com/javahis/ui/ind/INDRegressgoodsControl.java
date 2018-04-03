@@ -727,6 +727,7 @@ public class INDRegressgoodsControl
      * 打开验收单
      */
     public void onExport() {
+    	this.messageBox("yy");
         if ("".equals(getValueString("ORG_CODE"))) {
             this.messageBox("退货部门不能为空");
             return;
@@ -760,7 +761,7 @@ public class INDRegressgoodsControl
             	String orderCode = addParm.getValue("ORDER_CODE", i); 
             	String orderDesc = addParm.getValue("ORDER_DESC",i);
             	double stockQty = INDTool.getInstance().getStockQTY(orgCode, orderCode);
-            	if(stockQty <= 0 ){
+            	if((int)stockQty <= 0 ){
             		msg += orderCode+","+orderDesc+";" ;
             		continue ;
             	}

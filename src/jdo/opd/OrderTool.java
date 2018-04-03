@@ -259,6 +259,8 @@ public class OrderTool extends TJDOTool {
 	 */
 	public TParm queryForPHA(TParm parm) {
 		TParm data = query("selectdataforPha", parm);
+		System.out.println(data.getData("data"));
+		System.out.println(data);
 		if (data.getErrCode() < 0) {
 			err("ERR:" + data.getErrCode() + data.getErrText()
 					+ data.getErrName());

@@ -95,6 +95,48 @@ public class PHLAction
         conn.close();
         return result;
     }
+    /**
+     * 静点室执行(门急诊护士站)
+     *
+     * @param parm
+     *            TParm
+     * @return TParm
+     */
+    public TParm onPhlExecuteForOnw(TParm parm) {
+        TConnection conn = getConnection();
+        TParm result = new TParm();
+        result = PhlExecuteTool.getInstance().onPhlExecuteForOnw(parm, conn);
+        if (result.getErrCode() < 0) {
+            err("ERR:" + result.getErrCode() + result.getErrText()
+                + result.getErrName());
+            conn.close();
+            return result;
+        }
+        conn.commit();
+        conn.close();
+        return result;
+    }
+    /**
+     * 添加床位
+     * add caoyong 2014/4/17
+     * @param parm
+     *            TParm
+     * @return TParm
+     */
+    public TParm PHLBedControl(TParm parm) {
+    	TConnection conn = getConnection();
+    	TParm result = new TParm();
+    	result = PhlBedTool.getInstance().PHLBed(parm, conn);
+    	if (result.getErrCode() < 0) {
+    		err("ERR:" + result.getErrCode() + result.getErrText()
+    				+ result.getErrName());
+    		conn.close();
+    		return result;
+    	}
+    	conn.commit();
+    	conn.close();
+    	return result;
+    }
 
-
+   
 }

@@ -210,11 +210,13 @@ public class INDUnRegressgoodsControl
      * 传回方法
      */
     public void onReturn() {
+    	this.messageBox("ddd");
         TTable table = getTable("TABLE");
         table.acceptText();
         if (table.getRowCount() < 0) {
             return;
         }
+        int j = table.getRowCount();
         TParm result = resultParm;
         for (int i = table.getRowCount() - 1; i >= 0; i--) {
             if ("N".equals(table.getItemString(i, "SELECT_FLG"))) {

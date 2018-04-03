@@ -146,6 +146,72 @@ public class PhlBedTool
         }
         return result;
     }
-
-
+    /**
+     * add 新增床位
+     * 2014/4/17
+     * @param parm
+     * @param conn
+     * @return
+     */
+    public TParm PHLBed(TParm parm, TConnection conn) {
+        // 数据检核
+        if (parm == null)
+            return null;
+        TParm result = new TParm();
+        // 更新执行医嘱
+        TParm orderParm = parm.getParm("BED_NUM");
+        for (int i = 0; i < orderParm.getCount("BED_NO"); i++) {
+            TParm inparm = orderParm.getRow(i);
+            result = onInsertdate(inparm, conn);
+            if (result.getErrCode() < 0) {
+                err("ERR:" + result.getErrCode() + result.getErrText()
+                    + result.getErrName());
+                return result;
+            }
+        }
+        TParm uporderParm = parm.getParm("UPBED_NUM");
+        for (int i = 0; i < uporderParm.getCount("BED_NO"); i++) {
+        	TParm upinparm = uporderParm.getRow(i);
+        	result = onUpdatebed(upinparm, conn);
+        	if (result.getErrCode() < 0) {
+        		err("ERR:" + result.getErrCode() + result.getErrText()
+        				+ result.getErrName());
+        		return result;
+        	}
+        }
+        return result;
+    }
+    /**
+     * add 新增床位
+     * 2014/4/17
+     * @param parm
+     * @param conn
+     * @return
+     */
+    public TParm onInsertdate(TParm parm, TConnection conn) {
+    	
+        TParm result = this.update("insert", parm, conn);
+        if (result.getErrCode() < 0) {
+            err("ERR:" + result.getErrCode() + result.getErrText()
+                + result.getErrName());
+            return result;
+        }
+        return result;
+    }
+    
+    /**
+     * 更新
+     *
+     * @param parm
+     * @return
+     */
+    public TParm onUpdatebed (TParm parm, TConnection conn) {
+        TParm result = this.update("update", parm,conn);
+        if (result.getErrCode() < 0) {
+            err("ERR:" + result.getErrCode() + result.getErrText()
+                + result.getErrName());
+            return result;
+        }
+        return result;
+    }
 }
