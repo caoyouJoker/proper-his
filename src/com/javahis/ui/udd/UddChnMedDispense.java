@@ -410,6 +410,11 @@ public class UddChnMedDispense
         //zhangyong20110516 ÃÌº”«¯”ÚREGION_CODE
         saveParm.setData("REGION_CODE", Operator.getRegion());
         saveParm.setData("CHARGE", this.charge);
+        if("Y".equals(Operator.getSpcFlg())) {
+        	saveParm.setData("SPC_FLG","Y");			
+        } else {
+        	saveParm.setData("SPC_FLG","N");
+		}
 
         if ("C_DOSAGE".equalsIgnoreCase(controlName)) {
 //			this.messageBox_("herer");
