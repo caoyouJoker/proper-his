@@ -727,7 +727,6 @@ public class INDRegressgoodsControl
      * 打开验收单
      */
     public void onExport() {
-    	this.messageBox("yy");
         if ("".equals(getValueString("ORG_CODE"))) {
             this.messageBox("退货部门不能为空");
             return;
