@@ -1,6 +1,6 @@
 <Type=TMenuBar>
 UI.Item=File;Window;nurseWork;report/result
-UI.button=save;|;query;|;clear;|;Newprint;|;medPrint;|;medApplyNo;|;send;|;AMI;|;close
+UI.button=save;|;query;|;clear;|;Newprint;|;medPrint;|;medApplyNo;|;send;|;AMI;|;pay;|;close
 
 Window.Type=TMenu
 Window.Text=窗口
@@ -10,7 +10,7 @@ Window.Item=Refresh
 File.Type=TMenu
 File.Text=文件
 File.M=F
-File.Item=save;delete;Refresh;query;Newprint;medPrint;|;medApplyNo;|;send;|;clear;|;close
+File.Item=save;delete;Refresh;query;Newprint;medPrint;|;medApplyNo;|;send;|;clear;|;pay;|;close
 
 nurseWork.Type=TMenu
 nurseWork.Text=护理业务
