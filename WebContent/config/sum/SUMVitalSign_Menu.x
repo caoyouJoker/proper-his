@@ -52,13 +52,14 @@ print.key=Ctrl+P
 print.Action=onPrint
 print.pic=print.gif
 
-nis.Type=TMenuItem
-nis.Text=生理监测
-nis.Tip=生理监测
-nis.M=N
-nis.key=Ctrl+N
-nis.Action=onNisVitalSign
-nis.pic=operation.gif
+#modify by lili 20180401
+#nis.Type=TMenuItem
+#nis.Text=生理监测
+#nis.Tip=生理监测
+#nis.M=N
+#nis.key=Ctrl+N
+#nis.Action=onNisVitalSign
+#nis.pic=operation.gif
 
 clear.Type=TMenuItem
 clear.Text=清空
