@@ -276,6 +276,17 @@ public class Pat extends TModifiedData {
 	 * 早产儿 PREMATURE_FLG
 	 */
 	private BooleanValue prematureFlg = new BooleanValue(this);
+	
+	
+    private StringValue gestationalWeeks= new StringValue(this);//
+    /**
+     * 新生儿体重
+     */
+    private DoubleValue newBodyWeight = new DoubleValue(this);//
+    /**
+     * 新生儿身长
+     */
+    private DoubleValue newBodyHeight = new DoubleValue(this);//add by lili 20180403
 	/**
 	 * 残疾 HANDICAP_FLG
 	 */
@@ -472,6 +483,10 @@ public class Pat extends TModifiedData {
 		sb.append("adultExamDate:ADULT_EXAM_DATE;");
 		// 最近抹片检查日期
 		sb.append("smearRcntDate:SMEAR_RCNT_DATE;");
+        
+		sb.append("newBodyWeight:NEW_BODY_WEIGHT;");//
+        // 新生儿身长
+        sb.append("newBodyHeight:NEW_BODY_HEIGHT;");//add by lili 20180403
 		// 身高
 		sb.append("height:HEIGHT;");
 		// 体重
@@ -545,7 +560,9 @@ public class Pat extends TModifiedData {
 		pat.initParm(parm, 0);
 		pat.setNhiNo(null == parm.getValue("NHI_NO", 0) ? "" : parm.getValue(
 				"NHI_NO", 0));// =======pangben modify 20110809
-//		System.out.println("----------------"+pat);
+	    pat.setNewBodyWeight(parm.getData("NEW_BODY_WEIGHT", 0)==null? 0.0: parm.getDouble("NEW_BODY_WEIGHT", 0));
+	    pat.setNewBodyHeight(parm.getData("NEW_BODY_HEIGHT", 0)==null? 0.0: parm.getDouble("NEW_BODY_HEIGHT", 0));//add by lili 20180403
+		System.out.println("----------------"+pat);
 		return pat;
 	}
 
@@ -2853,6 +2870,8 @@ public class Pat extends TModifiedData {
 		parm.setData("OPT_USER", Operator.getID());
 		parm.setData("OPT_TERM", Operator.getIP());
 		parm.setData("NHI_NO", this.getNhiNo());
+		parm.setData("NEW_BODY_WEIGHT", this.getNewBodyWeight());
+		parm.setData("NEW_BODY_HEIGHT", this.getNewBodyHeight());//add by lili 20180403
 		return parm;
 	}
 
@@ -3004,4 +3023,70 @@ public class Pat extends TModifiedData {
 		this.securityCategory.modifyValue(securityCategory);
 	}
 
+    /**
+     * 设置新生儿体重
+     * 
+     * @param newBodyWeight
+     *            double 新生儿体重
+     */
+    public void setNewBodyWeight(double newBodyWeight) {
+        this.newBodyWeight.setValue(newBodyWeight);
+    }
+
+    /**
+     * 得到新生儿体重
+     * 
+     * @return double 新生儿体重
+     */
+    public double getNewBodyWeight() {
+        return newBodyWeight.getValue();
+    }
+
+    /**
+     * 修改新生儿体重
+     * 
+     * @param newBodyWeight
+     *            double 新生儿体重
+     */
+    public void modifyNewBodyWeight(double newBodyWeight) {
+        this.newBodyWeight.modifyValue(newBodyWeight);
+    }
+    
+    /**
+     * 设置新生儿身长
+     * 
+     * @param newBodyWeight
+     *            double 新生儿身长
+     * add by yangjj 20150312
+     */
+    public void setNewBodyHeight(double newBodyHeight) {
+        this.newBodyHeight.setValue(newBodyHeight);
+    }
+
+    /**
+     * 得到新生儿身长
+     * 
+     * @return double 新生儿身长
+     * add by yangjj 20150312
+     */
+    public double getNewBodyHeight() {
+        return newBodyHeight.getValue();
+    }
+
+    /**
+     * 修改新生儿身长
+     * 
+     * @param newBodyWeight
+     *            double 新生儿身长
+     * add by yangjj 20150312
+     */
+    public void modifyNewBodyHeight(double newBodyHeight) {
+        this.newBodyHeight.modifyValue(newBodyHeight);
+    }
+
+	
+	
+	
+	
+	
 }
