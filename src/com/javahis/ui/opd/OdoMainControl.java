@@ -220,12 +220,12 @@ public class OdoMainControl extends OdoMainBaseControl {
 	private String allergyType = "B";
 	// 上一个病人的mr_no
 	private String lastMrNo = "";
-	// 诊间对药房
+	// 诊间对药房dctTakeDays
 	private String phaCode = "";
 	// 默认中药用量
-	private double dctMediQty = 0.0;
+	private String dctMediQty = "0";
 	// 默认中药天数
-	private double dctTakeDays = 0;
+	private String dctTakeDays = "0";
 	// 默认中药频次
 	private String dctFreqCode = "";
 	// 默认中药用法
@@ -1615,8 +1615,8 @@ public class OdoMainControl extends OdoMainBaseControl {
 		}
 		this.setValue("ADM_DATE", admDate);
 		TParm sysparm = OPDSysParmTool.getInstance().getSysParm();
-		dctMediQty = sysparm.getDouble("DCT_TAKE_QTY", 0);
-		dctTakeDays = sysparm.getInt("DCT_TAKE_DAYS", 0);
+		dctMediQty = sysparm.getValue("DCT_TAKE_QTY", 0);
+		dctTakeDays = sysparm.getValue("DCT_TAKE_DAYS", 0);
 		dctFreqCode = sysparm.getValue("G_FREQ_CODE", 0);
 		dctRouteCode = sysparm.getValue("G_ROUTE_CODE", 0);
 		dctAgentCode = sysparm.getValue("G_DCTAGENT_CODE", 0);
@@ -5242,9 +5242,9 @@ public class OdoMainControl extends OdoMainBaseControl {
 		initOrder(order, realrow, parm, parmBase);
 		setChnPckTot();
 		order.setItem(realrow, "DCT_TAKE_QTY", this
-				.getValueDouble("DCT_TAKE_QTY"));
+				.getValue("DCT_TAKE_QTY"));
 		order.setItem(realrow, "TAKE_DAYS", this
-				.getValueDouble("DCT_TAKE_DAYS"));
+				.getValue("DCT_TAKE_DAYS"));
 		order.setItem(realrow, "FREQ_CODE", this.getValue("CHN_FREQ_CODE"));
 		order.setItem(realrow, "ROUTE_CODE", this.getValue("CHN_ROUTE_CODE"));
 		order.setItem(realrow, "DCTAGENT_CODE", this.getValue("DCTAGENT_CODE"));
