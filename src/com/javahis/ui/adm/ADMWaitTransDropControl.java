@@ -2792,7 +2792,8 @@ public class ADMWaitTransDropControl extends TControl {
 		sendParm.setData("BED_OCCU_FLG", c.occupy_bed_flg );
 
 		// ±£´æ°´Å¥×´Ì¬
-		sendParm.setData("SAVE_FLG", this.getPopedem("admChangeDr"));
+//		sendParm.setData("SAVE_FLG", this.getPopedem("admChangeDr"));
+		sendParm.setData("SAVE_FLG", true);
 		this.openWindow(
 				"%ROOT%\\config\\adm\\AdmPatinfo.x", sendParm);
 		initInStation();
