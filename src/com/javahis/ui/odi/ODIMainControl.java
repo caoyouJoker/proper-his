@@ -23,6 +23,7 @@ import org.apache.commons.lang.StringUtils;
 import jdo.bil.BILComparator;
 import jdo.bil.BILInvoiceTool;
 import jdo.clp.CLPTool;
+import jdo.ekt.EKTIO;
 import jdo.med.MedSmsTool;
 import jdo.odi.OdiMainTool;
 import jdo.sys.Operator;
@@ -92,6 +93,9 @@ import device.PassDriver;
 public class ODIMainControl extends TControl {
 	private static String TABLE = "TABLE";
 	private static String PANEL = "Panel";
+	// add by lili 20180405
+	private TParm parmEKT;//医疗卡集合
+
 	/**
 	 * 当前子页面TAG
 	 */
@@ -265,6 +269,19 @@ public class ODIMainControl extends TControl {
 			}
 			/*// modified by WangQing 20170428 end*/
 
+			
+			 // modified by WangQing 20170428  end 
+			//==========================================================================================
+			// modified by lili 20180405  start 
+			if (sysID != null && sysID.equals("NEWBODYREGISTER")) {
+				this.callFunction("UI|setMenuConfig", "%ROOT%\\config\\odi\\ODIMainUI3Menu.x");
+				this.setTitle("新生儿登记");
+			}
+			 // modified by lili 20180405 end 
+			//==========================================================================================
+			
+			
+			
 			// =============== modify by chenxi
 			if (sysID != null && sysID.equals("OIDR")) {
 
@@ -637,6 +654,14 @@ public class ODIMainControl extends TControl {
 			this.callFunction("UI|create|setVisible", false);
 			this.callFunction("UI|transfer|setVisible", false);
 		}
+		
+		// 新生儿注册 lili add 20180405
+        if (this.getRunFlg().equals("NEWBODYREGISTER")) {
+        	this.callFunction("UI|tpr|setVisible", false);
+        	this.callFunction("UI|newtpr|setVisible", false);
+        }
+        
+        
 		// 呼叫Socket护士站
 		if (this.getRunFlg().equals("INWCHECK")) {
 			this.callFunction("UI|tpr|setVisible", false);
@@ -1316,8 +1341,36 @@ public class ODIMainControl extends TControl {
 			this.setTitle("越级审批抗菌药物");
 			this.runPane("OVERCHECK", "odi\\ODIOverRideCheck.x");
 		}
+		
+		// 新生儿注册-lili add 20180405
+		if ("NEWBODYREGISTER".equals(this.getRunFlg())) {
+			//判断是母亲还是新生儿  病案号为母亲：新生儿注册   病案号为新生儿：新生儿信息修改
+			// 得到选中行数据
+			TParm actionParm = this.getSelectRowData(TABLE);
+			String mrNo = actionParm.getData("MR_NO").toString();
+			if(!containsAny(mrNo, "-")){//母亲
+				//性别校验
+	            String sexCode = actionParm.getData("SEX_CODE").toString();
+	            if(!"2".equals(sexCode)){
+	            	this.messageBox("性别不正确，不能作为新生儿母亲！");
+	            	return;
+	            }
+			}
+			this.setTitle("新生儿注册");
+			this.runPane("BODYR", "adm\\ADMNewBodyRegister.x");
+			
+		}
 	}
 
+	//判断是否包含特殊符号-新生儿病案号判断 lili add 20180405
+	public boolean containsAny(String str, String searchChars){
+		
+	  if(str.length()!=str.replace(searchChars,"").length()){
+	    return true;
+	  }
+	  return false;
+	}
+	
 	public boolean checkNo() {
 		TParm parm = new TParm();
 		parm.setData("RECP_TYPE", "IBS");
@@ -5118,7 +5171,31 @@ public class ODIMainControl extends TControl {
 		this.openDialog("%ROOT%\\config\\sum\\SUMVitalSign.x", sumParm, false);
 
 	}
-
+	/**
+	 * 呼叫儿童体温单
+	 * add by lili 20180405
+	 */
+	public void onVitalSignChild() {
+		TParm sumParm = new TParm();
+		int row = getTTable("TABLE").getSelectedRow();
+		if (row < 0)
+			return;
+		TParm Rowparm = getTTable("TABLE").getParmValue().getRow(row);
+		String caseNo_ = Rowparm.getValue("CASE_NO");
+		String mrNo_ = Rowparm.getValue("MR_NO");
+		String station_ = Rowparm.getValue("STATION_CODE");
+		String ipdNo_ = Rowparm.getValue("IPD_NO");
+		String bedNo_ = Rowparm.getValue("BED_NO");
+		sumParm.setData("SUM", "CASE_NO", caseNo_);
+		sumParm.setData("SUM", "MR_NO", mrNo_);
+		sumParm.setData("SUM", "IPD_NO", ipdNo_);
+		sumParm.setData("SUM", "STATION_CODE", station_);
+		sumParm.setData("SUM", "BED_NO", bedNo_);
+		sumParm.setData("SUM", "ADM_TYPE", "I");
+		sumParm.setData("SUM", "TYPE", "C");
+		this.openDialog("%ROOT%\\config\\sum\\SUMVitalSignChild.x", sumParm, false);
+	}
+	
 	/**
 	 * 呼叫新生儿体温单
 	 * 
@@ -6255,8 +6332,25 @@ public class ODIMainControl extends TControl {
 
 	}
 
-	// =============== chenxi modify 20130326 END 出院病患检索，根据病患姓名、身份证号查询
-
+	 /**
+     * 医疗卡操作
+     * lili 20180405
+     */
+    public void onEKTcard(){
+        //读取医疗卡
+        parmEKT = EKTIO.getInstance().TXreadEKT();
+        if (null == parmEKT || parmEKT.getErrCode() < 0 ||
+            parmEKT.getValue("MR_NO").length() <= 0) {
+            this.messageBox(parmEKT.getErrText());
+            parmEKT = null;
+            return;
+        }
+        this.setValue("MR_NO", parmEKT.getValue("MR_NO"));
+        onQueryForMrNo();
+    }
+	
+	
+	
 	/**
 	 * 打印Lis合并报告
 	 */
