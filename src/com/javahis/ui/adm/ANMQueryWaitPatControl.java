@@ -46,8 +46,8 @@ public class ANMQueryWaitPatControl extends TControl{
 	public void onQuery(){
 		String mrNo ="" ;
 		String whereSql = "" ;
-		String sql = "SELECT A.*,B.PAT_NAME FROM ADM_WAIT_TRANS A ,SYS_PATINFO B ,ADM_INP C" +
-				    " WHERE A.MR_NO = B.MR_NO AND A.MR_NO = C.MR_NO AND C.CANCEL_FLG = 'N' AND C.LAST_DS_DATE IS NOT NULL AND C.BILL_STATUS in ('0','1')" ;
+		String sql = "SELECT A.*,B.PAT_NAME FROM ADM_WAIT_TRANS A ,SYS_PATINFO B " +
+				    " WHERE A.MR_NO = B.MR_NO " ;
 	   if(this.getValueString("MR_NO").length()>0){
 		   mrNo =  PatTool.getInstance().checkMrno(this.getValueString("MR_NO")) ;
 		  whereSql = "  AND A.MR_NO ='"+mrNo+"'"  ;
